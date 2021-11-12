@@ -1,0 +1,22 @@
+from nltk.corpus import semcor
+
+>>> semcor.words()
+['The', 'Fulton', 'County', 'Grand', 'Jury', ...]
+
+>>> semcor.chunks()
+[['The'], ['Fulton', 'County', 'Grand', 'Jury'], ...]
+
+>>> semcor.sents()
+[['The', 'Fulton', 'County', 'Grand', 'Jury', 'said', ...],
+['The', 'jury', 'further', 'said', ...], ...]
+
+>>> semcor.chunk_sents()
+[[['The'], ['Fulton', 'County', 'Grand', 'Jury'], ['said'], ...
+['.']], [['The'], ['jury'], ['further'], ['said'], ... ['.']], ...]
+
+>>> list(map(str, semcor.tagged_chunks(tag='both')[:3]))
+['(DT The)', "(Lemma('group.n.01.group') (NE (NNP Fulton County Grand Jury)))", "(Lemma('state.v.01.say') (VB said))"]
+
+>>> [[str(c) for c in s] for s in semcor.tagged_sents(tag='both')[:2]]
+[['(DT The)', "(Lemma('group.n.01.group') (NE (NNP Fulton County Grand Jury)))", ...
+ '(None .)'], ['(DT The)', ... '(None .)']]
