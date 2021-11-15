@@ -20,6 +20,7 @@ def lemma_list(sent):
 def random_words_sentences(corpus, tagged_corpus):
     random_tagged_sents = random.choices(tagged_corpus, k=50)
     tagged_sentences = [lemma_list(sent) for sent in random_tagged_sents]
+    breakpoint()
     return 0
 
 
