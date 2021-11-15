@@ -4,24 +4,40 @@ from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 from nltk.corpus import wordnet as wn
 from nltk.tokenize import word_tokenize
-from nltk import tree
+from nltk.corpus.reader.wordnet import Lemma
+
 import random
 
 
-def preprocessing(sentences):
+def is_tree(o):
+    return isinstance(o, nltk.tree.Tree)
+
+
+def is_lemma(o):
+    return isinstance(o.label(), Lemma)
+
+
+def is_noun(w):
+    return w.label().synset().pos() == "n"
+
+
+def preprocessing(sent):
     porter = PorterStemmer()
-    return [[porter.stem(word) for word in sentence if word.isalnum()] for sentence in sentences]
+    return [porter.stem(word) for word in sent if word.isalnum()]
 
 
-def lemma_list(sent):
-    return [l.label() if isinstance(l, nltk.tree.Tree) else None for l in sent]
+def remove_tags(sent):
+    return [l.label().name() if is_tree(l) and is_lemma(l) else l[0] for l in sent]
+
+
+def get_word_sent(sent):
+    nouns = [word.label() for word in sent if is_tree(word) and is_lemma(word) and is_noun(word)]
+    random_noun = random.choice(nouns)
+    return random_noun.name(), random_noun, preprocessing(remove_tags(sent))
 
 
 def random_words_sentences(corpus, tagged_corpus):
-    random_tagged_sents = random.choices(tagged_corpus, k=50)
-    tagged_sentences = [lemma_list(sent) for sent in random_tagged_sents]
-    breakpoint()
-    return 0
+    return [get_word_sent(sent) for sent in tagged_corpus[:49]]
 
 
 def lesk(word, sentence):
@@ -53,9 +69,15 @@ def wsd(n):
 
     for i in range(n):
         words_sentences = random_words_sentences(semcor.sents(), semcor.tagged_sents(tag="sem"))
-        results.append(lesk(word, sentence) for word, sentence in words_sentences)
+        results = [(lesk(word, sentence), target) for word, target, sentence in words_sentences]
 
-    return 0
+    corrects = 0
+
+    for result, target in results:
+        if target in result.lemmas():
+            corrects += 1
+
+    return print("accuracy = ", corrects/len(results))
 
 
 if __name__ == "__main__":
