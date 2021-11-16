@@ -2,7 +2,6 @@ import nltk
 from nltk.corpus import semcor
 from nltk.stem.porter import PorterStemmer
 from nltk.corpus import wordnet as wn
-from nltk.tokenize import word_tokenize
 from nltk.corpus.reader.wordnet import Lemma
 import random
 
@@ -26,17 +25,20 @@ def remove_tags(sent):
 
 def get_word_sent(sent):
     nouns = [word.label() for word in sent if is_lemma(word) and is_noun(word)]
-    random_noun = random.choice(nouns)
-    return random_noun.name(), random_noun, preprocessing(remove_tags(sent))
+    if nouns:
+        random_noun = random.choice(nouns)
+        return random_noun.name(), random_noun, preprocessing(remove_tags(sent))
+
+    else:
+        return None, None, None
 
 
 def random_words_sentences(tagged_corpus):
     # return [get_word_sent(sent) for sent in random.choices(tagged_corpus, k=50)]
-    return [get_word_sent(sent) for sent in tagged_corpus[:49]]
+    return [get_word_sent(sent) for sent in tagged_corpus[150:300]]
 
 
 def lesk(word, sentence):
-
     if not wn.synsets(word):
         best_sense = None
     else:
@@ -65,7 +67,7 @@ def accuracy(results):
         if target in result.lemmas():
             corrects += 1
 
-    return print("accuracy = ", corrects / len(results))
+    return corrects / len(results)
 
 
 def wsd(n):
@@ -74,8 +76,10 @@ def wsd(n):
 
     for i in range(n):
         words_sentences = random_words_sentences(semcor.tagged_sents(tag="sem"))
-        results = [(lesk(word, sentence), target) for word, target, sentence in words_sentences]
+        results = [(lesk(word, sentence), target) for word, target, sentence in words_sentences if word is not None]
         accuracies.append(accuracy(results))
+        mean = sum(accuracies) / len(accuracies)
+        print("accuracy: ", mean)
 
     return 0
 
