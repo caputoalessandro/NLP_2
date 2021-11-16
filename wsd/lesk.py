@@ -15,7 +15,6 @@ def is_noun(w):
 
 
 def is_polysemic(w):
-
     if len(wn.synsets(w.label().name())) > 1:
         return True
     else:
@@ -32,34 +31,45 @@ def remove_tags(sent):
 
 
 def get_word_sent(sent):
+    lemmatizer = WordNetLemmatizer()
     nouns = [word.label() for word in sent if is_lemma(word) and is_noun(word) and is_polysemic(word)]
 
     if nouns:
         random_noun = random.choice(nouns)
-        return random_noun.name(), random_noun, preprocessing(remove_tags(sent))
-
+        return lemmatizer.lemmatize(random_noun.name()), random_noun, preprocessing(remove_tags(sent))
     else:
         return None, None, None
 
 
 def random_words_sentences(tagged_corpus):
-    # return [get_word_sent(sent) for sent in random.choices(tagged_corpus, k=50)]
-    return [get_word_sent(sent) for sent in tagged_corpus[150:300]]
+    return [get_word_sent(sent) for sent in random.choices(tagged_corpus, k=50)]
+    # return [get_word_sent(sent) for sent in tagged_corpus[150:300]]
 
 
-def lesk(word, sentence):
+def find_best_sense(word):
     if not wn.synsets(word):
         best_sense = None
     else:
         best_sense = wn.synsets(word)[0]
 
+    return best_sense
+
+
+def bag_of_words(sense):
+    gloss = {word.lower() for word in sense.definition().split()}
+    examples = {word.lower() for example in sense.examples() for word in example.split() if word.isalnum()}
+    signature = gloss.union(examples)
+    return set(preprocessing(signature))
+
+
+def lesk(word, sentence):
+
+    best_sense = find_best_sense(word)
     max_overlap = set()
     context = set(preprocessing(sentence))
 
     for sense in wn.synsets(word):
-        gloss = {word.lower() for word in sense.definition().split()}
-        examples = {word.lower() for example in sense.examples() for word in example.split() if word.isalnum()}
-        signature = gloss.union(examples)
+        signature = bag_of_words(sense)
         overlap = signature & context
 
         if len(overlap) > len(max_overlap):
@@ -73,13 +83,9 @@ def accuracy(results):
     corrects = 0
 
     for result, target in results:
-        print("target: ", target.synset(), "\nlesk: ", result)
-        print("-----------------------------------------------------")
-
         if target.synset() == result:
             corrects += 1
 
-    print("corrette: ",corrects, "\ntotali: ", len(results))
     return corrects / len(results)
 
 
@@ -99,4 +105,4 @@ def wsd(n):
 
 
 if __name__ == "__main__":
-    wsd(1)
+    wsd(5)
