@@ -1,6 +1,6 @@
 import nltk
 from nltk.corpus import semcor
-from nltk.stem.porter import PorterStemmer
+from nltk.stem import WordNetLemmatizer
 from nltk.corpus import wordnet as wn
 from nltk.corpus.reader.wordnet import Lemma
 import random
@@ -14,9 +14,17 @@ def is_noun(w):
     return w.label().synset().pos() == "n"
 
 
+def is_polysemic(w):
+
+    if len(wn.synsets(w.label().name())) > 1:
+        return True
+    else:
+        return False
+
+
 def preprocessing(sent):
-    porter = PorterStemmer()
-    return [porter.stem(word.lower()) for word in sent if word.isalnum()]
+    lemmatizer = WordNetLemmatizer()
+    return [lemmatizer.lemmatize(word.lower()) for word in sent if word.isalnum()]
 
 
 def remove_tags(sent):
@@ -24,7 +32,8 @@ def remove_tags(sent):
 
 
 def get_word_sent(sent):
-    nouns = [word.label() for word in sent if is_lemma(word) and is_noun(word)]
+    nouns = [word.label() for word in sent if is_lemma(word) and is_noun(word) and is_polysemic(word)]
+
     if nouns:
         random_noun = random.choice(nouns)
         return random_noun.name(), random_noun, preprocessing(remove_tags(sent))
@@ -64,9 +73,13 @@ def accuracy(results):
     corrects = 0
 
     for result, target in results:
-        if target in result.lemmas():
+        print("target: ", target.synset(), "\nlesk: ", result)
+        print("-----------------------------------------------------")
+
+        if target.synset() == result:
             corrects += 1
 
+    print("corrette: ",corrects, "\ntotali: ", len(results))
     return corrects / len(results)
 
 
@@ -78,8 +91,9 @@ def wsd(n):
         words_sentences = random_words_sentences(semcor.tagged_sents(tag="sem"))
         results = [(lesk(word, sentence), target) for word, target, sentence in words_sentences if word is not None]
         accuracies.append(accuracy(results))
-        mean = sum(accuracies) / len(accuracies)
-        print("accuracy: ", mean)
+
+    mean = sum(accuracies) / len(accuracies)
+    print("accuracy: ", mean)
 
     return 0
 
