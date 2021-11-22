@@ -22,7 +22,7 @@ def map_word(word, frame_context):
     return word, best_sense
 
 
-def map_elements(frame, frame_context):
+def map_fes(frame, frame_context):
     res = []
 
     for fe in frame.FE.values():
@@ -64,7 +64,7 @@ def bow_mapping():
         f_context = set(frame_context(frame))
 
         mapped_name = map_name(frame.name, f_context)
-        mapped_fes = map_elements(frame, f_context)
+        mapped_fes = map_fes(frame, f_context)
         mapped_lus = map_lus(frame, f_context)
         mapping = mapped_name, mapped_fes, mapped_lus
 
