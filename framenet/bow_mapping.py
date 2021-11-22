@@ -55,7 +55,7 @@ def map_name(frame_name, frame_context):
     return map_word(frame_name, frame_context)
 
 
-def mapping():
+def bow_mapping():
 
     frames = get_frame_from_id_list(ids_caputo + ids_gentiletti)
     mapping = None
@@ -66,11 +66,10 @@ def mapping():
         mapped_name = map_name(frame.name, f_context)
         mapped_fes = map_elements(frame, f_context)
         mapped_lus = map_lus(frame, f_context)
-
         mapping = mapped_name, mapped_fes, mapped_lus
 
     return mapping
 
 
 if __name__ == "__main__":
-    mapping()
+    bow_mapping()
