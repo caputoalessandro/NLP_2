@@ -62,7 +62,6 @@ def bow_mapping():
 
     for frame in frames:
         f_context = set(frame_context(frame))
-
         mapped_name = map_name(frame.name, f_context)
         mapped_fes = map_fes(frame, f_context)
         mapped_lus = map_lus(frame, f_context)
