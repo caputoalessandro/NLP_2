@@ -1,9 +1,54 @@
+import random
+
 import nltk
-from nltk.corpus import semcor
-from nltk.stem import WordNetLemmatizer
+from nltk.corpus import semcor, stopwords
 from nltk.corpus import wordnet as wn
 from nltk.corpus.reader.wordnet import Lemma
-import random
+from nltk.stem import WordNetLemmatizer
+
+LEMMATIZER = WordNetLemmatizer()
+STOPWORDS = stopwords.words("english")
+
+
+def sentence_to_bag_of_words(sent):
+    return {
+        LEMMATIZER.lemmatize(word).lower()
+        for word in sent
+        if word.isalnum()
+        and word.lower() not in STOPWORDS
+    }
+
+
+def synset_to_bag_of_words(sense):
+    signature = sentence_to_bag_of_words(sense.definition())
+
+    for example in sense.examples():
+        signature |= sentence_to_bag_of_words(example)
+
+    return signature
+
+
+def find_best_sense(word):
+    return wn.synsets(word)[0]
+
+
+def lesk(word, sentence):
+    best_sense = find_best_sense(word)
+    max_overlap = 0
+    context = sentence_to_bag_of_words(sentence)
+
+    for sense in wn.synsets(word):
+        signature = synset_to_bag_of_words(sense)
+        overlap = len(signature & context)
+
+        if overlap > max_overlap:
+            max_overlap = overlap
+            best_sense = sense
+
+    return best_sense
+
+
+# Valutazione
 
 
 def is_lemma(o):
@@ -15,68 +60,46 @@ def is_noun(w):
 
 
 def is_polysemic(w):
-    if len(wn.synsets(w.label().name())) > 1:
-        return True
-    else:
-        return False
-
-
-def preprocessing(sent):
-    lemmatizer = WordNetLemmatizer()
-    return [lemmatizer.lemmatize(word.lower()) for word in sent if word.isalnum()]
+    return len(wn.synsets(w.label().name())) > 1
 
 
 def remove_tags(sent):
     return [l.label().name() if is_lemma(l) else l[0] for l in sent]
 
 
-def get_word_sent(sent):
-    lemmatizer = WordNetLemmatizer()
-    nouns = [word.label() for word in sent if is_lemma(word) and is_noun(word) and is_polysemic(word)]
+def pick_a_random_noun(sent):
+    nouns = [
+        word.label()
+        for word in sent
+        if is_lemma(word) and is_noun(word) and is_polysemic(word)
+    ]
 
     if nouns:
-        random_noun = random.choice(nouns)
-        return lemmatizer.lemmatize(random_noun.name()), random_noun, preprocessing(remove_tags(sent))
-    else:
-        return None, None, None
+        return random.choice(nouns)
 
 
-def random_words_sentences(tagged_corpus):
-    return [get_word_sent(sent) for sent in random.choices(tagged_corpus, k=50)]
-    # return [get_word_sent(sent) for sent in tagged_corpus[150:300]]
+def random_words_sentences(tagged_corpus, n=50):
+    sentences_and_targets = []
 
+    for sentence in random.choices(tagged_corpus, k=n):
+        target = pick_a_random_noun(sentence)
 
-def find_best_sense(word):
-    if not wn.synsets(word):
-        best_sense = None
-    else:
-        best_sense = wn.synsets(word)[0]
+        if target is not None:
+            sentences_and_targets.append(
+                (
+                    sentence_to_bag_of_words(remove_tags(sentence)),
+                    target,
+                )
+            )
 
-    return best_sense
+    if len(sentences_and_targets) < n:
+        sentences_and_targets.extend(
+            random_words_sentences(
+                tagged_corpus, n - len(sentences_and_targets)
+            )
+        )
 
-
-def bag_of_words(sense):
-    gloss = {word.lower() for word in sense.definition().split()}
-    examples = {word.lower() for example in sense.examples() for word in example.split() if word.isalnum()}
-    signature = gloss.union(examples)
-    return set(preprocessing(signature))
-
-
-def lesk(word, sentence):
-
-    best_sense = find_best_sense(word)
-    max_overlap = set()
-    context = set(preprocessing(sentence))
-
-    for sense in wn.synsets(word):
-        signature = bag_of_words(sense)
-        overlap = signature & context
-
-        if len(overlap) > len(max_overlap):
-            max_overlap = overlap
-            best_sense = sense
-
-    return best_sense
+    return sentences_and_targets
 
 
 def accuracy(results):
@@ -90,19 +113,27 @@ def accuracy(results):
 
 
 def wsd(n):
-
     accuracies = []
 
     for i in range(n):
-        words_sentences = random_words_sentences(semcor.tagged_sents(tag="sem"))
-        results = [(lesk(word, sentence), target) for word, target, sentence in words_sentences if word is not None]
+        words_sentences = random_words_sentences(
+            semcor.tagged_sents(tag="sem")
+        )
+        results = [
+            (lesk(target.name(), sentence), target)
+            for sentence, target in words_sentences
+        ]
         accuracies.append(accuracy(results))
+        print(f"Round {i+1}: {accuracies[-1]:.2%}")
 
     mean = sum(accuracies) / len(accuracies)
-    print("accuracy: ", mean)
-
-    return 0
+    print(f"\nMean: {mean:.2%}")
 
 
 if __name__ == "__main__":
+    import sys
+
+    if len(sys.argv) > 1:
+        random.seed(sys.argv[1])
+
     wsd(5)
