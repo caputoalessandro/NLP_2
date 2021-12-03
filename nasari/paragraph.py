@@ -39,9 +39,9 @@ def get_ranked_paragraphs(paragraphs, text_path, type):
     return [p for p in ranked_p.index]
 
 
-def get_salient_paragraphs(text_path, context, compression, ranking_type):
+def get_salient_paragraphs(text_path, context, compression, ranking_type, nasari):
     paragraphs = get_paragraphs(text_path)
-    p_scores = paragraphs_scores(paragraphs, context, text_path)
+    p_scores = paragraphs_scores(paragraphs, context, text_path, nasari)
     p_scores.sort(key=lambda tup: tup[1], reverse=True)
     ordered_paraghraps = [p for p, v in p_scores]
     to_keep = int((len(paragraphs) / 100) * compression)
@@ -54,20 +54,17 @@ def get_paragraphs(text_path):
     return text.split('\n\n')
 
 
-def paragraphs_scores(paragraphs, context, text_path):
-    return [(p, paragraph_score(p, context, text_path)) for p in paragraphs]
+def paragraphs_scores(paragraphs, context, text_path, nasari):
+    return [(p, paragraph_score(p, context, text_path, nasari)) for p in paragraphs]
 
 
-def paragraph_score(paragraph, context, text_path):
-    return sum(word_score(word, context, text_path) for word in get_filtered_words(paragraph))
+def paragraph_score(paragraph, context, text_path, nasari):
+    return sum(word_score(word, context, text_path, nasari) for word in get_filtered_words(paragraph))
 
 
-def word_score(word, context, text_path):
-    nasari = get_lemmas_from_source()
-
+def word_score(word, context, text_path, nasari):
     if not word in nasari.keys():
         return 0
-
     dis_vector = disambiguation(nasari[word], text_path)
     return sum(weighted_overlap(dis_vector, v) for v in context.values())
 

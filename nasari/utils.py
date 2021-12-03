@@ -10,6 +10,11 @@ def get_lemmas_from_source():
     return build_lemma_index(vectors)
 
 
+def not_stop_or_punct(word):
+    stop_words = set(stopwords.words('english'))
+    return not word.lower() in stop_words and word.isalnum()
+
+
 def get_filtered_words(text):
     return [word for word in word_tokenize(text) if not_stop_or_punct(word)]
 
@@ -20,14 +25,8 @@ def disambiguation(vector, text_path):
     return max([v for v in vector], key=lambda v: set(v.weights) & set(text_words))
 
 
-def get_context(topic, text_path):
-    nasari = get_lemmas_from_source()
+def get_context(topic, text_path, nasari):
     return {w: disambiguation(nasari.get(w), text_path) for vector in topic.values() for w in vector.weights.keys()}
-
-
-def not_stop_or_punct(word):
-    stop_words = set(stopwords.words('english'))
-    return not word.lower() in stop_words and word.isalnum()
 
 
 def get_filtered_title(text_path):
@@ -36,14 +35,13 @@ def get_filtered_title(text_path):
     return [word for word in get_filtered_words(title)]
 
 
-def get_dis_vectors(text, text_path):
-    nasari = get_lemmas_from_source()
+def get_dis_vectors(text, text_path, nasari):
     return {word: disambiguation(nasari[word], text_path) for word in text if word in nasari}
 
 
-def get_dis_topic_from_text(text_path):
+def get_dis_topic_from_text(text_path, nasari):
     title = get_filtered_title(text_path)
-    topic = get_dis_vectors(title, text_path)
+    topic = get_dis_vectors(title, text_path,nasari)
     return {word: vector for word, vector in topic.items()}
 
 
