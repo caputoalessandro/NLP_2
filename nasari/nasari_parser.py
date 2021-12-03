@@ -43,6 +43,3 @@ def build_lemma_index(vectors: Iterable[NasariVector]):
     return dict(result)
 
 
-def weighted_overlap(v1: Dict[str, float], v2: Dict[str, float]):
-    O = v1.keys() & v2.keys()
-    return (len(O) * (len(O) + 1)) / sum(v1[q] + v2[q] for q in O)

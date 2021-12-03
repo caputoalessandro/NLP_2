@@ -67,7 +67,7 @@ def bow_mapping():
         mapped_lus = map_lus(frame, f_context)
         mapping = mapped_name, mapped_fes, mapped_lus
 
-    return mapping
+    return print(mapping)
 
 
 if __name__ == "__main__":
