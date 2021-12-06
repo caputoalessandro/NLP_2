@@ -19,14 +19,12 @@ def get_filtered_words(text):
     return [word for word in word_tokenize(text) if not_stop_or_punct(word)]
 
 
-def disambiguation(vector, text_path):
-    text = open(text_path, "r").read()
-    text_words = get_filtered_words(text)
-    return max([v for v in vector], key=lambda v: set(v.weights) & set(text_words))
+def disambiguation(vector, text):
+    return max([v for v in vector], key=lambda v: set(v.weights) & set(text))
 
 
-def get_context(topic, text_path, nasari):
-    return {w: disambiguation(nasari.get(w), text_path) for vector in topic.values() for w in vector.weights.keys()}
+def get_context(topic, text, nasari):
+    return {w: disambiguation(nasari.get(w), text) for vector in topic.values() for w in vector.weights.keys()}
 
 
 def get_filtered_title(text_path):
@@ -35,13 +33,13 @@ def get_filtered_title(text_path):
     return [word for word in get_filtered_words(title)]
 
 
-def get_dis_vectors(text, text_path, nasari):
-    return {word: disambiguation(nasari[word], text_path) for word in text if word in nasari}
+def get_dis_vectors(text, nasari):
+    return {word: disambiguation(nasari[word], text) for word in text if word in nasari}
 
 
-def get_dis_topic_from_text(text_path, nasari):
-    title = get_filtered_title(text_path)
-    topic = get_dis_vectors(title, text_path, nasari)
+def get_dis_topic_from_text(text, nasari):
+    title = get_filtered_title(text)
+    topic = get_dis_vectors(text, nasari)
     return {word: vector for word, vector in topic.items()}
 
 
@@ -50,3 +48,8 @@ def write(title, text, comp):
     f = open(name, "w")
     f.write(text)
     f.close()
+
+
+def get_words(text_path):
+    text = open(text_path, "r").read()
+    return [word for word in word_tokenize(text) if not_stop_or_punct(word)]
