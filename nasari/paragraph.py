@@ -41,21 +41,21 @@ def get_ranked_paragraphs(paragraphs, text_path, type):
     return "".join(res)
 
 
-def get_salient_paragraphs(text_path, context, compression, ranking_type, nasari):
+def get_salient_paragraphs(text_path, context, compression, ranking_type, nasari, type):
     paragraphs = get_paragraphs(text_path)
     p_scores = paragraphs_scores(paragraphs, context, text_path, nasari)
     p_scores.sort(key=lambda tup: tup[1], reverse=True)
     ordered_paraghraps = [p for p, v in p_scores]
     to_keep = int(len(paragraphs) - ((len(paragraphs) / 100) * compression))
     output = get_ranked_paragraphs(ordered_paraghraps[:to_keep], text_path, ranking_type)
-    write(os.path.basename(text_path), output, compression)
+    write(os.path.basename(text_path), output, compression, type)
     return output
 
 
 def get_paragraphs(text_path):
-    f = open(text_path, "r")
-    text = f.read()
-    return text.split('\n\n')
+    with open(text_path, "r") as f:
+        text = f.read()
+        return text.split('\n\n')
 
 
 def paragraphs_scores(paragraphs, context, text_path, nasari):

@@ -48,13 +48,12 @@ def get_dis_vectors(text, nasari):
 
 
 def get_dis_topic_from_text(text, nasari):
-    title = get_filtered_title(text)
     topic = get_dis_vectors(text, nasari)
     return {word: vector for word, vector in topic.items()}
 
 
-def write(title, text, comp):
-    name = os.path.join("output", f"{title}{comp!s}.txt")
+def write(title, text, comp, type):
+    name = os.path.join("output", f"{title}{comp!s}{type}.txt")
     os.makedirs(os.path.dirname(name), exist_ok=True)
     with open(name, "w") as f:
         f.write(text)
