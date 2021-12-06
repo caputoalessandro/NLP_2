@@ -25,3 +25,4 @@ def rouge(summary, text):
     n = len(set(relevant) & set(retrivied))
     d = len(relevant)
     return n/d
+
