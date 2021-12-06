@@ -41,7 +41,12 @@ def get_dis_vectors(text, text_path, nasari):
 
 def get_dis_topic_from_text(text_path, nasari):
     title = get_filtered_title(text_path)
-    topic = get_dis_vectors(title, text_path,nasari)
+    topic = get_dis_vectors(title, text_path, nasari)
     return {word: vector for word, vector in topic.items()}
 
 
+def write(title, text, comp):
+    name = "output//" + title + str(comp) + ".txt"
+    f = open(name, "w")
+    f.write(text)
+    f.close()

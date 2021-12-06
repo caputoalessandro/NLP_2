@@ -1,7 +1,8 @@
-from utils import get_filtered_title, get_lemmas_from_source, get_filtered_words,  get_dis_vectors,disambiguation
+from utils import get_filtered_title, get_filtered_words, disambiguation, write
 from weighted_overlap import weighted_overlap
 import pandas as pd
 import itertools
+import os
 
 
 def rank_paragraphs(p_freq):
@@ -36,7 +37,8 @@ def get_ranked_paragraphs(paragraphs, text_path, type):
         print("specifica il tipo  di ranking")
         return 0
 
-    return [p for p in ranked_p.index]
+    res = [p + "\n" for p in ranked_p.index]
+    return "".join(res)
 
 
 def get_salient_paragraphs(text_path, context, compression, ranking_type, nasari):
@@ -44,8 +46,10 @@ def get_salient_paragraphs(text_path, context, compression, ranking_type, nasari
     p_scores = paragraphs_scores(paragraphs, context, text_path, nasari)
     p_scores.sort(key=lambda tup: tup[1], reverse=True)
     ordered_paraghraps = [p for p, v in p_scores]
-    to_keep = int((len(paragraphs) / 100) * compression)
-    return get_ranked_paragraphs(ordered_paraghraps[:to_keep], text_path, ranking_type)
+    to_keep = int(len(paragraphs) - ((len(paragraphs) / 100) * compression))
+    output = get_ranked_paragraphs(ordered_paraghraps[:to_keep], text_path, ranking_type)
+    write(os.path.basename(text_path), output, compression)
+    return output
 
 
 def get_paragraphs(text_path):
@@ -67,4 +71,3 @@ def word_score(word, context, text_path, nasari):
         return 0
     dis_vector = disambiguation(nasari[word], text_path)
     return sum(weighted_overlap(dis_vector, v) for v in context.values())
-
