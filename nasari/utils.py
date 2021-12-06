@@ -1,17 +1,19 @@
+import os
+
 from nasari_parser import build_lemma_index, read_nasari_resource
-from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
 
 
 def get_lemmas_from_source():
-    f = open("resources/dd-small-nasari-15.txt", "r")
-    lines = f.read().splitlines()
-    vectors = read_nasari_resource(lines)
-    return build_lemma_index(vectors)
+    with open("resources/dd-small-nasari-15.txt", "r") as f:
+        lines = f.read().splitlines()
+        vectors = read_nasari_resource(lines)
+        return build_lemma_index(vectors)
 
 
 def not_stop_or_punct(word):
-    stop_words = set(stopwords.words('english'))
+    stop_words = set(stopwords.words("english"))
     return not word.lower() in stop_words and word.isalnum()
 
 
@@ -24,17 +26,25 @@ def disambiguation(vector, text):
 
 
 def get_context(topic, text, nasari):
-    return {w: disambiguation(nasari.get(w), text) for vector in topic.values() for w in vector.weights.keys()}
+    return {
+        w: disambiguation(nasari.get(w), text)
+        for vector in topic.values()
+        for w in vector.weights.keys()
+    }
 
 
 def get_filtered_title(text_path):
-    f = open(text_path, "r")
-    title = f.readline()
-    return [word for word in get_filtered_words(title)]
+    with open(text_path, "r") as f:
+        title = f.readline()
+        return [word for word in get_filtered_words(title)]
 
 
 def get_dis_vectors(text, nasari):
-    return {word: disambiguation(nasari[word], text) for word in text if word in nasari}
+    return {
+        word: disambiguation(nasari[word], text)
+        for word in text
+        if word in nasari
+    }
 
 
 def get_dis_topic_from_text(text, nasari):
@@ -44,12 +54,15 @@ def get_dis_topic_from_text(text, nasari):
 
 
 def write(title, text, comp):
-    name = "output//" + title + str(comp) + ".txt"
-    f = open(name, "w")
-    f.write(text)
-    f.close()
+    name = os.path.join("output", f"{title}{comp!s}.txt")
+    os.makedirs(os.path.dirname(name), exist_ok=True)
+    with open(name, "w") as f:
+        f.write(text)
 
 
 def get_words(text_path):
-    text = open(text_path, "r").read()
-    return [word for word in word_tokenize(text) if not_stop_or_punct(word)]
+    with open(text_path, "r") as f:
+        text = f.read()
+        return [
+            word for word in word_tokenize(text) if not_stop_or_punct(word)
+        ]
