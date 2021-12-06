@@ -2,11 +2,8 @@ from utils import get_filtered_words
 from collections import Counter
 
 
-def reference_summary(text_path):
-    f = open(text_path, "r")
-    text = f.read()
-    f_words = get_filtered_words(text)
-    counts = Counter(f_words)
+def reference_summary(text):
+    counts = Counter(text)
     return [w for w, v in counts.items() if v > 1]
 
 
@@ -14,17 +11,17 @@ def candidate_summary(summary):
     return get_filtered_words(summary)
 
 
-def bleu(summary, text_path):
+def bleu(summary, text):
     retrivied = candidate_summary(summary)
-    relevant = reference_summary(text_path)
+    relevant = reference_summary(text)
     n = len(set(relevant) & set(retrivied))
     d = len(retrivied)
     return n/d
 
 
-def rouge(summary, text_path):
+def rouge(summary, text):
     retrivied = candidate_summary(summary)
-    relevant = reference_summary(text_path)
+    relevant = reference_summary(text)
     n = len(set(relevant) & set(retrivied))
     d = len(relevant)
     return n/d

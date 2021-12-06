@@ -1,4 +1,4 @@
-from utils import get_filtered_title, get_filtered_words, disambiguation, write
+from utils import get_filtered_title, get_filtered_words, disambiguation, write, not_stop_or_punct
 from weighted_overlap import weighted_overlap
 import pandas as pd
 import itertools
@@ -63,7 +63,7 @@ def paragraphs_scores(paragraphs, context, text_path, nasari):
 
 
 def paragraph_score(paragraph, context, text_path, nasari):
-    return sum(word_score(word, context, text_path, nasari) for word in get_filtered_words(paragraph))
+    return sum(word_score(word, context, text_path, nasari) for word in paragraph if not_stop_or_punct(word))
 
 
 def word_score(word, context, text_path, nasari):
