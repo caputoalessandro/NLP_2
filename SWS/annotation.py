@@ -33,7 +33,9 @@ def make_correlations_file():
     spearman = correlation(v1, v2, "spearman")
 
     to_write = [(pair[0], pair[1], mean) for pair, mean in zip(pairs, means)]
-    to_write.append((pearson, spearman, None))
+    to_write.append(('-', '-', None))
+    to_write.append(("Pearson", pearson, None))
+    to_write.append(("Spearman", spearman, None))
 
     name = os.path.join("output", f"annotated_pairs.tsv")
     os.makedirs(os.path.dirname(name), exist_ok=True)
