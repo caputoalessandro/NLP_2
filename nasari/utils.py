@@ -1,5 +1,4 @@
 import os
-
 from nasari_parser import build_lemma_index, read_nasari_resource
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
@@ -65,3 +64,4 @@ def get_words(text_path):
         return [
             word for word in word_tokenize(text) if not_stop_or_punct(word)
         ]
+

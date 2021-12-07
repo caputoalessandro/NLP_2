@@ -13,7 +13,10 @@ def cosine_similarity(vector1, vector2):
     return num/denom
 
 
-def max_cosine_similarity(w1, w2, nasari, syn_map):
+def max_cosine_similarity(w1, w2):
+    syn_map = get_synset_map()
+    nasari = get_nasari()
+
     synset_1 = syn_map[w1]
     synset_2 = syn_map[w2]
 
@@ -24,9 +27,7 @@ def max_cosine_similarity(w1, w2, nasari, syn_map):
 
 
 def get_all_cosine_similarity(pairs):
-    syn_map = get_synset_map()
-    nasari = get_nasari()
-    return [max_cosine_similarity(w1, w2, nasari, syn_map) for w1, w2 in pairs]
+    return [max_cosine_similarity(w1, w2) for w1, w2 in pairs]
 
 
 def nasari_correlations(pairs, means):

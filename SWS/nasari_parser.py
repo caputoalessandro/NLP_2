@@ -26,10 +26,9 @@ def get_synset_map():
     return result
 
 
-def get_lemma_arg(row):
+def get_id_weights(row):
     synset_id, lemma = str(row[0]).split("__")
     weights = [float(weight) for weight in row[2:]]
-    # arg = NasariArgument(lemma, weights)
     return synset_id, weights
 
 
@@ -39,7 +38,7 @@ def get_nasari():
     rows = get_rows(p)
 
     for row in rows:
-        lemma, weights = get_lemma_arg(row)
-        result[lemma] = weights
+        id, weights = get_id_weights(row)
+        result[id] = weights
 
     return result
