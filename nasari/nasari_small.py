@@ -19,16 +19,16 @@ def parse_nasari_line(line: str):
 
 
 @cache
-def nasari_id_to_vector() -> dict[str, dict[str, float]]:
+def nasari_small_id_to_vector() -> dict[str, dict[str, float]]:
     with open('resources/dd-small-nasari-15.txt') as lines:
         return dict(map(parse_nasari_line, lines))
 
 
 @cache
-def nasari_lemma_to_vectors() -> dict[str, list[dict[str, float]]]:
+def nasari_small_lemma_to_vector() -> dict[str, list[dict[str, float]]]:
     lemma_to_vectors = defaultdict(list)
 
-    for vector in nasari_id_to_vector().values():
+    for vector in nasari_small_id_to_vector().values():
         for lemma in vector.keys():
             lemma_to_vectors[lemma].append(vector)
 
