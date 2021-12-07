@@ -21,7 +21,8 @@ def get_pairs_values(fp_1, fp_2):
     rows_1 = get_rows(fp_1)
     rows_2 = get_rows(fp_2)
     pairs = [(row[0], row[1]) for row in rows_1]
-    v1, v2 = zip((int(r1[2]), int(r2[2])) for r1, r2 in zip(rows_1, rows_2))
+    v1 = [int(r[2]) for r in rows_1]
+    v2 = [int(r[2]) for r in rows_2]
     return pairs, v1, v2
 
 
@@ -31,10 +32,15 @@ def make_correlations_file():
     pearson = correlation(v1, v2, "pearson")
     spearman = correlation(v1, v2, "spearman")
 
+    to_write = [(pair[0], pair[1], mean) for pair, mean in zip(pairs, means)]
+    to_write.append((pearson, spearman, None))
+
     name = os.path.join("output", f"annotated_pairs.tsv")
     os.makedirs(os.path.dirname(name), exist_ok=True)
 
     with open(name, "w") as f:
-        for pair, mean in zip(pairs, means):
-            f.write(pair[0] + '\t' + pair[1] + '\t' + str(mean) + '\t' + str(pearson) + '\t' + str(spearman) + '\n')
+        writer = csv.writer(f, delimiter='\t')
+        writer.writerows(to_write)
+
+    return 0
 
