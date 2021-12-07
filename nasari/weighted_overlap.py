@@ -2,14 +2,11 @@ import pandas as pd
 
 
 def get_ranks(vector):
-    sr = pd.Series(vector.weights.values())
-    index = vector.weights.keys()
-    sr.index = index
-    return sr.rank()
+    return pd.Series(vector).rank()
 
 
 def weighted_overlap(v1, v2):
-    o = v1.weights.keys() & v2.weights.keys()
+    o = v1.keys() & v2.keys()
     v1_ranks = get_ranks(v1)
     v2_ranks = get_ranks(v2)
     if not o:

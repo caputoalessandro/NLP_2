@@ -1,10 +1,11 @@
-from utils import get_context, get_dis_topic_from_text, get_lemmas_from_source,get_words
+from utils import get_context, get_dis_topic_from_text, get_words
+from nasari.nasari_parser import nasari_lemma_to_vectors
 from paragraph import get_salient_paragraphs
 from evaluation import rouge, bleu
 
 
 def summarization(text_path, type, compression):
-    nasari = get_lemmas_from_source()
+    nasari = nasari_lemma_to_vectors()
     text = get_words(text_path)
     topic = get_dis_topic_from_text(text_path, nasari)
     context = get_context(topic, text, nasari)
