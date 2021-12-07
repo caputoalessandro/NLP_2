@@ -1,6 +1,6 @@
 import numpy as np
 import csv
-from wu_palmer import wp_similarity
+from similarity.wu_palmer import wp_similarity
 
 
 def get_target():
