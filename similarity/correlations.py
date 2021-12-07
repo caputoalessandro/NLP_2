@@ -13,12 +13,10 @@ def get_target():
     return y
 
 
-def correlation(x, type):
+def correlation(x, y, type):
 
     num = None
     denom = None
-
-    y = get_target()
 
     x_array = np.array(x)
     y_array = np.array(y)
@@ -43,8 +41,10 @@ def correlation(x, type):
 
 def correlations(sim, type):
 
+    y = get_target()
+
     if sim == "wup":
-        return correlation(wp_similarity(), type)
+        return correlation(wp_similarity(), y, type)
 
     elif sim == "shortest":
         return 0

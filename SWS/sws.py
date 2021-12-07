@@ -1,8 +1,8 @@
-from annotation import make_mean_file
+from annotation import make_correlations_file
 
 
 def semantic_similarity():
-    make_mean_file()
+    make_correlations_file()
 
 
 if __name__ == "__main__":
