@@ -1,6 +1,8 @@
 import csv
 import os
-from similarity.correlations import correlation
+
+from scipy.stats import pearsonr, spearmanr
+
 from evaluation import nasari_correlations
 from utils import get_rows
 
@@ -31,8 +33,8 @@ def get_data_to_write():
 
 
 def annotated_correlations(v1, v2):
-    pearson = correlation(v1, v2, "pearson")
-    spearman = correlation(v1, v2, "spearman")
+    pearson = pearsonr(v1, v2)[0]
+    spearman = spearmanr(v1, v2)[0]
     return pearson, spearman
 
 

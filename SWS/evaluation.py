@@ -1,6 +1,7 @@
 import numpy as np
+from scipy.stats import spearmanr, pearsonr
+
 from nasari_parser import get_nasari, get_synset_map
-from similarity.correlations import correlation
 
 
 def cosine_similarity(vector1, vector2):
@@ -32,7 +33,7 @@ def get_all_cosine_similarity(pairs):
 
 def nasari_correlations(pairs, means):
     sims = get_all_cosine_similarity(pairs)
-    pearson = correlation(means, sims, "pearson")
-    spearman = correlation(means, sims, "spearman")
+    pearson = pearsonr(means, sims)[0]
+    spearman = spearmanr(means, sims)[0]
     return pearson, spearman
 
