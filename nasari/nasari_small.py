@@ -1,5 +1,8 @@
+from pathlib import Path
 from collections import defaultdict
 from functools import cache
+
+NASARI_SMALL_PATH = Path(__file__).parent.resolve() / 'resources' / 'dd-small-nasari-15.txt'
 
 
 def parse_nasari_line(line: str):
@@ -20,7 +23,7 @@ def parse_nasari_line(line: str):
 
 @cache
 def nasari_small_id_to_vector() -> dict[str, dict[str, float]]:
-    with open('resources/dd-small-nasari-15.txt') as lines:
+    with NASARI_SMALL_PATH.open() as lines:
         return dict(map(parse_nasari_line, lines))
 
 
