@@ -22,7 +22,7 @@ def get_lemmas_from_synset(synset_id, nasari, missed):
 
 def get_word_lemmas(word, syn_map, nasari, missed):
     return {
-            synset_id: get_lemmas_from_synset(synset_id, nasari, missed)[:3]
+            synset_id: get_lemmas_from_synset(synset_id, nasari, missed)
             for synset_id in get_synsets_from_word(word, syn_map)
          }
 
@@ -45,6 +45,7 @@ def get_words_syns_lemmas_from_wordlist():
     words_syns_lemmas = get_words_syns_lemmas(words, syn_map, nasari, missed)
     save_dict("words_syns_lemmas.json", words_syns_lemmas)
     return words_syns_lemmas
+
 
 
 

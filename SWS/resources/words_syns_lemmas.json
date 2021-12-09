@@ -3,12 +3,26 @@
         "bn:00023797n": [
             "batsman",
             "ball",
-            "bowler"
+            "bowler",
+            "cricket",
+            "wicket",
+            "bat",
+            "bowl",
+            "fielder",
+            "umpire",
+            "stump",
+            "pitch",
+            "crease",
+            "run",
+            "bowling"
         ],
         "bn:00023796n": [
             "grillo",
             "grillo",
-            "grillo"
+            "grillo",
+            "grillo",
+            "cricket",
+            "gryllidae"
         ],
         "bn:00462932n": [
             "cricket",
@@ -22,7 +36,24 @@
         "bn:00001362n": [
             "adepto",
             "adepto",
-            "aderente"
+            "aderente",
+            "aderente",
+            "affiliato",
+            "apostolo",
+            "discepolo",
+            "discepolo",
+            "scolaro",
+            "seguace",
+            "sostenitore",
+            "discepolo",
+            "adepto",
+            "discepolo",
+            "seguace",
+            "sostenitore",
+            "aderente",
+            "discepolato",
+            "discepolo",
+            "discepolo"
         ],
         "bn:00052866n": [
             "manutentore",
@@ -35,7 +66,18 @@
         "bn:01317296n": [
             "coat",
             "arm",
-            "arms"
+            "arms",
+            "svg",
+            "heraldry",
+            "shield",
+            "heraldic",
+            "emblem",
+            "file",
+            "crown",
+            "blazon",
+            "crest",
+            "lion",
+            "motto"
         ],
         "bn:00004065n": [
             "sovvenzionatore",
@@ -44,7 +86,16 @@
         "bn:00001603n": [
             "avvocato",
             "fautore",
-            "parteggiante"
+            "parteggiante",
+            "parteggiatore",
+            "patrocinatore",
+            "promotore",
+            "propugnatore",
+            "sostenitore",
+            "sostentatore",
+            "zelatore",
+            "advocator",
+            "proponente"
         ]
     },
     "scultura": {
@@ -55,12 +106,34 @@
         "bn:00016360n": [
             "art",
             "sculpture",
-            "pottery"
+            "pottery",
+            "bead",
+            "beaux-arts",
+            "jpg",
+            "century",
+            "carving",
+            "clay",
+            "carve",
+            "fine art",
+            "file",
+            "statue",
+            "figure"
         ],
         "bn:00069924n": [
             "sculpture",
             "jpg",
-            "file"
+            "file",
+            "statue",
+            "sculptor",
+            "bronze",
+            "relief",
+            "figure",
+            "art",
+            "safer",
+            "hellenistic",
+            "low relief",
+            "bce",
+            "bc"
         ],
         "bn:01205641n": [
             "scultura"
@@ -73,37 +146,80 @@
         "bn:03541382n": [
             "mitologia_di_lost",
             "mitologia_di_lost",
-            "4_8_15_16_23_42"
+            "4_8_15_16_23_42",
+            "numeri",
+            "roccia_nera",
+            "statua"
         ],
         "bn:00074064n": [
             "statue",
             "sculpture",
-            "jpg"
+            "jpg",
+            "file",
+            "sphinx",
+            "bartholdi",
+            "nude",
+            "bronze",
+            "figure",
+            "pedestal",
+            "sculptor",
+            "rohl-smith",
+            "monument",
+            "phidias"
         ]
     },
     "browser": {
         "bn:00013447n": [
             "browser",
             "browser",
-            "browser"
+            "browser",
+            "browser_web",
+            "navigatore",
+            "browser",
+            "navigatore",
+            "web_browser",
+            "browser_web",
+            "browser_web",
+            "navigatore",
+            "web_browser",
+            "web_browsing",
+            "browser_internet",
+            "browser_internet",
+            "browser_web",
+            "browser_web",
+            "browser_web",
+            "client_web"
         ]
     },
     "Mozilla Firefox": {
         "bn:01387235n": [
             "mozilla_firefox",
             "mozilla_firefox",
-            "firefox"
+            "firefox",
+            "electrolysis",
+            "firefox",
+            "minefield",
+            "mozilla_firebird",
+            "mozilla_firefox_1",
+            "mozilla_firefox_3.2",
+            "mozilla_firefox_5",
+            "storia_di_mozilla_firefox",
+            "versioni_di_mozilla_firefox"
         ]
     },
     "Fox Terrier": {
         "bn:03237376n": [
             "fox_terrier",
             "fox_terrier",
+            "fox_terrier",
+            "fox_terrier_a_pelo_liscio",
+            "fox_terrier_a_pelo_ruvido",
             "fox_terrier"
         ],
         "bn:00036142n": [
             "fox-terrier",
             "fox-terrier",
+            "fox_terrier",
             "fox_terrier"
         ]
     },
@@ -115,17 +231,31 @@
         "bn:00015322n": [
             "canyon",
             "gorge",
-            "creek"
+            "creek",
+            "river",
+            "eaton",
+            "flow",
+            "trail",
+            "vortex",
+            "rustic",
+            "oak",
+            "deep",
+            "manderbelts",
+            "atuel",
+            "switzer"
         ],
         "bn:16199914n": [
             "canon",
+            "canon",
+            "canon_inc.",
             "canon",
             "canon_inc."
         ],
         "bn:00636233n": [
             "canone_di_star_trek",
             "canone_di_star_trek",
-            "canon"
+            "canon",
+            "star_trek_canone"
         ],
         "bn:00221813n": [
             "canon",
@@ -136,6 +266,9 @@
         "bn:02580408n": [
             "hsbc",
             "hsbc",
+            "hsbc_holdings",
+            "hong_kong_and_shanghai_banking_corporation",
+            "hsbc",
             "hsbc_holdings"
         ]
     },
@@ -143,15 +276,64 @@
         "bn:00013173n": [
             "gb",
             "gran_bretagna",
-            "gran_bretagna"
+            "gran_bretagna",
+            "inghilterra",
+            "regno_unito",
+            "regno_unito",
+            "regno_unito",
+            "regno_unito",
+            "gran_bretagna",
+            "regno_unito",
+            "regno_unito_di_gran_bretagna_e_irlanda_del_nord",
+            "regno_unito_di_gran_bretagna_e_irlanda_del_nord",
+            "gb",
+            "gbr",
+            "gran_bretagna",
+            "regno_unito_di_gran_bretagna_e_irlanda_del_nord",
+            "uk",
+            "\ud83c\uddec\ud83c\udde7",
+            "regno_unito",
+            "britannica",
+            "cultura_del_regno_unito",
+            "musei_del_regno_unito",
+            "musei_della_gran_bretagna",
+            "regno_unito",
+            "regno_unito_di_gran_bretagna_e_irlanda_del_nord",
+            "regno_unito_di_gran_bretagna_ed_irlanda_del_nord",
+            "sport_nel_regno_unito",
+            "u.k.",
+            "uk",
+            "uk",
+            "united_kingdom",
+            "united_kingdom_of_great_britain_and_northern_ireland",
+            "gran_bretagna",
+            "regno_unito",
+            "regno_unito_di_gran_bretagna_e_irlanda_del_nord",
+            "u.k."
         ],
         "bn:00037565n": [
             "gran-bretagna",
             "gran_bretagna",
-            "gran_bretagna"
+            "gran_bretagna",
+            "gran_bretagna",
+            "gran_bretagna",
+            "gran_bretagna",
+            "gran_britannia",
+            "gran_bretagna",
+            "gran_britannia",
+            "great_britain"
         ],
         "bn:00030861n": [
             "england",
+            "inghilterra",
+            "inghilterra",
+            "inghilterra",
+            "inghilterra",
+            "inghilterra",
+            "eng",
+            "inghilterra",
+            "england",
+            "geografia_dell'inghilterra",
             "inghilterra",
             "inghilterra"
         ]
@@ -165,12 +347,45 @@
         "bn:15453096n": [
             "la_bibbia",
             "a.d._-_la_bibbia_continua",
-            "la_bibbia"
+            "la_bibbia",
+            "a.d._the_bible_continues",
+            "bibbia",
+            "the_bible"
         ],
         "bn:00010217n": [
             "bibbia",
             "bibbia",
-            "sacra_scrittura"
+            "sacra_scrittura",
+            "bibbia",
+            "bibbia",
+            "bibbia",
+            "bibbia",
+            "sacra_bibbia",
+            "bibbia_cristiana",
+            "bibbie",
+            "biblia",
+            "sacra_bibbia",
+            "bibbia",
+            "bibbia",
+            "bibbia",
+            "bibbia_cristiana",
+            "bibbia_cristiana",
+            "bibbie",
+            "good_book",
+            "libro_sacro",
+            "sacra_bibbia",
+            "sacra_scrittura",
+            "sacra_scrittura",
+            "sacra_scrittura",
+            "sacra_scrittura",
+            "scrittura",
+            "scritturale",
+            "scritture",
+            "scritture_cristiane",
+            "testi_religiosi",
+            "testi_sacri",
+            "testo_religioso",
+            "testo_sacro"
         ],
         "bn:00010218n": [
             "bibbia"
@@ -178,6 +393,7 @@
         "bn:08841386n": [
             "bibbia",
             "bibbia",
+            "bibbia_diodati",
             "bibbia_diodati"
         ],
         "bn:02252316n": [
@@ -188,11 +404,23 @@
         "bn:00031976n": [
             "jesus",
             "gospel",
-            "luke"
+            "luke",
+            "matthew",
+            "new testament",
+            "christian",
+            "scholar",
+            "mark",
+            "gospels",
+            "synoptic",
+            "crucifixion",
+            "john",
+            "god",
+            "christ"
         ],
         "bn:00957035n": [
             "vangelo",
             "vangelo",
+            "vangelista",
             "vangelista"
         ]
     },
@@ -203,38 +431,261 @@
         "bn:00028682n": [
             "wear",
             "dress",
-            "skirt"
+            "skirt",
+            "garment",
+            "clothing",
+            "sari",
+            "trouser",
+            "fashion",
+            "frock coat",
+            "uniform",
+            "woman",
+            "shirt",
+            "style",
+            "formal"
         ],
         "bn:00075103n": [
             "abito",
             "completo",
-            "vestito"
+            "vestito",
+            "abito_completo_da_uomo",
+            "abito_completo_da_uomo",
+            "vestito",
+            "abito",
+            "vestito",
+            "giacca",
+            "vestito_dei_vestiti"
         ],
         "bn:00006125n": [
             "clothing",
             "wear",
-            "garment"
+            "garment",
+            "fashion",
+            "dress",
+            "trouser",
+            "uniform",
+            "clothes",
+            "textile",
+            "fabric",
+            "woman",
+            "sarong",
+            "latex",
+            "skirt"
         ],
         "bn:00037352n": [
             "abito",
             "capo_di_vestiario",
-            "capo_di_vestiario"
+            "capo_di_vestiario",
+            "indumento",
+            "indumento",
+            "veste",
+            "vestimento",
+            "vestito",
+            "abito",
+            "capo",
+            "indumento",
+            "vestito",
+            "indumento"
         ],
         "bn:09072565n": [
             "attributi_araldici_di_modifica",
             "attributi_araldici_di_modifica",
-            "accampanato"
+            "accampanato",
+            "accovacciato",
+            "affibbiato",
+            "affustato",
+            "aggiogato",
+            "aggruppato",
+            "alato",
+            "alettato",
+            "all'antica",
+            "allumato",
+            "anguifero",
+            "aperto",
+            "appalmato",
+            "ardente",
+            "armato",
+            "astato",
+            "attortigliato",
+            "attributi_di_modifica",
+            "baglionato",
+            "bailonato",
+            "banderuolato",
+            "barbato",
+            "barbuto",
+            "bardato",
+            "bargigliato",
+            "battacchiato",
+            "battagliato",
+            "bendato",
+            "bobinato",
+            "bordonato",
+            "bottonato",
+            "brisato",
+            "bullettato",
+            "cancellato",
+            "capelluto",
+            "castrato",
+            "caterattato",
+            "caudato",
+            "cerchiato",
+            "cinghiato",
+            "clarinato",
+            "codato",
+            "colla_spera",
+            "collarinato",
+            "con_saracinesca",
+            "contrappalmato",
+            "coperto",
+            "cordato",
+            "cornato",
+            "cornuto",
+            "coronato",
+            "crestato",
+            "crinito",
+            "custodito",
+            "decapitato",
+            "diademato",
+            "difeso",
+            "diffamato",
+            "diffamato",
+            "diradicato",
+            "diramato",
+            "dismembrato",
+            "divisato",
+            "dragonato",
+            "erboso",
+            "evirato",
+            "fabbricato",
+            "ferito",
+            "fiammeggiante",
+            "figurato",
+            "finestrato",
+            "fiorito",
+            "fluttuoso",
+            "fogliato",
+            "forcato",
+            "forcuto",
+            "fornito",
+            "frangiato",
+            "fruttato",
+            "fustato",
+            "gambuto",
+            "ghiandifera",
+            "graticolato",
+            "grigliato",
+            "gualdrappato",
+            "guarnito",
+            "guinzagliato",
+            "imbavagliato",
+            "imbeccato",
+            "imbeccato",
+            "imboccato",
+            "imbrigliato",
+            "immaschito",
+            "impennato",
+            "incappucciato",
+            "incastonato",
+            "incatenato",
+            "incendiato",
+            "inchiodato",
+            "inclinato",
+            "incoccato",
+            "infamato",
+            "inferriato",
+            "infilato",
+            "infilzato",
+            "ingollato",
+            "intravagliato",
+            "intrecciato",
+            "lampassata",
+            "lampassato",
+            "legato",
+            "linguato",
+            "macchiato",
+            "manicato",
+            "marcato",
+            "mareggiato",
+            "marinato",
+            "mascherato",
+            "mattonato",
+            "membrato",
+            "mostruoso",
+            "muragliato",
+            "murato",
+            "museruolato",
+            "nato_morto",
+            "nervato",
+            "nimbato",
+            "ondeggiante",
+            "osceno",
+            "pampinoso",
+            "pendente",
+            "piantato",
+            "piotato",
+            "piumato",
+            "pomato",
+            "pomettato",
+            "punteggiato",
+            "racchiudente",
+            "raggiante",
+            "ramoso",
+            "reciso",
+            "ripieno",
+            "ritirato",
+            "ritorta",
+            "rivoltato",
+            "roccioso",
+            "rostrato",
+            "rovinato",
+            "sanguinoso",
+            "sbocciato",
+            "scapigliato",
+            "scintillante",
+            "scodato",
+            "scoronato",
+            "screziato",
+            "secco",
+            "sellato",
+            "serpeggiante",
+            "serpentifero",
+            "sfogliato",
+            "smussato",
+            "sonagliato",
+            "sostenuto",
+            "speronato",
+            "spezzato",
+            "spigato",
+            "squamoso",
+            "squillato",
+            "sradicato",
+            "stelato",
+            "stolato",
+            "strappato",
+            "tegolato",
+            "terrazzato",
+            "torricellato",
+            "trafitto",
+            "unghiato",
+            "vampante",
+            "vestito",
+            "vuotato"
         ],
         "bn:01573378n": [
             "il_vestito",
             "il_vestito",
-            "vestito"
+            "vestito",
+            "de_jurk"
         ]
     },
     "danza": {
         "bn:00025142n": [
             "ballo",
             "danza",
+            "danza",
+            "danza",
+            "danzatore",
+            "danzatrice",
             "danza"
         ],
         "bn:08874284n": [
@@ -244,7 +695,18 @@
         "bn:00025144n": [
             "dance",
             "dancer",
-            "dancing"
+            "dancing",
+            "b-boying",
+            "ballet",
+            "b-boy",
+            "perform",
+            "b-boys",
+            "style",
+            "choreographer",
+            "folk dance",
+            "mambo",
+            "modern dance",
+            "highland"
         ],
         "bn:01126934n": [
             "danza"
@@ -254,7 +716,9 @@
         "bn:02756908n": [
             "vector",
             "vector",
-            "array"
+            "array",
+            "vettore",
+            "vettore"
         ],
         "bn:00005869n": [
             "array",
@@ -276,12 +740,19 @@
         "bn:00072174n": [
             "banda",
             "banda",
-            "fascia"
+            "fascia",
+            "lembo",
+            "lista",
+            "lista",
+            "nastro",
+            "striscia",
+            "striscia"
         ],
         "bn:02117586n": [
             "comprensione_di_lista",
             "comprensione_di_lista",
-            "list_comprehension"
+            "list_comprehension",
+            "lista"
         ],
         "bn:16373979n": [
             "lista"
@@ -289,17 +760,31 @@
         "bn:00072069n": [
             "lista",
             "lista_dei_candidati",
-            "lista_di_candidati"
+            "lista_di_candidati",
+            "lista_candidati",
+            "biglietto"
         ],
         "bn:00051508n": [
             "distinta",
             "elencazione",
+            "elenco",
+            "elenco",
+            "lista",
+            "lista",
+            "nota",
+            "nota",
+            "novero",
             "elenco"
         ],
         "bn:00068132n": [
             "elenco",
             "matricola",
-            "ruolo"
+            "ruolo",
+            "calendario_di_lavoro",
+            "ruolino",
+            "ruolino_di_marcia",
+            "ruolino_di_servizio",
+            "lista"
         ],
         "bn:11368876n": [
             "lista"
@@ -310,12 +795,31 @@
         "bn:00008282n": [
             "banda",
             "banda",
-            "fascia"
+            "fascia",
+            "lista",
+            "riga"
         ],
         "bn:00023140n": [
             "calcolo",
             "computo",
-            "conta"
+            "conta",
+            "conta",
+            "conteggio",
+            "supputazione",
+            "lista",
+            "calcolo",
+            "conteggio",
+            "elenco",
+            "enumerazione",
+            "lista",
+            "enumerazione",
+            "lista",
+            "numero",
+            "totale",
+            "conteggio",
+            "enumerazione",
+            "numerazione",
+            "sistema_numerale"
         ]
     },
     "cella": {
@@ -338,7 +842,10 @@
         "bn:00017031n": [
             "cella",
             "cella",
-            "carcere_cella"
+            "carcere_cella",
+            "cella",
+            "cella",
+            "cella_di_prigione"
         ],
         "bn:11354491n": [
             "cella"
@@ -346,7 +853,13 @@
         "bn:03730384n": [
             "cella",
             "cella",
-            "cella_templare"
+            "cella_templare",
+            "naos",
+            "na\u00f2s",
+            "cella_templare",
+            "naos",
+            "na\u00f2s",
+            "cella"
         ],
         "bn:11364240n": [
             "cella"
@@ -354,12 +867,18 @@
         "bn:03521678n": [
             "cella_dati",
             "cella_dati",
+            "cella_con_campagna",
             "cella_con_campagna"
         ],
         "bn:00714590n": [
             "faccia",
             "faccia",
-            "pila"
+            "pila",
+            "cella",
+            "cresta",
+            "faccia",
+            "hypercell",
+            "picco"
         ],
         "bn:00017026n": [
             "cella"
@@ -367,14 +886,27 @@
         "bn:09074054n": [
             "cella",
             "cella",
-            "cella_di_ovaro"
+            "cella_di_ovaro",
+            "cella_di_ovaro",
+            "celots"
         ]
     },
     "gattabuia": {
         "bn:00064468n": [
             "prison",
             "prisoner",
-            "inmate"
+            "inmate",
+            "panopticon",
+            "cell",
+            "incarcerate",
+            "facility",
+            "woman",
+            "offender",
+            "incarceration",
+            "security",
+            "her majesty's prison service",
+            "state prison",
+            "bentham"
         ],
         "bn:00044718n": [
             "gattabuia",
@@ -383,14 +915,28 @@
         "bn:00019832n": [
             "carcere",
             "ergastolo",
-            "gabbia"
+            "gabbia",
+            "galera",
+            "gattabuia",
+            "prigione",
+            "carcere",
+            "prigione",
+            "angusto",
+            "carcere",
+            "carcere",
+            "carcere",
+            "jailhouse",
+            "prigione"
         ]
     },
     "saggio": {
         "bn:00027670n": [
             "dimostrazione",
             "manifestazione",
-            "mostra"
+            "mostra",
+            "sbandieramento",
+            "sfoggio",
+            "spettacolo"
         ],
         "bn:00021410n": [
             "componimento",
@@ -400,6 +946,13 @@
         "bn:00054392n": [
             "mentore",
             "saggio",
+            "saggio",
+            "savio",
+            "savio",
+            "mentore",
+            "pigmalione",
+            "tutore",
+            "mentore",
             "saggio"
         ],
         "bn:09062048n": [
@@ -410,68 +963,168 @@
         "bn:15722984n": [
             "saggio",
             "saggio_stoico",
-            "saggio_secondo_lo_stoicismo"
+            "saggio_secondo_lo_stoicismo",
+            "sophos"
         ],
         "bn:00047693n": [
             "inchiesta",
             "pubblicazione",
-            "saggio"
+            "saggio",
+            "studio",
+            "pubblicazione",
+            "pubblicazione"
         ],
         "bn:00031622n": [
             "essay",
             "orwell",
-            "book"
+            "book",
+            "publish",
+            "bly",
+            "writing",
+            "write",
+            "drieu",
+            "doubleday & company",
+            "eight-legged",
+            "federalist",
+            "essayist",
+            "author",
+            "the magazine of fantasy and science fiction"
         ],
         "bn:00006521n": [
             "discente",
             "saggio",
-            "sapiente"
+            "sapiente",
+            "scolaro",
+            "assimilator",
+            "studente"
         ],
         "bn:00006476n": [
             "assay",
             "cell",
-            "antibody"
+            "antibody",
+            "dna",
+            "sample",
+            "antigen",
+            "enzyme",
+            "protein",
+            "test",
+            "elisa",
+            "use",
+            "ssmd",
+            "molecule",
+            "bind"
         ]
     },
     "compito a casa": {
         "bn:00069626n": [
             "homework",
             "preppy",
-            "student"
+            "student",
+            "coursework",
+            "prep",
+            "schoolwork",
+            "assignment",
+            "parent",
+            "school",
+            "teacher",
+            "northeastern",
+            "outwood",
+            "busy",
+            "filippino"
         ]
     },
     "computer": {
         "bn:00021464n": [
             "computer",
             "instruction",
-            "machine"
+            "machine",
+            "memory",
+            "cpu",
+            "analog computer",
+            "home computer",
+            "program",
+            "eniac",
+            "turing machine",
+            "turing",
+            "use",
+            "processor",
+            "device"
         ],
         "bn:00054739n": [
             "pc",
             "personal_computer",
-            "microcomputer"
+            "microcomputer",
+            "personal_computer",
+            "microcomputer",
+            "personal_computer",
+            "computer",
+            "microcomputer",
+            "pc",
+            "personal_computer",
+            "calcolatore_personale",
+            "pc",
+            "elaboratore_personale",
+            "pc",
+            "pc",
+            "personal_computer",
+            "microcomputer",
+            "microcomputer",
+            "microcomputer",
+            "pc",
+            "personal_computer",
+            "personal_computer",
+            "personal_computer",
+            "personal_computing"
         ]
     },
     "macchina": {
         "bn:00052571n": [
             "apparato",
             "macchinario",
-            "macchinario"
+            "macchinario",
+            "machinery",
+            "macchinario",
+            "macchina",
+            "macchinari",
+            "macchinari"
         ],
         "bn:00007309n": [
             "car",
             "vehicle",
-            "ford"
+            "ford",
+            "model",
+            "hatchback",
+            "engine",
+            "taxi",
+            "electric car",
+            "hardtop",
+            "station wagon",
+            "automobile",
+            "ambulance",
+            "sedan",
+            "benz"
         ],
         "bn:00052560n": [
             "macchina",
             "macchina",
+            "macchina_politica",
             "macchina_politica"
         ],
         "bn:00054050n": [
             "machine",
             "pump",
-            "escapement"
+            "escapement",
+            "coupling",
+            "carburetor",
+            "coupler",
+            "shutter",
+            "mechanical",
+            "propeller",
+            "lever",
+            "use",
+            "gear",
+            "atm",
+            "simple machine"
         ],
         "bn:01507022n": [
             "macchina"
@@ -493,12 +1146,34 @@
         "bn:00030852n": [
             "locomotive",
             "steam locomotive",
-            "steam"
+            "steam",
+            "electric locomotive",
+            "engine",
+            "train",
+            "diesel",
+            "diesel locomotive",
+            "boiler",
+            "railway",
+            "class",
+            "traction",
+            "baldwin",
+            "build"
         ],
         "bn:00026716n": [
             "machine",
             "shredder",
-            "heat exchanger"
+            "heat exchanger",
+            "use",
+            "snowshoe",
+            "crusher",
+            "turtles",
+            "extinguisher",
+            "device",
+            "kinetoscope",
+            "magnet",
+            "airfoil",
+            "charger",
+            "key"
         ]
     },
     "panda": {
@@ -512,7 +1187,31 @@
         "bn:00002177n": [
             "ailurus_fulgens",
             "panda",
-            "panda_minore"
+            "panda_minore",
+            "ailurus_fulgens",
+            "ailurus",
+            "ailurus_fulgens",
+            "panda_rosso",
+            "panda_minore",
+            "panda_rosso",
+            "ailuridae",
+            "ailuridi",
+            "panda_minore",
+            "panda_rosso",
+            "ailuridae",
+            "ailuridi",
+            "ailurinae",
+            "ailurus",
+            "panda_minore",
+            "panda_rosso",
+            "ailurus_fulgens",
+            "gatto_orso",
+            "minore_panda",
+            "orso_gatto",
+            "panda_minore",
+            "panda_rossi",
+            "panda_rosso",
+            "red_panda"
         ],
         "bn:17685929n": [
             "panda",
@@ -521,7 +1220,27 @@
         "bn:00002174n": [
             "ailuropoda_melanoleuca",
             "panda",
-            "panda"
+            "panda",
+            "panda_gigante",
+            "ailuropoda_melanoleuca",
+            "ailuropoda_melanoleuca",
+            "panda_gigante",
+            "panda_gigante",
+            "panda_gigante",
+            "panda_gigante",
+            "panda_gigante",
+            "panda_porno",
+            "panda_pornografia",
+            "\ud83d\udc3c",
+            "ailuropoda_melanoleuca",
+            "coon_orso",
+            "orso_panda",
+            "panda",
+            "panda_bear",
+            "panda_bear",
+            "panda_gigante",
+            "panda_gigante",
+            "panda_giganti"
         ],
         "bn:08919261n": [
             "i_panda",
@@ -548,6 +1267,26 @@
         "bn:00045719n": [
             "orso_bianco",
             "orso_polare",
+            "ursus_maritimus",
+            "ursus_maritimus",
+            "ursus_maritimus",
+            "orso_bianco",
+            "orso_polare",
+            "orso_bianco",
+            "orso_polare",
+            "orso_bianco",
+            "orso_polare",
+            "thalarctos_maritimus",
+            "orso_bianco",
+            "orso_bianco",
+            "orso_polare",
+            "thalarctos_maritimus",
+            "ice_bear",
+            "orsi_polari",
+            "orso_bianco",
+            "orso_polare",
+            "thalarctos_maritimus",
+            "ursus_maritimus",
             "ursus_maritimus"
         ]
     },
@@ -555,7 +1294,18 @@
         "bn:00057430n": [
             "personality",
             "neuroticism",
-            "trait"
+            "trait",
+            "freud",
+            "personality disorder",
+            "agreeableness",
+            "extraversion",
+            "disorder",
+            "factor",
+            "jung",
+            "individual",
+            "anxiety",
+            "bpd",
+            "satisfaction"
         ],
         "bn:13603602n": [
             "fissazione_nevrotica",
@@ -570,17 +1320,33 @@
         "bn:00023658n": [
             "cervello",
             "ingegno",
-            "mente"
+            "mente",
+            "pensatore",
+            "pensatore",
+            "pensatore_creativo"
         ],
         "bn:14795566n": [
             "rav_maskil",
             "rav_maskil",
-            "maskil"
+            "maskil",
+            "maskil",
+            "mente"
         ],
         "bn:00012682n": [
             "genius",
             "galton",
-            "creativity"
+            "creativity",
+            "iq",
+            "schopenhauer",
+            "leonardo",
+            "nietzsche",
+            "intelligence",
+            "budoy",
+            "booker",
+            "shakespeare",
+            "polymath",
+            "gifted",
+            "study"
         ],
         "bn:00047022n": [
             "intellettuale",
@@ -590,34 +1356,77 @@
         "bn:00012681n": [
             "aristotle",
             "mind",
-            "soul"
+            "soul",
+            "nous",
+            "god",
+            "intellect",
+            "philosophy",
+            "plato",
+            "philosopher",
+            "plotinus",
+            "hegel",
+            "human",
+            "knowledge",
+            "avicenna"
         ],
         "bn:00045801n": [
             "idea",
             "mente",
-            "mezza_idea"
+            "mezza_idea",
+            "intento",
+            "intuizione",
+            "pensiero",
+            "piano",
+            "progetto"
         ],
         "bn:00055105n": [
             "animo",
             "memoria",
+            "mente",
             "mente"
         ],
         "bn:00047020n": [
             "cervello",
             "intelligenza",
-            "levatura"
+            "levatura",
+            "mente"
         ],
         "bn:00047021n": [
             "aristotle",
             "kant",
-            "reason"
+            "reason",
+            "philosophy",
+            "human",
+            "argument",
+            "hume",
+            "reasoning",
+            "philosopher",
+            "god",
+            "schopenhauer",
+            "logic",
+            "intellect",
+            "knowledge"
         ]
     },
     "campagna": {
         "bn:00023237n": [
             "campagna",
             "campagna",
-            "campagna"
+            "campagna",
+            "campagna",
+            "campagna",
+            "area_rurale",
+            "aree_rurali",
+            "area_rurale",
+            "aree_rurali",
+            "campagna",
+            "rurale",
+            "paese",
+            "rurale",
+            "vita_rurale",
+            "zona_rurale",
+            "zona_rurale",
+            "zone_rurali"
         ],
         "bn:11389493n": [
             "campagna"
@@ -625,7 +1434,8 @@
         "bn:00015057n": [
             "campagna_elettorale",
             "campagna",
-            "candidatura"
+            "candidatura",
+            "la_candidatura"
         ],
         "bn:11359467n": [
             "campagna"
@@ -636,17 +1446,44 @@
         "bn:03520751n": [
             "torre_d'isola",
             "torre_d'isola",
-            "torredisolani"
+            "torredisolani",
+            "torre_d'isola"
         ],
         "bn:00015051n": [
             "campagna",
             "campagna",
+            "causa",
+            "crociata",
+            "campagna",
+            "causa",
+            "crociata",
+            "missione",
             "causa"
         ],
         "bn:00001019n": [
             "campagna",
             "fondo",
-            "latifondo"
+            "latifondo",
+            "possedimento",
+            "proprieta'-terriera",
+            "tenuta",
+            "terra",
+            "propriet\u00e0_fondiaria",
+            "dominio",
+            "demanio_regio",
+            "propriet\u00e0_fondiaria",
+            "podere",
+            "propriet\u00e0_terriera",
+            "acri",
+            "casa_tenuta",
+            "demanio",
+            "dominio_feudale",
+            "ettari",
+            "proprietario_sbarcati",
+            "propriet\u00e0_fondiaria",
+            "propriet\u00e0_terriera",
+            "propriet\u00e0_terriera",
+            "tenuta"
         ],
         "bn:01267575n": [
             "campagna",
@@ -662,12 +1499,21 @@
         "bn:00008144n": [
             "diamante",
             "diamante",
-            "diamante"
+            "diamante",
+            "campo_da_baseball",
+            "campo_da_baseball",
+            "calcio_campo",
+            "campo_da_baseball",
+            "campo_da_baseball",
+            "tumulo_pitching"
         ],
         "bn:01527020n": [
             "campagna",
             "campagna",
-            "campagna"
+            "campagna",
+            "comune_di_campagna",
+            "campagna",
+            "campagnese"
         ],
         "bn:11393400n": [
             "campagna"
@@ -675,7 +1521,14 @@
         "bn:00034265n": [
             "campagna",
             "campo",
-            "campo"
+            "campo",
+            "campo",
+            "campo",
+            "campo",
+            "campo",
+            "campo",
+            "campo",
+            "campo_agricolo"
         ],
         "bn:11361968n": [
             "campagna"
@@ -683,7 +1536,13 @@
         "bn:00008916n": [
             "voce_di_basso",
             "basso",
-            "basso"
+            "basso",
+            "base",
+            "basso",
+            "basso",
+            "basso",
+            "basso_buffo",
+            "voce_di_basso"
         ],
         "bn:00023248n": [
             "campagna",
@@ -696,7 +1555,10 @@
         "bn:00015052n": [
             "campagna",
             "campagna_militare",
-            "campagna"
+            "campagna",
+            "campagna",
+            "campagna_militare",
+            "campagna_militare"
         ],
         "bn:11377338n": [
             "campagna"
@@ -704,12 +1566,29 @@
         "bn:00015050n": [
             "campagna",
             "campagna_elettorale",
-            "campagna_elettorale"
+            "campagna_elettorale",
+            "campagna_elettorale",
+            "campagna_politica",
+            "strategia_elettorale",
+            "campagna_politica",
+            "strategia_elettorale",
+            "campagna",
+            "campagna_elettorale",
+            "campagna_elettorale",
+            "campagna_politica",
+            "campagna_politica",
+            "campagna_presidenziale",
+            "campagne_elettorali",
+            "campagne_politiche"
         ],
         "bn:03293217n": [
             "maniago",
             "maniago",
-            "comune_di_maniago"
+            "comune_di_maniago",
+            "maniago",
+            "campagna",
+            "maniaghesi",
+            "maniago"
         ],
         "bn:04089251n": [
             "campagna",
@@ -726,7 +1605,12 @@
         "bn:00054954n": [
             "effettivo",
             "forza",
-            "capacit\u00e0_militari"
+            "capacit\u00e0_militari",
+            "forza",
+            "forza_militare",
+            "posizione_militare",
+            "stratega_militare",
+            "strategia_militare"
         ],
         "bn:11365149n": [
             "campagna"
@@ -736,17 +1620,50 @@
         "bn:00004847n": [
             "ape",
             "primate",
-            "chimpanzee"
+            "chimpanzee",
+            "monkey",
+            "human",
+            "gorilla",
+            "orangutan",
+            "gibbon",
+            "great ape",
+            "fossil",
+            "p.",
+            "hominoid",
+            "specie",
+            "old world monkey"
         ],
         "bn:00071669n": [
             "genus",
             "lr\\/lc",
-            "lc"
+            "lc",
+            "primate",
+            "lemur",
+            "subfamily",
+            "monkey",
+            "ape",
+            "dd",
+            "tarsier",
+            "family",
+            "suborder",
+            "lr\\/nt",
+            "specie"
         ],
         "bn:00055685n": [
             "monkey",
             "primate",
-            "ape"
+            "ape",
+            "gibbon",
+            "old world monkey",
+            "new world monkey",
+            "prosimian",
+            "human",
+            "macaque",
+            "nose",
+            "tarsier",
+            "nasal",
+            "gorilla",
+            "animal"
         ],
         "bn:11401766n": [
             "scimmia"
@@ -754,7 +1671,41 @@
         "bn:00028916n": [
             "ciucca",
             "cotta",
-            "ebbrezza"
+            "ebbrezza",
+            "ebrezza",
+            "inebriamento",
+            "sbornia",
+            "sbornia",
+            "sbronza",
+            "scimmia",
+            "scuffia",
+            "ubbriacatura",
+            "ubbriachezza",
+            "ubriacatura",
+            "ubriacatura",
+            "ubriachezza",
+            "ubriachezza",
+            "ubriachezza",
+            "ebbrezza",
+            "sbornia",
+            "ubriachezza",
+            "intossicazione_acuta_da_etanolo",
+            "ubriaco",
+            "alcolismo_acuto",
+            "avvelenamento_da_alcool",
+            "ebbrezza",
+            "ebrezza",
+            "ubriachezza",
+            "ubriaco",
+            "ebbrezza",
+            "ebbrezza",
+            "intemperanza",
+            "intossicazione_alcolica",
+            "tipsiness",
+            "ubriachezza",
+            "ubriaco",
+            "ubriaco",
+            "ubriacone"
         ],
         "bn:02131227n": [
             "scimmia",
@@ -765,6 +1716,13 @@
         "bn:00033657n": [
             "faraday",
             "m.-faraday",
+            "michael_faraday",
+            "michael_faraday",
+            "faraday",
+            "micheal_faraday",
+            "michele_faraday",
+            "costante_di_faraday",
+            "faraday",
             "michael_faraday"
         ]
     },
@@ -772,12 +1730,25 @@
         "bn:00069639n": [
             "cartella",
             "zainetto",
-            "zaino"
+            "zaino",
+            "zaino",
+            "zainetto"
         ],
         "bn:00007752n": [
             "backpack",
             "bag",
-            "pack"
+            "pack",
+            "holster",
+            "karrimor",
+            "carry",
+            "snowshoe",
+            "backpacking",
+            "parachute",
+            "webbing",
+            "strap",
+            "backpacker",
+            "haversack",
+            "meinertzhagen"
         ]
     },
     "palazzo": {
@@ -802,6 +1773,7 @@
         "bn:00016569n": [
             "palazzo",
             "palazzo",
+            "palazzo",
             "palazzo"
         ],
         "bn:11379415n": [
@@ -816,7 +1788,18 @@
         "bn:00042667n": [
             "mansion",
             "house",
-            "manor house"
+            "manor house",
+            "country house",
+            "build",
+            "manor",
+            "estate",
+            "room",
+            "residence",
+            "building",
+            "luigi",
+            "wakeijuku",
+            "property",
+            "coole"
         ],
         "bn:11383141n": [
             "palazzo"
@@ -827,7 +1810,9 @@
         "bn:17321955n": [
             "palazzo_italiano",
             "palagi",
-            "palagio"
+            "palagio",
+            "palazzi_italiani",
+            "Palazzo"
         ],
         "bn:01761707n": [
             "palazzo",
@@ -839,7 +1824,18 @@
         "bn:00060224n": [
             "palace",
             "residence",
-            "royal"
+            "royal",
+            "versailles",
+            "alhambra",
+            "appartement",
+            "king",
+            "seat",
+            "garden",
+            "room",
+            "tuileries",
+            "build",
+            "building",
+            "royal family"
         ],
         "bn:11355616n": [
             "palazzo"
@@ -853,7 +1849,18 @@
         "bn:00013722n": [
             "building",
             "skyscraper",
-            "house"
+            "house",
+            "brothel",
+            "construction",
+            "tavern",
+            "structure",
+            "floor",
+            "greenhouse",
+            "tall",
+            "apartment",
+            "room",
+            "build",
+            "high-rise"
         ],
         "bn:11358483n": [
             "palazzo"
@@ -863,60 +1870,149 @@
         "bn:00044044n": [
             "casa_a_torre",
             "casa_a_torre",
-            "condominio"
+            "condominio",
+            "grattacielo",
+            "condominio",
+            "edifici_alti",
+            "grattacieli",
+            "grattacielo",
+            "high-rise",
+            "highrise",
+            "strade_nel_cielo",
+            "torre",
+            "torre_di_blocco",
+            "torre_residenziale"
         ],
         "bn:00072030n": [
             "skyscraper",
             "building",
-            "tall"
+            "tall",
+            "tower",
+            "height",
+            "world trade center",
+            "floor",
+            "construction",
+            "empire state building",
+            "high-rise",
+            "chicago",
+            "elevator",
+            "design",
+            "structure"
         ]
     },
     "elicottero": {
         "bn:00018734n": [
             "helicopter",
             "aircraft",
-            "rotor"
+            "rotor",
+            "flight",
+            "pilot",
+            "autogyro",
+            "fly",
+            "blade",
+            "main rotor",
+            "tail rotor",
+            "ornithopter",
+            "air",
+            "aeroplane",
+            "jet"
         ]
     },
     "aereo": {
         "bn:16750414n": [
             "aereo",
             "aeroplano",
-            "aeromobili_ad_ala_fissa"
+            "aeromobili_ad_ala_fissa",
+            "ala_fissa",
+            "ala_fissa",
+            "velivoli_ad_ala_fissa"
         ],
         "bn:00002275n": [
             "aircraft",
             "flight",
-            "wing"
+            "wing",
+            "lift",
+            "fly",
+            "glider",
+            "stall",
+            "design",
+            "speed",
+            "engine",
+            "pilot",
+            "kite",
+            "thrust",
+            "fixed-wing"
         ],
         "bn:00001661n": [
             "aereo",
             "antenna",
-            "antenna"
+            "antenna",
+            "antenna",
+            "antenna",
+            "antenna",
+            "antenne",
+            "antenne",
+            "antenna",
+            "antenna",
+            "antenne",
+            "trasmissione_aerea"
         ],
         "bn:00001697n": [
             "aircraft",
             "flight",
-            "wing"
+            "wing",
+            "fly",
+            "pilot",
+            "fighter",
+            "airplane",
+            "engine",
+            "glider",
+            "plane",
+            "airliner",
+            "design",
+            "boeing",
+            "speed"
         ],
         "bn:00002259n": [
             "airspace",
             "aircraft",
-            "flight"
+            "flight",
+            "vfr",
+            "airport",
+            "ifr",
+            "atc",
+            "air traffic",
+            "adiz",
+            "pilot",
+            "class",
+            "control",
+            "aviation",
+            "clearance"
         ]
     },
     "Universit\u00e0 di Cambridge": {
         "bn:00014988n": [
             "universit\u00e0_di_cambridge",
             "universit\u00e0_di_cambridge",
-            "cambridge_university"
+            "cambridge_university",
+            "university_of_cambridge",
+            "universit\u00e0_di_cambridge",
+            "cambridge_university",
+            "storia_dell'universit\u00e0_di_cambridge",
+            "university_of_cambridge",
+            "universit\u00e0_di_cambridge"
         ]
     },
     "Universit\u00e0 di Oxford": {
         "bn:00059980n": [
             "universit\u00e0_di_oxford",
             "universit\u00e0_di_oxford",
-            "oxford_university"
+            "oxford_university",
+            "university_of_oxford",
+            "oxford_university",
+            "oxford_university",
+            "university_of_oxford",
+            "universit\u00e0_di_oxford"
         ]
     },
     "bandiera": {
@@ -942,7 +2038,13 @@
         "bn:00008426n": [
             "insegna",
             "labaro",
-            "pennone"
+            "pennone",
+            "pennone",
+            "stendardo",
+            "vessillo",
+            "bandiera_araldico",
+            "guidon",
+            "standard_araldico"
         ],
         "bn:00030969n": [
             "bandiera"
@@ -950,7 +2052,18 @@
         "bn:00030968n": [
             "flag",
             "ensign",
-            "national flag"
+            "national flag",
+            "svg",
+            "file",
+            "red",
+            "color",
+            "union flag",
+            "blue",
+            "white",
+            "tricolor",
+            "hoist",
+            "flow",
+            "symbol"
         ],
         "bn:00034963n": [
             "bandiera",
@@ -966,7 +2079,18 @@
         "bn:00034960n": [
             "flag",
             "national flag",
-            "ensign"
+            "ensign",
+            "svg",
+            "red",
+            "union flag",
+            "union jack",
+            "color",
+            "tricolor",
+            "white",
+            "hinomaru",
+            "file",
+            "symbol",
+            "fly"
         ]
     },
     "asta": {
@@ -976,12 +2100,34 @@
         "bn:00007085n": [
             "auction",
             "bid",
-            "bidder"
+            "bidder",
+            "price",
+            "milgrom",
+            "buyer",
+            "item",
+            "sotheby",
+            "auctioneer",
+            "seller",
+            "bidding",
+            "auction house",
+            "sell",
+            "sale"
         ],
         "bn:00049823n": [
             "cavalry",
             "weapon",
-            "spear"
+            "spear",
+            "lance",
+            "infantry",
+            "sword",
+            "horse",
+            "warrior",
+            "armor",
+            "regiment",
+            "hussar",
+            "shield",
+            "army",
+            "javelin"
         ],
         "bn:03717456n": [
             "asta"
@@ -989,16 +2135,41 @@
         "bn:00012518n": [
             "sail",
             "bowsprit",
-            "mast"
+            "mast",
+            "spinnaker",
+            "boat",
+            "ship",
+            "vessel",
+            "jib",
+            "rig",
+            "hull",
+            "schooner",
+            "staysail",
+            "cutter",
+            "mainsail"
         ],
         "bn:00027315n": [
             "dipstick",
             "creatinine",
-            "urine"
+            "urine",
+            "iri",
+            "gfr",
+            "kalmusky",
+            "gdm",
+            "proteinuria",
+            "diabetes",
+            "measure",
+            "roughness",
+            "glucose",
+            "gestational",
+            "serum"
         ],
         "bn:00063293n": [
             "asta",
             "asta",
+            "palo",
+            "palo",
+            "stanga",
             "palo"
         ],
         "bn:00063298n": [
@@ -1007,6 +2178,11 @@
         "bn:00024779n": [
             "cilindro",
             "cilindro",
+            "cilindro",
+            "cilindro",
+            "cilindro",
+            "asta",
+            "cilindrica",
             "cilindro"
         ],
         "bn:00073116n": [
@@ -1035,12 +2211,25 @@
         "bn:00054278n": [
             "penis",
             "male",
-            "clitoris"
+            "clitoris",
+            "foreskin",
+            "glans",
+            "female",
+            "penile",
+            "urethra",
+            "clitoral",
+            "sperm",
+            "erection",
+            "phallus",
+            "vagina",
+            "baculum"
         ],
         "bn:00061508n": [
             "pertica",
             "pertica_inglese",
-            "pertica"
+            "pertica",
+            "asta",
+            "pesce_persico"
         ],
         "bn:16611094n": [
             "\u00e1sta"
@@ -1055,12 +2244,27 @@
         "bn:00081285n": [
             "window",
             "glass",
-            "pane"
+            "pane",
+            "glazing",
+            "skylight",
+            "packet",
+            "heat",
+            "roof",
+            "awning",
+            "building",
+            "solar",
+            "light",
+            "use",
+            "dormer"
         ],
         "bn:00081287n": [
             "finestra"
         ],
         "bn:00081292n": [
+            "finestra",
+            "finestra",
+            "finestra",
+            "finestra",
             "finestra",
             "finestra",
             "finestra"
@@ -1086,7 +2290,18 @@
         "bn:00068220n": [
             "dome",
             "roof",
-            "vault"
+            "vault",
+            "thatch",
+            "soane",
+            "roofing",
+            "building",
+            "wall",
+            "shingle",
+            "rib",
+            "nail",
+            "rafter",
+            "timber",
+            "window"
         ],
         "bn:00015404n": [
             "massimale",
@@ -1096,12 +2311,31 @@
         "bn:00077607n": [
             "alto",
             "capo",
-            "cima"
+            "cima",
+            "cima",
+            "culmine",
+            "picco",
+            "sommit\u00e0",
+            "sommo",
+            "tetto",
+            "vertice",
+            "vetta",
+            "superiore"
         ]
     },
     "gioco di carte": {
         "bn:00015923n": [
             "gioco_di_carte",
+            "gioco_di_carte",
+            "gioco_di_carte",
+            "gioco_di_carte",
+            "giochi_di_carte",
+            "giochi_con_le_carte",
+            "giochi_di_carte",
+            "gioco_con_le_carte",
+            "gioco_delle_carte",
+            "carte",
+            "giochi_di_carte",
             "gioco_di_carte",
             "gioco_di_carte"
         ]
@@ -1110,10 +2344,26 @@
         "bn:02797089n": [
             "switchover_media",
             "frisbee",
-            "frisbee"
+            "frisbee",
+            "switchover_media",
+            "digital_tv_channels_italy",
+            "digital_tv_channels_italy"
         ],
         "bn:00036583n": [
             "frisbee",
+            "frisbee",
+            "frisbee",
+            "freesbee",
+            "freesbi",
+            "freesby",
+            "frisbi",
+            "frisbie",
+            "freesbee",
+            "freesbi",
+            "freesby",
+            "frisbi",
+            "frisbie",
+            "disco_volante",
             "frisbee",
             "frisbee"
         ],
@@ -1129,7 +2379,18 @@
         "bn:01363738n": [
             "malware",
             "software",
-            "user"
+            "user",
+            "computer",
+            "virus",
+            "antivirus",
+            "spyware",
+            "security",
+            "malicious",
+            "system",
+            "worm",
+            "rootkit",
+            "file",
+            "infect"
         ]
     },
     "worm": {
@@ -1139,10 +2400,18 @@
         "bn:01292433n": [
             "write_once_read_many",
             "write_once_read_many",
-            "memorie_scrivibili_una_sola_volta"
+            "memorie_scrivibili_una_sola_volta",
+            "worm",
+            "write_one_read_multiple",
+            "memorie_scrivibili_una_sola_volta",
+            "worm",
+            "write_one_read_multiple"
         ],
         "bn:00081636n": [
             "worm",
+            "worm",
+            "worm",
+            "verme",
             "worm",
             "worm"
         ]
@@ -1151,7 +2420,12 @@
         "bn:00069344n": [
             "saturno",
             "saturno",
-            "giove"
+            "giove",
+            "luna",
+            "marte",
+            "mercurio",
+            "segno_del_sole",
+            "venere"
         ],
         "bn:11400277n": [
             "pianeta"
@@ -1159,20 +2433,53 @@
         "bn:00052888n": [
             "planet",
             "orbit",
-            "jupiter"
+            "jupiter",
+            "star",
+            "solar system",
+            "sun",
+            "earth",
+            "moon",
+            "mass",
+            "neptune",
+            "mercury",
+            "saturn",
+            "planetary",
+            "pluto"
         ],
         "bn:00063119n": [
             "plutone",
             "plutone",
-            "plutone"
+            "plutone",
+            "luna",
+            "luna",
+            "plutone",
+            "giove",
+            "luna",
+            "marte",
+            "mercurio",
+            "segno_del_sole",
+            "venere"
         ],
         "bn:00017936n": [
             "wear",
             "vestment",
-            "bishop"
+            "bishop",
+            "chasuble",
+            "deacon",
+            "pope",
+            "priest",
+            "church",
+            "century",
+            "stole",
+            "clergy",
+            "liturgical",
+            "mass",
+            "pallium"
         ],
         "bn:05500051n": [
             "pianeta",
+            "pianeta",
+            "pianete",
             "pianeta",
             "pianete"
         ]
@@ -1190,7 +2497,13 @@
         "bn:02636585n": [
             "stella",
             "estela",
-            "stella"
+            "stella",
+            "stjarna",
+            "zvezda",
+            "mariastella",
+            "stellario",
+            "stellino",
+            "stello"
         ],
         "bn:01254662n": [
             "stella",
@@ -1199,7 +2512,8 @@
         "bn:01202713n": [
             "grafo_stella",
             "grafo_a_stella",
-            "grafico_stella"
+            "grafico_stella",
+            "stella"
         ],
         "bn:00455724n": [
             "stella",
@@ -1217,7 +2531,8 @@
         "bn:03156771n": [
             "stella",
             "stella",
-            "stella"
+            "stella",
+            "triglie"
         ],
         "bn:11400828n": [
             "stella"
@@ -1231,7 +2546,18 @@
         "bn:00073964n": [
             "star",
             "mass",
-            "white dwarf"
+            "white dwarf",
+            "sun",
+            "supernova",
+            "luminosity",
+            "core",
+            "helium",
+            "hydrogen",
+            "neutron star",
+            "solar",
+            "stellar",
+            "temperature",
+            "supergiant"
         ],
         "bn:00073966n": [
             "stella"
@@ -1239,7 +2565,18 @@
         "bn:00016990n": [
             "celebrity",
             "fame",
-            "show"
+            "show",
+            "stavers",
+            "famous",
+            "celebrities",
+            "mixi",
+            "gaga",
+            "magazine",
+            "contestant",
+            "chef",
+            "superstar",
+            "paparazzi",
+            "testimonial"
         ],
         "bn:02485403n": [
             "poligono_stellato",
@@ -1257,7 +2594,8 @@
         "bn:03123168n": [
             "triangolo_di_regresso",
             "triangolo_di_regresso",
-            "incrocio_triangolare"
+            "incrocio_triangolare",
+            "stella"
         ],
         "bn:11389339n": [
             "stella"
@@ -1265,7 +2603,8 @@
         "bn:03504631n": [
             "stella",
             "stella",
-            "comune_di_stella"
+            "comune_di_stella",
+            "stella"
         ],
         "bn:03087731n": [
             "stella",
@@ -1277,7 +2616,13 @@
         "bn:16046732n": [
             "stella",
             "stella",
-            "stella_a_cinque_punte"
+            "stella_a_cinque_punte",
+            "stella_a_nove_punte",
+            "stella_a_quattro_punte",
+            "stella_a_sei_punte",
+            "stella_a_tre_punte",
+            "\u22c6",
+            "\u2605"
         ],
         "bn:11379931n": [
             "stella"
@@ -1310,12 +2655,20 @@
         "bn:00050346n": [
             "astro",
             "celebrit\u00e0",
-            "divo"
+            "divo",
+            "star",
+            "stella",
+            "vedette",
+            "divo",
+            "star",
+            "stella"
         ],
         "bn:00036253n": [
             "frank_stella",
             "frank_stella",
-            "frank_stella"
+            "frank_stella",
+            "philip_frank_stella",
+            "stella"
         ],
         "bn:09041831n": [
             "stella",
@@ -1329,6 +2682,7 @@
         "bn:08977582n": [
             "stella",
             "stella",
+            "torrente_stella",
             "torrente_stella"
         ],
         "bn:03571720n": [
@@ -1338,7 +2692,8 @@
         "bn:03709168n": [
             "stella",
             "stella",
-            "stella"
+            "stella",
+            "stelle"
         ],
         "bn:09030424n": [
             "stella",
@@ -1358,12 +2713,25 @@
         "bn:00068552n": [
             "run",
             "runner",
-            "running"
+            "running",
+            "race",
+            "distance",
+            "marathon",
+            "garside",
+            "muscle",
+            "footstrike",
+            "flexion",
+            "leg",
+            "event",
+            "hip",
+            "mile"
         ],
         "bn:00008803n": [
             "corridore",
             "corridore",
-            "corritrice"
+            "corritrice",
+            "base_di_corridore",
+            "corridore"
         ],
         "bn:00068572n": [
             "corridore",
@@ -1376,14 +2744,34 @@
         "bn:03864018n": [
             "corridore",
             "corridore",
-            "base_runner"
+            "base_runner",
+            "baserunner",
+            "runner",
+            "baserunner",
+            "baserunning",
+            "battitore-corridore"
         ]
     },
     "atleta": {
         "bn:00006747n": [
             "atleta",
             "atleta",
-            "sportivo"
+            "sportivo",
+            "atleta",
+            "atleta",
+            "atleta",
+            "sportiva",
+            "sportivo",
+            "atleta",
+            "sportiva",
+            "sportivo",
+            "sportivo",
+            "atleti",
+            "atleta",
+            "sportiva",
+            "sportivi",
+            "sportivi",
+            "sportivo_pensione"
         ],
         "bn:15877363n": [
             "atleta",
@@ -1393,12 +2781,39 @@
         "bn:00006759n": [
             "sport",
             "sport",
+            "sport",
+            "atletica",
+            "sport",
+            "atletica",
+            "attivit\u00e0_fisica",
+            "attivit\u00e0_sportive",
+            "disciplina_sportiva",
+            "esercizio_fisico",
+            "sportiva",
+            "sportivi",
+            "sportivo",
+            "atletica",
+            "atletica",
+            "eventi_sportivi",
+            "evento_sportivo",
+            "sport",
             "sport"
         ],
         "bn:00058408n": [
             "boat",
             "galley",
-            "oar"
+            "oar",
+            "rower",
+            "rowing",
+            "vessel",
+            "canoe",
+            "dinghy",
+            "rowboat",
+            "scull",
+            "ship",
+            "row",
+            "hull",
+            "waterman"
         ]
     },
     "calibro": {
@@ -1414,12 +2829,16 @@
         "bn:00014782n": [
             "calibro",
             "calibro",
-            "calibro"
+            "calibro",
+            "pinza",
+            "pinza",
+            "pinze"
         ],
         "bn:00341233n": [
             "calibro",
             "calibro",
-            "calibro"
+            "calibro",
+            "circonferenza"
         ],
         "bn:00037015n": [
             "calibro",
@@ -1429,7 +2848,24 @@
         "bn:00010310n": [
             "big",
             "calibro",
-            "pezzo_grosso"
+            "pezzo_grosso",
+            "barbassoro",
+            "big",
+            "capo",
+            "capoccia",
+            "notabile",
+            "papavero",
+            "pezzo_da_novanta",
+            "pezzo_grosso",
+            "pezzonovante",
+            "vip",
+            "big_cheese",
+            "big_enchilada",
+            "grande_pesce",
+            "grande_pistola",
+            "grande_ruota",
+            "pezzo_grosso",
+            "testa_honcho"
         ],
         "bn:00054021n": [
             "misura"
@@ -1437,10 +2873,24 @@
         "bn:00014731n": [
             "bont\u00e0",
             "calibro",
-            "calibro"
+            "calibro",
+            "qualit\u00e0",
+            "qualit\u00e0",
+            "qualit\u00e0",
+            "qualit\u00e0"
         ],
         "bn:00012226n": [
             "alesaggio",
+            "calibro",
+            "calibro",
+            "alesaggio",
+            "gauge",
+            "alesaggio",
+            "gauge",
+            "calibro",
+            "calibro",
+            "alesaggio",
+            "calibro",
             "calibro",
             "calibro"
         ],
@@ -1460,28 +2910,63 @@
         "bn:00078920n": [
             "umbrella",
             "penguin",
-            "oil-paper"
+            "oil-paper",
+            "parasol",
+            "awning",
+            "rain",
+            "sword",
+            "aurillac",
+            "hangzhou",
+            "psmith",
+            "crown",
+            "cobblepot",
+            "use",
+            "batman"
         ]
     },
     "WiFi": {
         "bn:00081176n": [
             "wireless",
             "wi-fi",
-            "network"
+            "network",
+            "device",
+            "access",
+            "bluetooth",
+            "internet",
+            "wimax",
+            "user",
+            "router",
+            "ghz",
+            "mobile",
+            "protocol",
+            "technology"
         ]
     },
     "WikiLeaks": {
         "bn:03777357n": [
             "wikileaks",
             "wikileaks",
-            "cablegate"
+            "cablegate",
+            "pubblicazione_dei_documenti_diplomatici_statunitensi",
+            "wikileaks"
         ]
     },
     "siccit\u00e0": {
         "bn:00005634n": [
             "gobabeb",
             "arid",
-            "climate"
+            "climate",
+            "pacific northwest",
+            "irrigation",
+            "region",
+            "congress",
+            "aridity",
+            "altitudinal",
+            "vegetation",
+            "specie",
+            "zonation",
+            "tsomoriri",
+            "temperature"
         ],
         "bn:00749459n": [
             "siccit\u00e0"
@@ -1489,12 +2974,29 @@
         "bn:00028863n": [
             "water",
             "drought",
-            "famine"
+            "famine",
+            "irrigation",
+            "soil",
+            "rainfall",
+            "water supply",
+            "groundwater",
+            "erosion",
+            "precipitation",
+            "dry",
+            "increase",
+            "crop",
+            "resource"
         ],
         "bn:00028967n": [
             "aridit\u00e0",
             "asciuttezza",
-            "secca"
+            "secca",
+            "secco",
+            "aridit\u00e0",
+            "secchezza",
+            "siccit\u00e0",
+            "waterlessness",
+            "xerotes"
         ]
     },
     "acqua": {
@@ -1509,32 +3011,116 @@
         "bn:00061253n": [
             "urine",
             "kidney",
-            "urea"
+            "urea",
+            "bladder",
+            "urethra",
+            "urination",
+            "urinate",
+            "renal",
+            "kidney stone",
+            "ureter",
+            "urinary",
+            "excrete",
+            "urinary tract",
+            "ammonia"
         ],
         "bn:14976572n": [
             "propriet\u00e0_dell'acqua",
             "acqua",
-            "acqua"
+            "acqua",
+            "molecola_d'acqua"
         ],
         "bn:00044951n": [
             "acqua",
             "acqua_termale",
-            "sorgente_termale"
+            "sorgente_termale",
+            "sorgente_calda",
+            "sorgente_termale",
+            "acqua_termale",
+            "sorgente_calde",
+            "sorgente_di_acqua_termale",
+            "sorgenti_calda",
+            "sorgenti_di_acque_termali",
+            "sorgenti_termali",
+            "primavera_calda",
+            "primavera_calda",
+            "rilassante",
+            "sorgente_termale",
+            "sorgente_termale",
+            "sorgenti_termali"
         ],
         "bn:00005200n": [
             "acqua_marina",
             "acquamarina",
-            "azzurro_pavone"
+            "azzurro_pavone",
+            "tonalit\u00e0_di_blu",
+            "acqua",
+            "turchese",
+            "acqua",
+            "turchese",
+            "color_turchese",
+            "turchese",
+            "turchese",
+            "acqua",
+            "avio",
+            "azzurro_pastello",
+            "blu_acciaio",
+            "blu_alice",
+            "blu_bondi",
+            "blu_dodger",
+            "blu_fiordaliso",
+            "blu_notte",
+            "blu_pavone",
+            "blu_polvere",
+            "blu_scuro",
+            "color_acqua",
+            "colore_acqua",
+            "colore_acqua",
+            "colore_avio",
+            "colore_turchese",
+            "turchese_chiaro",
+            "turchese_pallido",
+            "turchese_perla_mistica",
+            "turchese_scuro",
+            "zaffiro",
+            "acqua",
+            "aqua",
+            "blu_pavone",
+            "blu_verde",
+            "turchese"
         ],
         "bn:00042379n": [
             "water",
             "groundwater",
-            "ice"
+            "ice",
+            "ocean",
+            "surface",
+            "fresh water",
+            "liquid",
+            "aquifer",
+            "temperature",
+            "hydrogen",
+            "drinking water",
+            "water supply",
+            "earth",
+            "seawater"
         ],
         "bn:00011766n": [
             "acqua",
             "acqua",
-            "massa_d'acqua"
+            "massa_d'acqua",
+            "acque",
+            "bacino_d'acqua",
+            "corpo_d'acqua",
+            "corpo_d'acqua",
+            "massa_d'acqua",
+            "specchio_d'acqua",
+            "corpo_d'acqua",
+            "acqua",
+            "corpi_idrici",
+            "corpo_d'acqua",
+            "corpo_idrico",
+            "corsi_d'acqua"
         ],
         "bn:16978359n": [
             "acqua",
@@ -1547,9 +3133,23 @@
         "bn:00066032n": [
             "precipitation",
             "rainfall",
-            "rain"
+            "rain",
+            "temperature",
+            "cloud",
+            "climate",
+            "cyclone",
+            "warm",
+            "thunderstorm",
+            "monsoon",
+            "wind",
+            "snow",
+            "storm",
+            "tropical"
         ],
         "bn:00080561n": [
+            "acqua",
+            "acqua",
+            "acqua",
             "acqua",
             "acqua",
             "acqua"
@@ -1577,7 +3177,10 @@
         "bn:00002286n": [
             "campo_d'aviazione",
             "aerodromo",
-            "aeroporto"
+            "aeroporto",
+            "campo_di_atterraggio",
+            "campo_di_aviazione",
+            "campo_di_volo"
         ],
         "bn:11374511n": [
             "aeroporto"
@@ -1589,7 +3192,18 @@
         "bn:00001676n": [
             "airport",
             "terminal",
-            "runway"
+            "runway",
+            "gatwick",
+            "passenger",
+            "aircraft",
+            "aerodrome",
+            "airline",
+            "jfk",
+            "flight",
+            "heliport",
+            "taxiway",
+            "landing",
+            "aviation"
         ],
         "bn:11367189n": [
             "aeroporto"
@@ -1602,7 +3216,10 @@
         "bn:00062297n": [
             "istmo",
             "pezzo",
-            "parte"
+            "parte",
+            "pezzo",
+            "porzione",
+            "pezzo"
         ],
         "bn:04316188n": [
             "pezzo",
@@ -1611,7 +3228,8 @@
         "bn:00053101n": [
             "pedina",
             "pedone",
-            "pezzo"
+            "pezzo",
+            "pedina"
         ],
         "bn:00062298n": [
             "pezzo"
@@ -1623,12 +3241,40 @@
         "bn:00021408n": [
             "componimento",
             "componimento_musicale",
-            "composizione"
+            "composizione",
+            "composizione",
+            "composizione_musicale",
+            "musica",
+            "composizione",
+            "composizione_musicale",
+            "componimento",
+            "composizione",
+            "composizione",
+            "composizioni_musicali",
+            "opera_musicale",
+            "brano_musicale",
+            "composizione_musicale",
+            "composizioni_musicali",
+            "opera_musicale",
+            "brano_musicale",
+            "composizione",
+            "composizione_musicale",
+            "composizione_musicale",
+            "composizione_musicale",
+            "opus",
+            "pezzo",
+            "pezzo",
+            "pezzo_musicale"
         ],
         "bn:00018204n": [
             "pezzo",
             "scacco",
-            "scacco"
+            "scacco",
+            "pezzo_degli_scacchi",
+            "pezzo_degli_scacchi",
+            "pezzi_scacchi",
+            "pezzo_degli_scacchi",
+            "pezzo_degli_scacchi"
         ],
         "bn:00081612n": [
             "pezzo"
@@ -1639,27 +3285,46 @@
         "bn:00060765n": [
             "brano",
             "pezzo",
-            "porzione"
+            "porzione",
+            "parte",
+            "pezzo"
         ],
         "bn:00024604n": [
             "taglio",
             "taglio_di_carne",
-            "taglio"
+            "taglio",
+            "tipo_di_taglio",
+            "taglio_di_carne",
+            "taglio_primaria"
         ],
         "bn:00057551n": [
             "articolo",
             "pezzo",
-            "pezzo"
+            "pezzo",
+            "articolo",
+            "articolo_di_giornale",
+            "articolo_di_notizie",
+            "articolo_di_notizie",
+            "articolo_giornalistico",
+            "notizia",
+            "notizia"
         ],
         "bn:00060967n": [
             "appezzamento",
             "lotto",
-            "orticello"
+            "orticello",
+            "terreno",
+            "zolla",
+            "appezzamento_di_terreno",
+            "terreno"
         ],
         "bn:00056465n": [
             "brano",
             "passaggio",
-            "passo"
+            "passo",
+            "pezzo",
+            "brano_musicale",
+            "passaggio"
         ],
         "bn:00052677n": [
             "pezzo",
@@ -1668,7 +3333,11 @@
         "bn:00060882n": [
             "luogo",
             "pagina",
-            "passaggio"
+            "passaggio",
+            "passo",
+            "pezzo",
+            "punto",
+            "passo"
         ]
     },
     "orchestra": {
@@ -1683,17 +3352,36 @@
         "bn:00059285n": [
             "orchestra",
             "conductor",
-            "symphony orchestra"
+            "symphony orchestra",
+            "symphony",
+            "philharmonic",
+            "concert",
+            "ensemble",
+            "principal",
+            "music director",
+            "musician",
+            "composer",
+            "instrument",
+            "orchestral",
+            "string orchestra"
         ],
         "bn:00059286n": [
             "orchestra",
             "parterre",
+            "platea",
             "platea"
         ],
         "bn:00059287n": [
             "fossa_dell'orchestra",
             "orchestra",
-            "golfo_mistico"
+            "golfo_mistico",
+            "golfo_mistico",
+            "buca_d'orchestra",
+            "fossa_d'orchestra",
+            "golfo_mistico",
+            "buca_d'orchestra",
+            "buca_d'orchestra",
+            "orchestra_pit"
         ]
     },
     "banda": {
@@ -1706,7 +3394,18 @@
         "bn:00037243n": [
             "gang",
             "member",
-            "criminal"
+            "criminal",
+            "crime",
+            "crips",
+            "injunction",
+            "mcghee",
+            "organized crime",
+            "prison",
+            "bloods",
+            "tattoo",
+            "ms-13",
+            "activity",
+            "street"
         ],
         "bn:00013254n": [
             "banda",
@@ -1715,7 +3414,10 @@
         "bn:00018234n": [
             "galloni",
             "pipa",
-            "segno_diacritico_a_v"
+            "segno_diacritico_a_v",
+            "chevron",
+            "insegne_di_grado",
+            "strisce"
         ],
         "bn:14057877n": [
             "banda",
@@ -1729,7 +3431,12 @@
         "bn:00009872n": [
             "banda",
             "banda",
-            "banda"
+            "banda",
+            "banda",
+            "banda_araldica",
+            "banda_araldica",
+            "curva",
+            "curva_dexter"
         ],
         "bn:11364789n": [
             "banda"
@@ -1741,12 +3448,24 @@
         "bn:00008279n": [
             "cerchia",
             "circolo",
-            "giro"
+            "giro",
+            "gruppo",
+            "banda"
         ],
         "bn:15139520n": [
             "banda_musicale",
             "banda_musicale",
-            "banda"
+            "banda",
+            "orchestra_di_fiati",
+            "banda_da_parata",
+            "banda_sinfonica",
+            "bande_musicali",
+            "brass_band",
+            "complesso_bandistico",
+            "concert_band",
+            "corpo_bandistico",
+            "orchestra_di_fiati",
+            "wind_band"
         ],
         "bn:11367292n": [
             "banda"
@@ -1754,27 +3473,51 @@
         "bn:00036474n": [
             "banda",
             "banda",
-            "banda_di_frequenza"
+            "banda_di_frequenza",
+            "gamma",
+            "gamma",
+            "gamma_di_frequenza",
+            "banda_di_frequenza",
+            "banda_di_frequenza",
+            "banda_di_frequenze"
         ],
         "bn:00065902n": [
             "banda_radio",
             "banda_radio",
-            "banda"
+            "banda",
+            "spettro_radio",
+            "banda",
+            "banda_di_frequenze_radio",
+            "spettro_delle_radiofrequenze",
+            "spettro_radio",
+            "banda_radio",
+            "di_spettro_radio",
+            "gamma_delle_frequenze_radio",
+            "spettro_radio"
         ],
         "bn:03121076n": [
             "larghezza_di_banda",
             "larghezza_di_banda",
-            "ampiezza_di_banda"
+            "ampiezza_di_banda",
+            "banda",
+            "banda_di_frequenza",
+            "banda_passante",
+            "bandwidth",
+            "banda"
         ],
         "bn:00640514n": [
             "la_banda",
             "la_banda",
-            "banda"
+            "banda",
+            "la_banda",
+            "la_banda"
         ],
         "bn:00008283n": [
             "banda",
             "orchestra_da_ballo",
-            "orchestrina"
+            "orchestrina",
+            "dance_band",
+            "dance_orchestra"
         ],
         "bn:00008285n": [
             "banda",
@@ -1783,12 +3526,25 @@
         "bn:00785754n": [
             "banda",
             "banda",
-            "banda_della_rete"
+            "banda_della_rete",
+            "banda_di_rete",
+            "banda_passante",
+            "larghezza_di_banda",
+            "banda_di_trasferimento",
+            "banda_di_trasmissione",
+            "banda_di_trasferimento",
+            "banda_di_trasmissione"
         ],
         "bn:00072174n": [
             "banda",
             "banda",
-            "fascia"
+            "fascia",
+            "lembo",
+            "lista",
+            "lista",
+            "nastro",
+            "striscia",
+            "striscia"
         ],
         "bn:01514404n": [
             "banda",
@@ -1798,17 +3554,42 @@
         "bn:00013874n": [
             "crowd",
             "empathy",
-            "crowdsourcing"
+            "crowdsourcing",
+            "mob",
+            "deindividuation",
+            "behavior",
+            "individual",
+            "social",
+            "people",
+            "group",
+            "mood",
+            "lynching",
+            "empathic",
+            "emotion"
         ],
         "bn:00008280n": [
             "banda",
             "musica",
-            "complesso"
+            "complesso",
+            "gruppo_musicale",
+            "artista_solista",
+            "band",
+            "band_bar",
+            "banda",
+            "ensemble_musicale",
+            "ensemble_strumentale",
+            "gruppi_rock",
+            "gruppo",
+            "gruppo_di_musica",
+            "musica_d'insieme",
+            "progetto_solista"
         ],
         "bn:00008282n": [
             "banda",
             "banda",
-            "fascia"
+            "fascia",
+            "lista",
+            "riga"
         ],
         "bn:00008284n": [
             "banda"
@@ -1818,26 +3599,43 @@
         "bn:01361585n": [
             "mojito",
             "mojito",
-            "mohito"
+            "mohito",
+            "mohito",
+            "mojito"
         ]
     },
     "mohito": {
         "bn:01361585n": [
             "mojito",
             "mojito",
-            "mohito"
+            "mohito",
+            "mohito",
+            "mojito"
         ]
     },
     "programma": {
         "bn:00021497n": [
             "software",
             "spyware",
-            "system"
+            "system",
+            "computer",
+            "subroutine",
+            "user",
+            "application",
+            "shareware",
+            "operate",
+            "hardware",
+            "program",
+            "code",
+            "computer program",
+            "use"
         ],
         "bn:17792469n": [
             "selva",
             "selva",
-            "programma"
+            "programma",
+            "scenario",
+            "tela"
         ],
         "bn:03127028n": [
             "programma"
@@ -1848,7 +3646,10 @@
         "bn:00064647n": [
             "calendario",
             "cartellone",
-            "cartellone"
+            "cartellone",
+            "locandina",
+            "programma",
+            "programma"
         ],
         "bn:00064646n": [
             "programma",
@@ -1857,69 +3658,197 @@
         "bn:00053217n": [
             "manifesto",
             "kaczynski",
-            "solanas"
+            "solanas",
+            "scum",
+            "art",
+            "stuckists",
+            "dorner",
+            "communist manifesto",
+            "unabomber",
+            "levellers",
+            "stuckist",
+            "winkiel",
+            "party",
+            "\u014dta"
         ],
         "bn:01245565n": [
             "student",
             "syllabus",
-            "curriculum"
+            "curriculum",
+            "course",
+            "school",
+            "education",
+            "teacher",
+            "assessment",
+            "exam",
+            "grade",
+            "examination",
+            "subject",
+            "level",
+            "learn"
         ],
         "bn:00062759n": [
             "disegno",
             "idea",
-            "ideazione"
+            "ideazione",
+            "piano",
+            "piano",
+            "progetto",
+            "progetto",
+            "programma",
+            "programma",
+            "proponimento",
+            "proposito",
+            "piano",
+            "piano",
+            "piano",
+            "progetto",
+            "programma",
+            "piano",
+            "progetto",
+            "programma",
+            "piani_strategici",
+            "piano_b",
+            "piani_strategici",
+            "piano_b",
+            "gestione_dei_programmi",
+            "gestione_del_programma",
+            "piani",
+            "piano",
+            "piano",
+            "programma",
+            "programma"
         ],
         "bn:00062942n": [
             "broadway",
             "musical",
-            "production"
+            "production",
+            "playbill",
+            "cast",
+            "elphaba",
+            "show",
+            "theater",
+            "off-broadway",
+            "theatre",
+            "menzel",
+            "hedwig",
+            "preview",
+            "sharpay"
         ],
         "bn:00062899n": [
             "piattaforma",
             "programma",
+            "programma_politico",
+            "programma_politico",
+            "piattaforma_del_partito",
+            "piattaforma_politica",
+            "piattaforma_politica",
             "programma_politico"
         ],
         "bn:00023295n": [
             "student",
             "curriculum",
-            "education"
+            "education",
+            "school",
+            "teacher",
+            "course",
+            "educational",
+            "grade",
+            "learn",
+            "high school",
+            "gifted",
+            "university",
+            "study",
+            "program"
         ],
         "bn:00053172n": [
             "eurosocialismo",
+            "tattica",
+            "tattica",
+            "tattica",
+            "piano",
+            "programma",
+            "stratagemma",
+            "tattica",
+            "tattiche",
+            "tattiche",
             "tattica",
             "tattica"
         ],
         "bn:00013235n": [
             "programma",
             "trasmissione",
+            "programma",
             "programma"
         ],
         "bn:00021492n": [
             "programma",
             "programma",
-            "programma_di_computer"
+            "programma_di_computer",
+            "programma",
+            "programma",
+            "programma",
+            "programma_informatico",
+            "programma_per_computer",
+            "programma",
+            "programma_informatico",
+            "programma_software",
+            "programma_informatico",
+            "codice_software",
+            "programma",
+            "programma_informatico",
+            "programma_per_computer",
+            "programmi_per_computer"
         ],
         "bn:15983060n": [
             "programma",
             "programma",
+            "programmi",
             "programmi"
         ],
         "bn:00069568n": [
             "scheduling",
             "schedule",
-            "gantt"
+            "gantt",
+            "ice cream",
+            "system",
+            "task",
+            "real-time",
+            "parent-teacher",
+            "algorithm",
+            "meeting",
+            "parent",
+            "program",
+            "time",
+            "teacher"
         ],
         "bn:00069579n": [
             "schema",
             "strategia",
-            "strategia"
+            "strategia",
+            "strategia",
+            "piano_d'azione",
+            "strategia",
+            "strategia",
+            "piano",
+            "progetto",
+            "programma",
+            "schema",
+            "strategia",
+            "schema",
+            "strategia",
+            "strategia",
+            "strategico",
+            "strategie"
         ]
     },
     "esame": {
         "bn:00032093n": [
             "controllo",
             "esame_accurato",
-            "ispezione"
+            "ispezione",
+            "ispezione",
+            "esame"
         ],
         "bn:04161503n": [
             "esame"
@@ -1927,7 +3856,23 @@
         "bn:00032089n": [
             "compito_in_classe",
             "esame",
-            "esame"
+            "esame",
+            "prova",
+            "prova",
+            "test",
+            "verifica",
+            "compito_in_classe",
+            "compito_in_classe",
+            "compito_in_classe",
+            "esame",
+            "test",
+            "esame",
+            "esame",
+            "esami",
+            "esami",
+            "prova_attitudinale",
+            "test",
+            "test_delle_prestazioni"
         ]
     },
     "teorema": {
@@ -1942,7 +3887,18 @@
         "bn:00076831n": [
             "theorem",
             "proof",
-            "axiom"
+            "axiom",
+            "formal",
+            "formula",
+            "theory",
+            "mathematics",
+            "prove",
+            "logic",
+            "statement",
+            "proposition",
+            "mathematical",
+            "pythagorean",
+            "set"
         ],
         "bn:00076832n": [
             "teorema"
@@ -1956,6 +3912,7 @@
         "bn:00076834n": [
             "teoria",
             "teoria",
+            "teoria",
             "teoria"
         ],
         "bn:00076835n": [
@@ -1965,7 +3922,18 @@
         "bn:00045632n": [
             "hypothesis",
             "theory",
-            "science"
+            "science",
+            "scientific",
+            "null",
+            "scientific method",
+            "test",
+            "evolution",
+            "observation",
+            "experiment",
+            "scientific theory",
+            "prediction",
+            "model",
+            "concept"
         ]
     },
     "yo-yo": {
@@ -1975,7 +3943,11 @@
         "bn:00277802n": [
             "effetto_yo-yo",
             "effetto_yo-yo",
-            "ciclicit\u00e0_del_peso"
+            "ciclicit\u00e0_del_peso",
+            "dieta_yo-yo",
+            "ciclicit\u00e0_del_peso",
+            "dieta_yo-yo",
+            "yo-yo"
         ],
         "bn:02735458n": [
             "yo-yo",
@@ -1984,7 +3956,18 @@
         "bn:00081921n": [
             "yo-yo",
             "toy",
-            "diabolo"
+            "diabolo",
+            "bop",
+            "trick",
+            "string",
+            "counterweight",
+            "bearing",
+            "spin",
+            "arbor",
+            "lego",
+            "kendama",
+            "batten",
+            "ball"
         ]
     },
     "giocattolo": {
@@ -1996,7 +3979,23 @@
         "bn:00062965n": [
             "balocco",
             "balocco",
-            "gingillo"
+            "gingillo",
+            "giocattolo",
+            "giocattolo",
+            "gioco",
+            "gioco",
+            "ninnolo",
+            "trastullo",
+            "giocattolo",
+            "giocattolo",
+            "giocattolo",
+            "balocco",
+            "giocattolo",
+            "giocattoli",
+            "giocattoli",
+            "giocattolo",
+            "giocattolo",
+            "toyline"
         ]
     },
     "tormenta": {
@@ -2004,17 +4003,35 @@
         "bn:01672678n": [
             "la_tormenta",
             "la_tormenta",
-            "tormenta"
+            "tormenta",
+            "la_tormenta"
         ],
         "bn:00074459n": [
             "bufera",
             "burrasca",
-            "tempesta"
+            "tempesta",
+            "tempesta",
+            "tormenta"
         ],
         "bn:00011301n": [
             "bufera_di_neve",
             "tormenta",
-            "tormenta"
+            "tormenta",
+            "tormenta_di_neve",
+            "tormenta",
+            "blizzard",
+            "blizzard",
+            "tormenta",
+            "blizzard",
+            "tormenta",
+            "bufera_di_neve",
+            "tempesta_di_neve",
+            "tormenta_di_neve",
+            "tempesta_di_neve",
+            "tempesta_di_neve",
+            "tempesta_invernale",
+            "tempesta_neve",
+            "tempeste_di_neve"
         ],
         "bn:16733740n": [
             "tormenta",
@@ -2023,12 +4040,25 @@
         "bn:00074458n": [
             "storm",
             "wind",
-            "cyclone"
+            "cyclone",
+            "snow",
+            "thunderstorm",
+            "tropical",
+            "precipitation",
+            "hurricane",
+            "rain",
+            "rainfall",
+            "tornado",
+            "damage",
+            "weather",
+            "temperature"
         ],
         "bn:00489436n": [
             "armi_d'assedio",
             "armi_d'assedio",
-            "artiglieria"
+            "artiglieria",
+            "macchine_d'assedio",
+            "tormenta"
         ],
         "bn:00035470n": [
             "nevischio",
@@ -2043,17 +4073,42 @@
         "bn:00066032n": [
             "precipitation",
             "rainfall",
-            "rain"
+            "rain",
+            "temperature",
+            "cloud",
+            "climate",
+            "cyclone",
+            "warm",
+            "thunderstorm",
+            "monsoon",
+            "wind",
+            "snow",
+            "storm",
+            "tropical"
         ],
         "bn:00028809n": [
             "precipitation",
             "cloud",
-            "water"
+            "water",
+            "rain",
+            "drizzle",
+            "rainfall",
+            "fog",
+            "air",
+            "droplet",
+            "temperature",
+            "climate",
+            "warm",
+            "cumulus cloud",
+            "cold"
         ],
         "bn:00066033n": [
             "acqua_piovana",
             "pioggia",
-            "acqua_piovana"
+            "acqua_piovana",
+            "acqua_piovana",
+            "pioggia",
+            "piovana"
         ],
         "bn:00061303n": [
             "pioggia",
@@ -2081,6 +4136,7 @@
         "bn:03570017n": [
             "pioggia",
             "pioggia",
+            "miss_sadie_thompson",
             "miss_sadie_thompson"
         ]
     },
@@ -2088,7 +4144,18 @@
         "bn:00044258n": [
             "history",
             "historian",
-            "bede"
+            "bede",
+            "historical",
+            "thucydides",
+            "eusebius",
+            "carlyle",
+            "herodotus",
+            "wiesel",
+            "knox",
+            "toynbee",
+            "gibbon",
+            "historiography",
+            "ranke"
         ],
         "bn:00681324n": [],
         "bn:03390819n": [
@@ -2097,24 +4164,52 @@
         "bn:00044266n": [
             "storiografia",
             "storiografia",
-            "storici"
+            "storici",
+            "storico",
+            "storiografia_greca",
+            "storiografo"
         ],
         "bn:00044268n": [
             "history",
             "historian",
-            "historical"
+            "historical",
+            "historiography",
+            "study",
+            "social",
+            "past",
+            "humanity",
+            "scholar",
+            "modern",
+            "discipline",
+            "narrative",
+            "journal",
+            "american"
         ]
     },
     "storiografo": {
         "bn:00044258n": [
             "history",
             "historian",
-            "bede"
+            "bede",
+            "historical",
+            "thucydides",
+            "eusebius",
+            "carlyle",
+            "herodotus",
+            "wiesel",
+            "knox",
+            "toynbee",
+            "gibbon",
+            "historiography",
+            "ranke"
         ],
         "bn:00044266n": [
             "storiografia",
             "storiografia",
-            "storici"
+            "storici",
+            "storico",
+            "storiografia_greca",
+            "storiografo"
         ]
     },
     "Siemens": {
@@ -2126,12 +4221,43 @@
         "bn:21706603n": [
             "siemens",
             "siemens",
+            "siemens_ag",
             "siemens_ag"
         ],
         "bn:00054702n": [
             "siemens",
             "siemens",
-            "w.-von-siemens"
+            "w.-von-siemens",
+            "werner-von-siemens",
+            "siemens",
+            "siemens",
+            "attosiemens",
+            "centisiemens",
+            "decasiemens",
+            "decisiemens",
+            "ettosiemens",
+            "exasiemens",
+            "femtosiemens",
+            "gigasiemens",
+            "hectosiemens",
+            "kilosiemens",
+            "megasiemens",
+            "mho",
+            "microsiemens",
+            "millisiemens",
+            "nanosiemens",
+            "petasiemens",
+            "picosiemens",
+            "terasiemens",
+            "yoctosiemens",
+            "yottasiemens",
+            "zeptosiemens",
+            "zettasiemens",
+            "\u2127",
+            "mho",
+            "ohm_reciproca",
+            "siemens",
+            "S"
         ]
     },
     "treno elettrico": {},
@@ -2139,12 +4265,37 @@
         "bn:00031261n": [
             "epoca",
             "epoca",
-            "era"
+            "era",
+            "era",
+            "et\u00e0",
+            "secolo",
+            "era",
+            "epoca",
+            "era",
+            "\u00e9ra",
+            "periodo",
+            "periodo_di_tempo",
+            "era",
+            "epoca",
+            "epoca",
+            "epoca",
+            "epoca"
         ],
         "bn:00001939n": [
             "calendar",
             "day",
-            "year"
+            "year",
+            "month",
+            "earth",
+            "sun",
+            "leap year",
+            "gregorian calendar",
+            "precession",
+            "orbit",
+            "ecliptic",
+            "planet",
+            "cycle",
+            "julian calendar"
         ],
         "bn:00910014n": [
             "secolo"
@@ -2152,21 +4303,55 @@
         "bn:00017234n": [
             "century",
             "slave",
-            "slavery"
+            "slavery",
+            "bc",
+            "year",
+            "calment",
+            "chile",
+            "millennium",
+            "obliquity",
+            "ad",
+            "date",
+            "indonesia",
+            "koprivnica",
+            "mesopotamia"
         ]
     },
     "anno": {
         "bn:00004401n": [
             "calendar",
             "day",
-            "year"
+            "year",
+            "month",
+            "earth",
+            "sun",
+            "leap year",
+            "gregorian calendar",
+            "precession",
+            "orbit",
+            "ecliptic",
+            "planet",
+            "cycle",
+            "julian calendar"
         ],
         "bn:00004379n": [
             "calendar",
             "day",
-            "year"
+            "year",
+            "month",
+            "earth",
+            "sun",
+            "leap year",
+            "gregorian calendar",
+            "precession",
+            "orbit",
+            "ecliptic",
+            "planet",
+            "cycle",
+            "julian calendar"
         ],
         "bn:15499130n": [
+            "anno",
             "anno",
             "anno",
             "anno"
@@ -2174,12 +4359,33 @@
         "bn:00001937n": [
             "anno",
             "anno",
-            "epoca"
+            "epoca",
+            "epoca",
+            "era",
+            "et\u00e0",
+            "giorno",
+            "periodo",
+            "periodo_storico",
+            "era",
+            "et\u00e0",
+            "et\u00e0",
+            "periodo_storico"
         ],
         "bn:00001939n": [
             "calendar",
             "day",
-            "year"
+            "year",
+            "month",
+            "earth",
+            "sun",
+            "leap year",
+            "gregorian calendar",
+            "precession",
+            "orbit",
+            "ecliptic",
+            "planet",
+            "cycle",
+            "julian calendar"
         ],
         "bn:15148334n": [
             "anno"
@@ -2195,71 +4401,174 @@
         "bn:00014712n": [
             "anno",
             "anno_civile",
-            "anno_di_calendario"
+            "anno_di_calendario",
+            "anno_civile",
+            "anno_civile",
+            "dell'anno_civile"
         ],
         "bn:00081856n": [
             "annata",
             "anno",
-            "anno"
+            "anno",
+            "anno",
+            "periodo_d'imposta"
         ],
         "bn:00081857n": [
             "calendar",
             "day",
-            "year"
+            "year",
+            "month",
+            "earth",
+            "sun",
+            "tropical year",
+            "leap year",
+            "gregorian calendar",
+            "precession",
+            "orbit",
+            "ecliptic",
+            "cycle",
+            "planet"
         ],
         "bn:00000145n": [
             "calendar",
             "day",
-            "unit"
+            "unit",
+            "month",
+            "year",
+            "earth",
+            "leap year",
+            "gregorian calendar",
+            "sun",
+            "metric system",
+            "measurement",
+            "precession",
+            "measure",
+            "length"
         ],
         "bn:00006662n": [
             "anno_tropico",
             "anno_tropico",
-            "anno"
+            "anno",
+            "anno",
+            "anno_solare",
+            "anno_terrestre",
+            "anno_solare",
+            "anno_terrestre",
+            "anni_equinoziale",
+            "anno",
+            "anno_astronomico",
+            "anno_gregoriano",
+            "anno_solare",
+            "anno_solare",
+            "anno_tropicale",
+            "anno_tropico",
+            "ma"
         ],
         "bn:00078738n": [
             "calendar",
             "day",
-            "year"
+            "year",
+            "month",
+            "earth",
+            "leap year",
+            "gregorian calendar",
+            "sun",
+            "julian calendar",
+            "cycle",
+            "precession",
+            "date",
+            "orbit",
+            "common year"
         ],
         "bn:00019477n": [
             "anno",
             "classe",
-            "classe"
+            "classe",
+            "classe",
+            "corso",
+            "classe",
+            "forma",
+            "grado"
         ]
     },
     "lega": {
         "bn:00050409n": [
             "associazione",
             "federazione",
-            "lega"
+            "lega",
+            "unione"
         ],
         "bn:02919054n": [
             "lega_nord",
             "lega_nord",
-            "carroccio"
+            "carroccio",
+            "lega",
+            "lega_nord_padania",
+            "lega_nord_per_l'indipendenza_della_padania",
+            "lega_per_salvini_premier",
+            "ln",
+            "ideologia_leghista",
+            "lega_-_salvini_premier",
+            "lega_-_salvini_premier",
+            "lega_nord-die_freiheitlichen-basta_euro",
+            "lega_nord_padania",
+            "lega_nord_per_l'indipendenza_della_padania",
+            "lega_per_salvini_premier",
+            "lega_per_salvini_premier",
+            "lega_salvini_premier",
+            "leghismo",
+            "noi_con_salvini",
+            "scontri_di_via_bellerio"
         ],
         "bn:00002936n": [
             "alloy",
             "metal",
-            "copper"
+            "copper",
+            "zinc",
+            "iron",
+            "nickel",
+            "solder",
+            "magnesium",
+            "steel",
+            "aluminium",
+            "use",
+            "titanium",
+            "tin",
+            "bismuth"
         ],
         "bn:14066644n": [
             "prefetture_della_cina",
             "prefettura_della_cina",
-            "d\u00ecq\u016b"
+            "d\u00ecq\u016b",
+            "lega",
+            "prefettura",
+            "prefettura_autonoma",
+            "prefetture_autonome"
         ],
         "bn:14146654n": [
             "associazione",
             "club",
-            "lega"
+            "lega",
+            "ordine"
         ],
         "bn:00020039n": [
             "guild",
             "club",
-            "fraternity"
+            "fraternity",
+            "membership",
+            "member",
+            "fairy",
+            "country club",
+            "sorority",
+            "magic",
+            "organization",
+            "tail",
+            "jellal",
+            "journeyman",
+            "zeref"
         ],
         "bn:00050410n": [
+            "lega",
             "lega",
             "lega",
             "lega"
@@ -2267,7 +4576,12 @@
         "bn:00021722n": [
             "campionato",
             "federazione",
-            "lega"
+            "lega",
+            "lega_sportiva",
+            "campionato",
+            "campionato",
+            "conferenza",
+            "conferenza_atletica"
         ],
         "bn:16625126n": [
             "lega",
@@ -2277,7 +4591,17 @@
         "bn:00002740n": [
             "alleanza",
             "alleanza",
-            "coalizione"
+            "coalizione",
+            "coalizione",
+            "consociazione",
+            "lega",
+            "patto",
+            "schieramento",
+            "unione",
+            "tracciamento",
+            "alinement",
+            "governi_di_coalizione",
+            "governo_di_coalizione"
         ]
     },
     "acciaio": {
@@ -2288,7 +4612,8 @@
         "bn:08862399n": [
             "duel_e_altri_racconti",
             "duel_e_altri_racconti",
-            "acciaio"
+            "acciaio",
+            "duel_-_terror_stories_by_richard_matheson"
         ],
         "bn:09058328n": [
             "ferro",
@@ -2297,7 +4622,18 @@
         "bn:00074123n": [
             "steel",
             "iron",
-            "alloy"
+            "alloy",
+            "carbon",
+            "wrought iron",
+            "cast iron",
+            "pig iron",
+            "temper",
+            "austenite",
+            "process",
+            "metal",
+            "cementite",
+            "martensite",
+            "carbon steel"
         ],
         "bn:15057933n": [
             "acciaio",
@@ -2337,7 +4673,18 @@
         "bn:00052701n": [
             "court",
             "magistrate",
-            "judge"
+            "judge",
+            "justice",
+            "magistrates",
+            "jurisdiction",
+            "judicial",
+            "case",
+            "appeal",
+            "bailiff",
+            "criminal",
+            "supreme court",
+            "appoint",
+            "peace"
         ],
         "bn:08897401n": [
             "magistrato",
@@ -2346,17 +4693,55 @@
         "bn:00048488n": [
             "judge",
             "court",
-            "magistrate"
+            "magistrate",
+            "supreme court",
+            "judicial",
+            "qadi",
+            "case",
+            "justice",
+            "circuit",
+            "praetor",
+            "samson",
+            "jurisdiction",
+            "appeal",
+            "law"
         ],
         "bn:03810077n": [
             "magistratura",
             "magistrato_romano",
-            "magistratura_romana"
+            "magistratura_romana",
+            "magistratura",
+            "magistratura_curule",
+            "magistrature",
+            "magistrature_curuli",
+            "magistratus",
+            "magistrati_romani",
+            "magistrato",
+            "magistrato_romano",
+            "magistrature",
+            "magistrature_curili",
+            "magistratus_curulis",
+            "magistratus_curulis",
+            "promagistrati",
+            "magistrati_romani",
+            "magistrato_romano",
+            "magistratus"
         ],
         "bn:00036837n": [
             "notary",
             "bailiff",
-            "notary public"
+            "notary public",
+            "court",
+            "judge",
+            "censor",
+            "office",
+            "official",
+            "prosecutor",
+            "officer",
+            "state",
+            "notarial",
+            "weber",
+            "skilled worker"
         ],
         "bn:02616220n": [
             "magistrato"
@@ -2366,12 +4751,34 @@
         "bn:00048503n": [
             "court",
             "supreme court",
-            "judge"
+            "judge",
+            "constitution",
+            "judicial",
+            "case",
+            "law",
+            "jurisdiction",
+            "appeal",
+            "justice",
+            "constitutional",
+            "judiciary",
+            "judicial review",
+            "high court"
         ],
         "bn:00035711n": [
             "referee",
             "umpire",
-            "official"
+            "official",
+            "match",
+            "game",
+            "ball",
+            "player",
+            "officiate",
+            "peer review",
+            "bandy",
+            "fifa",
+            "penalty",
+            "judge",
+            "league"
         ],
         "bn:00207779n": [
             "giudice"
@@ -2382,22 +4789,63 @@
         "bn:00058701n": [
             "arbitro",
             "giudice",
-            "arbitro"
+            "arbitro",
+            "arbitro_di_hockey_su_ghiaccio",
+            "arbitro_di_rugby_a_13",
+            "giudice",
+            "arbitro",
+            "arbitro",
+            "umpire",
+            "arbitro",
+            "guardalinee"
         ],
         "bn:00048488n": [
             "judge",
             "court",
-            "magistrate"
+            "magistrate",
+            "supreme court",
+            "judicial",
+            "qadi",
+            "case",
+            "justice",
+            "circuit",
+            "praetor",
+            "samson",
+            "jurisdiction",
+            "appeal",
+            "law"
         ],
         "bn:14681577n": [
             "judge",
             "osbourne",
-            "adjudicator"
+            "adjudicator",
+            "address",
+            "competition",
+            "contestant",
+            "sharon",
+            "ozzy",
+            "immigration",
+            "court",
+            "show",
+            "dance",
+            "dancer",
+            "routine"
         ],
         "bn:00078929n": [
             "referee",
             "umpire",
-            "official"
+            "official",
+            "match",
+            "game",
+            "ball",
+            "player",
+            "officiate",
+            "peer review",
+            "bandy",
+            "fifa",
+            "penalty",
+            "judge",
+            "league"
         ],
         "bn:00031974n": [
             "giudice",
@@ -2406,19 +4854,38 @@
         "bn:08952717n": [
             "giudice",
             "giudice",
-            "giudicessa"
+            "giudicessa",
+            "judex_ius_dicens",
+            "judike",
+            "giudice"
         ]
     },
     "caos": {
         "bn:02536746n": [
             "tohu_e_tikun",
             "tohu_e_tikun",
-            "beirurim"
+            "beirurim",
+            "caos",
+            "nitzutzot",
+            "shevirah",
+            "tikkun",
+            "tiqqun",
+            "tiqqunim"
         ],
         "bn:02989155n": [
             "shadow_galactica",
             "shadow_galactica",
-            "galaxia_e_le_veneranti"
+            "galaxia_e_le_veneranti",
+            "galaxia_e_le_veneranti",
+            "sailor_aluminium_siren",
+            "sailor_heavy_metal_papillon",
+            "sailor_iron_mouse",
+            "sailor_lead_crow",
+            "sailor_mitis_kerokko",
+            "sailor_pewter_fox",
+            "sailor_tin_nyanko",
+            "sailor_titanium_kerokko",
+            "caos"
         ],
         "bn:16984754n": [
             "caos",
@@ -2439,12 +4906,54 @@
         "bn:00009503n": [
             "babele",
             "babele",
-            "babilonia"
+            "babilonia",
+            "baraonda",
+            "baraonda",
+            "bordello",
+            "caos",
+            "casino",
+            "diavolio",
+            "finimondo",
+            "iradiddio",
+            "marasma",
+            "marasma",
+            "marasmo",
+            "mercato",
+            "pandemonio",
+            "pandemonio",
+            "putiferio",
+            "quarantotto",
+            "rivoluzione",
+            "sarabanda",
+            "scenata",
+            "scompiglio",
+            "sfuriata",
+            "tempesta",
+            "tregenda",
+            "vespaio",
+            "caos",
+            "caos",
+            "caos",
+            "pandemonio",
+            "topsy-turvydom",
+            "topsy-turvyness"
         ],
         "bn:02018393n": [
             "caos",
             "caos",
-            "caos_demoni"
+            "caos_demoni",
+            "chaos",
+            "caos",
+            "caos_demoni",
+            "chaos",
+            "khorne",
+            "malal",
+            "nurgle",
+            "slaanesh",
+            "tzeentch",
+            "khorne",
+            "nurgle",
+            "tzeentch"
         ],
         "bn:00017707n": [
             "chaos",
@@ -2461,13 +4970,25 @@
         "bn:00003840n": [
             "anarchist",
             "anarchism",
-            "individualist"
+            "individualist",
+            "japierdole",
+            "anarchy",
+            "stirner",
+            "society",
+            "socialism",
+            "government",
+            "socialist",
+            "czolgosz",
+            "political",
+            "primitivist",
+            "proudhon"
         ]
     },
     "classe": {
         "bn:21706240n": [
             "classe",
             "classe",
+            "classe_scolastica",
             "classe_scolastica"
         ],
         "bn:00012633n": [
@@ -2480,12 +5001,28 @@
         "bn:01124629n": [
             "classe_navale",
             "classe_navale",
-            "classe"
+            "classe",
+            "classe_di_imbarcazioni",
+            "classe_nave"
         ],
         "bn:00006539n": [
             "associazione",
             "associazione",
-            "categoria"
+            "categoria",
+            "classe",
+            "consociazione",
+            "consorzio",
+            "corporazione",
+            "corporazione",
+            "ordine",
+            "associazione",
+            "associazione",
+            "associazione_non_riconosciuta",
+            "associazione",
+            "associazione_di_volontariato",
+            "associazione_senza_personalit\u00e0_giuridica",
+            "associazioni_prive_di_personalit\u00e0_giuridica",
+            "organizzazione_di_volontariato"
         ],
         "bn:17528560n": [
             "classe"
@@ -2493,27 +5030,65 @@
         "bn:00016733n": [
             "categoria",
             "classe",
-            "famiglia"
+            "famiglia",
+            "genere",
+            "ordine",
+            "categoria",
+            "ceto",
+            "classe",
+            "categoria",
+            "classe"
         ],
         "bn:00064607n": [
             "profession",
             "professional",
-            "apprenticeship"
+            "apprenticeship",
+            "practice",
+            "osteopathic",
+            "woman",
+            "physician",
+            "prostitute",
+            "professionalization",
+            "occupation",
+            "prostitution",
+            "practitioner",
+            "auditor",
+            "engineering"
         ],
         "bn:03608262n": [
             "classe",
             "classe",
-            "classe"
+            "classe",
+            "classe",
+            "classe_informatica",
+            "classe",
+            "classe_anonima"
         ],
         "bn:00070697n": [
             "aggregato",
             "classe",
+            "insieme",
+            "insieme",
+            "insieme",
+            "insieme",
+            "insieme",
+            "insiemi",
+            "insieme",
+            "insieme",
+            "insieme_numerico",
+            "insiemi",
+            "insieme",
             "insieme"
         ],
         "bn:00019482n": [
             "classe",
             "conifere",
-            "classe"
+            "classe",
+            "classe",
+            "classe",
+            "classe",
+            "classe",
+            "infraclasse"
         ],
         "bn:00019483n": [
             "classe",
@@ -2526,12 +5101,57 @@
         "bn:00019478n": [
             "ceto",
             "ceto",
-            "classe"
+            "classe",
+            "classe",
+            "classe_sociale",
+            "classe_sociale",
+            "condizione-sociale",
+            "estrazione",
+            "sfera",
+            "stato",
+            "stato",
+            "strato",
+            "strato",
+            "classe_sociale",
+            "classe_sociale",
+            "ceto",
+            "classe_sociale",
+            "strato",
+            "ceto",
+            "classe",
+            "classe_sociale",
+            "condizione_sociale",
+            "rango",
+            "classe",
+            "classi_sociali",
+            "ceto_sociale",
+            "classe",
+            "classe_sociale",
+            "classi_sociali",
+            "classe",
+            "classe_economica",
+            "classe_sociale",
+            "classe_sociale",
+            "classe_socio-economica",
+            "classe_socio-economica",
+            "classe_socio-economica",
+            "classi_inferiori",
+            "classi_sociali",
+            "gruppo_socio-economico",
+            "sistema_di_classe",
+            "societ\u00e0_classe"
         ],
         "bn:00019479n": [
             "corso",
             "corso",
-            "scuola"
+            "scuola",
+            "corso",
+            "classe",
+            "classe",
+            "corso",
+            "corso",
+            "corso_di_formazione",
+            "elettivi"
         ],
         "bn:08949400n": [
             "classe",
@@ -2540,12 +5160,21 @@
         "bn:01341184n": [
             "classe",
             "classe",
-            "ceto"
+            "ceto",
+            "classe",
+            "classe",
+            "classe",
+            "classe_propria"
         ],
         "bn:03082397n": [
             "glossario_dei_giochi_di_ruolo",
             "glossario_dei_giochi_di_ruolo",
-            "classe"
+            "classe",
+            "dungeon",
+            "eumate",
+            "glossario_dei_giochi_di_ruolo",
+            "livello",
+            "master"
         ],
         "bn:03969113n": [
             "classe",
@@ -2555,59 +5184,145 @@
         "bn:00035907n": [
             "carattere",
             "fatta",
-            "fatta"
+            "fatta",
+            "forma",
+            "genere",
+            "modello",
+            "natura",
+            "ordine",
+            "qualit\u00e0",
+            "qualit\u00e0",
+            "razza",
+            "sorta",
+            "sorta",
+            "specie",
+            "specie",
+            "tipo",
+            "tipo",
+            "classe",
+            "tipo",
+            "genere",
+            "tipo",
+            "forma",
+            "tipo",
+            "tipo",
+            "tipo"
         ],
         "bn:00032896n": [
             "classe",
             "famiglia",
-            "famiglia"
+            "famiglia",
+            "ordine",
+            "famiglia",
+            "famiglia",
+            "famiglia",
+            "famiglia_tassonomica",
+            "famiglia",
+            "famiglia",
+            "famiglia",
+            "famiglia_tassonomica",
+            "famiglia",
+            "famiglia_tassonomica"
         ],
         "bn:00019586n": [
             "student",
             "teacher",
-            "classroom"
+            "classroom",
+            "school",
+            "learn",
+            "learning",
+            "education",
+            "class",
+            "earlham",
+            "lamar",
+            "curriculum",
+            "home room",
+            "high school",
+            "e-learning"
         ],
         "bn:00019477n": [
             "anno",
             "classe",
-            "classe"
+            "classe",
+            "classe",
+            "corso",
+            "classe",
+            "forma",
+            "grado"
         ]
     },
     "formazione a distanza": {
         "bn:00022863n": [
             "corso_per_corrispondenza",
             "formazione_a_distanza",
-            "corrispondenza_corso"
+            "corrispondenza_corso",
+            "corsi_per_corrispondenza",
+            "corso_per_corrispondenza",
+            "formazione_a_distanza",
+            "formazione_a_distanza",
+            "formazione_a_distanza",
+            "universit\u00e0_on-line"
         ],
         "bn:00022864n": [
             "scuola_per_corrispondenza",
             "corrispondenza_scuola",
-            "corsi_per_corrispondenza"
+            "corsi_per_corrispondenza",
+            "formazione_a_distanza",
+            "formazione_a_distanza",
+            "formazione_a_distanza",
+            "scuola_per_corrispondenza",
+            "universit\u00e0_on-line"
         ]
     },
     "internet": {
         "bn:00024712n": [
             "internet",
             "network",
-            "access"
+            "access",
+            "user",
+            "cyberspace",
+            "information",
+            "neutrality",
+            "broadband",
+            "content",
+            "isps",
+            "provider",
+            "online",
+            "service",
+            "computer"
         ],
         "bn:08917832n": [],
         "bn:00722917n": [
             "internetwork",
             "internet",
-            "internet"
+            "internet",
+            "internetwork",
+            "internetwork",
+            "internetworking"
         ]
     },
     "sabbia": {
         "bn:15959456n": [
             "sabbia",
             "sabbia",
-            "sand"
+            "sand",
+            "will_james'_sand"
         ],
         "bn:00069153n": [
             "locomotive",
             "toy",
-            "sand"
+            "sand",
+            "steam locomotive",
+            "maize",
+            "boiler",
+            "steam",
+            "playground",
+            "sandbox",
+            "wheel",
+            "kripke",
+            "brake",
+            "train",
+            "litter"
         ],
         "bn:01509496n": [
             "sabbia",
@@ -2621,22 +5336,58 @@
         "bn:00069126n": [
             "sand",
             "soil",
-            "clay"
+            "clay",
+            "water",
+            "particle",
+            "grain",
+            "mineral",
+            "organic",
+            "nutrient",
+            "silt",
+            "plant",
+            "pore",
+            "sandstone",
+            "silica"
         ]
     },
     "piede": {
         "bn:00035686n": [
             "piede",
             "piede",
-            "piede"
+            "piede",
+            "piede",
+            "piede_metrico",
+            "piede",
+            "piede",
+            "piede_metrica",
+            "piede_metrica",
+            "piede_metrico",
+            "piedi_metriche",
+            "piedi_metrici",
+            "unit\u00e0_metrica"
         ],
         "bn:00035679n": [
             "piede",
             "piede",
-            "piede"
+            "piede",
+            "dita_dei_piedi",
+            "impronte_di_piede",
+            "piedi",
+            "pes",
+            "pes",
+            "piede",
+            "piede",
+            "piede_umano"
         ],
         "bn:00035680n": [
             "piede",
+            "piede",
+            "piede",
+            "piede",
+            "piede",
+            "piede",
+            "piedi",
+            "ft",
             "piede",
             "piede"
         ],
@@ -2657,12 +5408,31 @@
         "bn:16148806n": [
             "piede_monetario",
             "piede_monetario",
-            "piede"
+            "piede",
+            "piede",
+            "piede_attico",
+            "piede_campano",
+            "piede_eginetico",
+            "piede_fenicio",
+            "piede_foceo",
+            "piede_numismatico",
+            "standard_monetari"
         ],
         "bn:00008782n": [
             "base",
             "piedestallo",
-            "piedistallo"
+            "piedistallo",
+            "sottofondo",
+            "fondazione",
+            "fondazioni",
+            "base",
+            "piede",
+            "fondazione",
+            "fondamenta",
+            "fondazione",
+            "fondazioni",
+            "fondazione",
+            "sottostruttura"
         ],
         "bn:00035681n": [
             "basso",
@@ -2690,7 +5460,8 @@
         "bn:03790865n": [
             "guardiano",
             "guardian",
-            "guardiano"
+            "guardiano",
+            "guardian"
         ],
         "bn:00896958n": [
             "guardian",
@@ -2716,36 +5487,79 @@
         "bn:00056300n": [
             "multiplication",
             "integer",
-            "number"
+            "number",
+            "arithmetic",
+            "matrix",
+            "real number",
+            "polynomial",
+            "digit",
+            "example",
+            "multiply",
+            "natural number",
+            "ring",
+            "axiom",
+            "vector"
         ],
         "bn:03113174n": [
             "the_times",
             "the_times",
-            "times"
+            "times",
+            "the_times",
+            "times",
+            "times_online"
         ]
     },
     "baco da seta": {
         "bn:00011961n": [
             "baco_da_seta",
             "bombyx_mori",
-            "bombyx_mori"
+            "bombyx_mori",
+            "bombyx_mori",
+            "bachi_da_seta",
+            "baco_da_seta",
+            "filugello",
+            "bachi_da_seta",
+            "baco_da_seta",
+            "bombice_del_gelso",
+            "filugello",
+            "addomesticato_baco_da_seta_moth",
+            "bachi_da_seta",
+            "baco_da_seta",
+            "bombyx_mori",
+            "bombyx_mori",
+            "domestico_del_baco_da_seta_moth",
+            "falena_seta"
         ],
         "bn:00071605n": [
             "baco_da_seta",
             "baco_da_seta",
-            "bigatto"
+            "bigatto",
+            "bombice",
+            "filugello"
         ],
         "bn:00040408n": [
             "baco",
             "baco_da_seta",
-            "baco_da_seta"
+            "baco_da_seta",
+            "bigatto",
+            "bigatto",
+            "filugello",
+            "filugello",
+            "baco_da_seta",
+            "gigante_del_baco_da_seta",
+            "selvatico_wilkworm"
         ]
     },
     "Via della Seta": {
         "bn:00071602n": [
             "via_della_seta",
             "via_della_seta",
-            "via_della_seta"
+            "via_della_seta",
+            "la_via_della_seta",
+            "vie_della_seta",
+            "via_della_seta",
+            "vie_della_seta",
+            "silk_road"
         ]
     },
     "libert\u00e0": {
@@ -2755,7 +5569,18 @@
         "bn:00050954n": [
             "liberty",
             "right",
-            "freedom"
+            "freedom",
+            "locke",
+            "liberalism",
+            "liberal",
+            "rousseau",
+            "individual",
+            "government",
+            "argue",
+            "political",
+            "republicanism",
+            "principle",
+            "tocqueville"
         ],
         "bn:02123809n": [
             "libert\u00e0"
@@ -2768,7 +5593,18 @@
         "bn:00007389n": [
             "autonomy",
             "autonomous",
-            "self-determination"
+            "self-determination",
+            "kant",
+            "ethic",
+            "moral",
+            "castoriadis",
+            "categorical imperative",
+            "dignity",
+            "principle",
+            "robot",
+            "independence",
+            "human",
+            "kantian"
         ],
         "bn:04020100n": [
             "libert\u00e0",
@@ -2777,13 +5613,15 @@
         "bn:08851178n": [
             "libert\u00e0",
             "libert\u00e0",
-            "la_libert\u00e0"
+            "la_libert\u00e0",
+            "la_libert\u00e0_invita_gli_artisti_a_partecipare_al_xxii_salon_des_ind\u00e9pendants"
         ],
         "bn:16819248n": [
             "libert\u00e0",
             "libert\u00e0"
         ],
         "bn:08915723n": [
+            "libert\u00e0",
             "libert\u00e0",
             "libert\u00e0",
             "libert\u00e0"
@@ -2795,6 +5633,7 @@
         "bn:00036376n": [
             "libert\u00e0",
             "libert\u00e0",
+            "libert\u00e0",
             "libert\u00e0"
         ],
         "bn:03737094n": [
@@ -2803,6 +5642,7 @@
         "bn:00019365n": [
             "libert\u00e0",
             "libert\u00e0",
+            "libert\u00e0_politica",
             "libert\u00e0_politica"
         ]
     },
@@ -2818,7 +5658,14 @@
         "bn:15276470n": [
             "oasi",
             "oasi",
-            "oasi_di_protezione"
+            "oasi_di_protezione",
+            "oasi_lipu",
+            "oasi_naturale",
+            "oasi_wwf",
+            "oasi_avifaunistica",
+            "oasi_di_protezione",
+            "oasi_lipu",
+            "oasi_wwf"
         ],
         "bn:00043169n": [
             "oasi"
@@ -2830,7 +5677,47 @@
         "bn:00258576n": [
             "area_naturale_protetta",
             "area_naturale_protetta",
-            "area_naturale"
+            "area_naturale",
+            "riserva_forestale",
+            "riserva_naturale",
+            "spazio_naturale",
+            "zona_naturale",
+            "area_naturalistica",
+            "area_protetta",
+            "aree_naturali_protette",
+            "aree_protette",
+            "aree_protette_in_italia",
+            "oasi",
+            "oasi_naturale",
+            "oasi_naturali",
+            "parco_naturale",
+            "parco_regionale",
+            "riserva_faunistica",
+            "riserva_naturale",
+            "riserve_naturali",
+            "territorio_protetto",
+            "area_naturalistica",
+            "area_protetta",
+            "aree_naturali_protette",
+            "aree_protette",
+            "oasi_naturale",
+            "oasi_naturali",
+            "parco_marino",
+            "parco_naturale",
+            "parco_naturale",
+            "riserva_faunistica",
+            "riserva_naturale",
+            "riserva_naturale",
+            "riserve_naturali",
+            "territorio_protetto",
+            "riserva_biologica",
+            "riserva_forestale",
+            "riserva_naturale",
+            "riserva_naturale",
+            "riserva_naturale",
+            "riserva_naturale",
+            "riserva_naturale",
+            "riserve_naturali"
         ],
         "bn:02670707n": [
             "oasi"
@@ -2843,7 +5730,18 @@
         "bn:00058412n": [
             "oasis",
             "water",
-            "desert"
+            "desert",
+            "qanat",
+            "libya",
+            "groundwater",
+            "ain",
+            "siwa",
+            "qanats",
+            "zerzura",
+            "aquifer",
+            "al",
+            "lot",
+            "rill"
         ]
     },
     "citoplasma": {
@@ -2854,24 +5752,60 @@
         "bn:00024905n": [
             "cell",
             "protein",
-            "cytoplasm"
+            "cytoplasm",
+            "membrane",
+            "organelle",
+            "mitochondrion",
+            "bacterium",
+            "nucleus",
+            "cytosol",
+            "vacuole",
+            "molecule",
+            "hsp60",
+            "eukaryotic",
+            "organism"
         ]
     },
     "dito": {
         "bn:00077465n": [
             "toe",
             "foot",
-            "bone"
+            "bone",
+            "metatarsal",
+            "digit",
+            "barefoot",
+            "plantar",
+            "finger",
+            "muscle",
+            "hallux",
+            "thumb",
+            "phalange",
+            "distal",
+            "tendon"
         ],
         "bn:00027079n": [
             "dito",
             "dito",
-            "finger"
+            "finger",
+            "dito",
+            "dito_trasverso",
+            "larghezza_dito"
         ],
         "bn:00034565n": [
             "finger",
             "thumb",
-            "hand"
+            "hand",
+            "digit",
+            "glove",
+            "fingerprint",
+            "massage",
+            "muscle",
+            "tendon",
+            "index finger",
+            "grip",
+            "toe",
+            "distal",
+            "flexor"
         ],
         "bn:07161340n": [
             "dito_romano",
@@ -2881,39 +5815,90 @@
         "bn:01951400n": [
             "eduardo_jos\u00e9_gomes_camessele_mendes",
             "eduardo_jos\u00e9_gomes_camessele_mendes",
+            "dito",
             "dito"
         ],
         "bn:14167012n": [
             "gesto_del_dito_medio",
             "gesto_del_dito_medio_alzato",
-            "gesto_del_dito_medio"
+            "gesto_del_dito_medio",
+            "terzo_dito",
+            "terzo_dito",
+            "dito",
+            "dito"
         ],
         "bn:00024979n": [
             "digito",
             "dito",
-            "dito"
+            "dito",
+            "dito",
+            "dito",
+            "dita",
+            "polpastrello",
+            "dita",
+            "polpastrello",
+            "cifra"
         ]
     },
     "protestante": {
         "bn:00064866n": [
             "protestante",
             "chiesa_protestante",
-            "chiesa_protestante"
+            "chiesa_protestante",
+            "protestante"
         ],
         "bn:00064865n": [
             "protestante",
             "protestante",
-            "riformato"
+            "riformato",
+            "riformato",
+            "protestante"
         ],
         "bn:00027716n": [
             "protest",
             "protester",
-            "occupy"
+            "occupy",
+            "demonstration",
+            "civil disobedience",
+            "police",
+            "femen",
+            "movement",
+            "anti-nuclear",
+            "scientology",
+            "arrest",
+            "direct action",
+            "activist",
+            "nuclear power"
         ],
         "bn:00064869n": [
             "protestantesimo",
             "protestantesimo",
-            "protestantesimo"
+            "protestantesimo",
+            "protestantesimo",
+            "protestantesimo",
+            "protestantesimo",
+            "chiesa_protestante",
+            "chiese_protestanti",
+            "etica_protestante",
+            "protestante",
+            "protestanti",
+            "religione_protestante",
+            "chiesa_protestante",
+            "chiesa_protestante",
+            "chiese_protestanti",
+            "dottrine_protestanti",
+            "etica_protestante",
+            "protestante",
+            "protestanti",
+            "religione_protestante",
+            "chiesa_protestante",
+            "chiese_protestanti",
+            "cristianesimo_protestante",
+            "cristiano_protestante",
+            "protestantesimo",
+            "protestantesimo",
+            "protestantesimo",
+            "protestanti"
         ]
     },
     "cristiano": {
@@ -2924,7 +5909,18 @@
         "bn:00018818n": [
             "christian",
             "melkite",
-            "apostle"
+            "apostle",
+            "copt",
+            "text-align",
+            "coptic",
+            "church",
+            "jesus",
+            "christianity",
+            "gentile",
+            "egyptian",
+            "school",
+            "born-again",
+            "bible"
         ],
         "bn:15729447n": [
             "Cristiano"
@@ -2932,12 +5928,33 @@
         "bn:00018828n": [
             "cristianesimo",
             "cristianesimo",
-            "cristianesimo"
+            "cristianesimo",
+            "cristianesimo",
+            "cristianesimo",
+            "cristianit\u00e0",
+            "chiese_cristiane",
+            "confessioni_cristiane",
+            "fede_cristiana",
+            "religione_cristiana",
+            "chiese_cristiane",
+            "confessioni_cristiane",
+            "cristiani",
+            "fede_cristiana",
+            "religione_cristiana",
+            "religione_cristiana",
+            "cristianesimo",
+            "cristianesimo",
+            "cristianesimo_tradizionale",
+            "fede_cristiana",
+            "mainstream_cristianesimo",
+            "religione_cristiana",
+            "religione_cristiana"
         ],
         "bn:17389868n": [
             "cristiano",
             "cristiano",
-            "christian"
+            "christian",
+            "cristano"
         ],
         "bn:17433077n": [
             "cristiano"
@@ -2966,7 +5983,9 @@
         "bn:01282101n": [
             "uss_dace",
             "leonardo_da_vinci",
-            "uss_dace"
+            "uss_dace",
+            "leonardo_da_vinci",
+            "leonardo_da_vinci"
         ],
         "bn:00790790n": [
             "leonardo_da_vinci",
@@ -2987,9 +6006,44 @@
         "bn:15440281n": [
             "aeroporto_di_roma-fiumicino",
             "aeroporto_di_roma-fiumicino",
-            "aeroporto_di_fiumicino"
+            "aeroporto_di_fiumicino",
+            "aeroporto_di_roma_fiumicino",
+            "aeroporto_internazionale_leonardo_da_vinci",
+            "aeroporto_internazionale_leonardo_da_vinci_di_roma-fiumicino",
+            "aeroporto_leonardo_da_vinci",
+            "aeroporto_leonardo_da_vinci-fiumicino",
+            "fco",
+            "fiumicino_aeroporto",
+            "leonardo_da_vinci_international_airport",
+            "lirf",
+            "roma-fiumicino",
+            "roma_fiumicino",
+            "aeroporto_internazionale_leonardo_da_vinci",
+            "aeroporto_di_fiumicino",
+            "aeroporto_di_roma_fiumicino",
+            "aeroporto_intercontinentale_leonardo_da_vinci",
+            "aeroporto_internazionale_leonardo_da_vinci",
+            "aeroporto_internazionale_leonardo_da_vinci",
+            "aeroporto_internazionale_leonardo_da_vinci_di_roma-fiumicino",
+            "aeroporto_l._da_vinci_fiumicino",
+            "aeroporto_leonardo_da_vinci",
+            "aeroporto_leonardo_da_vinci",
+            "aeroporto_leonardo_da_vinci-fiumicino",
+            "fiumicino_aeroporto",
+            "fiumicino_due",
+            "leonardo_da_vinci-fiumicino_airport",
+            "leonardo_da_vinci_airport",
+            "leonardo_da_vinci_international_airport",
+            "leonardo_da_vinci_international_airport",
+            "lirf",
+            "roma-fiumicino",
+            "leonardo_da_vinci",
+            "leonardo_da_vinci-fiumicino"
         ],
         "bn:04586621n": [
+            "leonardo_da_vinci",
+            "leonardo_da_vinci",
+            "leonardo_da_vinci",
             "leonardo_da_vinci",
             "leonardo_da_vinci",
             "leonardo_da_vinci"
@@ -2997,14 +6051,29 @@
         "bn:00024948n": [
             "leonardo",
             "leonardo",
+            "leonardo_da_vinci",
+            "leonardo_da_vinci",
+            "leonardo_da_vinci",
+            "leonardo_da_vinci",
+            "leonardo_di_ser_piero_da_vinci",
+            "da_vinci",
+            "leonardo",
+            "leonardo_da_vinci",
+            "da_vinci",
+            "leonardo",
+            "leonardo_da_vinci",
             "leonardo_da_vinci"
         ],
         "bn:01579294n": [
             "leonardo_da_vinci",
             "leonardo_da_vinci",
+            "leonardo_da_vinci",
+            "leonardo_da_vinci",
+            "leonardo_da_vinci",
             "leonardo_da_vinci"
         ],
         "bn:08882650n": [
+            "leonardo_da_vinci",
             "leonardo_da_vinci",
             "leonardo_da_vinci",
             "leonardo_da_vinci"
@@ -3019,27 +6088,47 @@
         "bn:00545985n": [
             "ultima_cena",
             "ultima_cena",
-            "l'ultima_cena"
+            "l'ultima_cena",
+            "l'ultima_cena",
+            "ultima_cena"
         ],
         "bn:01564191n": [
             "ultima_cena",
             "ultima_cena",
+            "l'ultima_cena",
             "l'ultima_cena"
         ],
         "bn:00050105n": [
             "cenacolo",
+            "ultima_cena",
+            "ultima_cena",
+            "l'ultima_cena",
+            "l'ultima_cena",
+            "l'ultima_cena",
+            "ultima_cena",
+            "ultima_cena",
             "ultima_cena",
             "ultima_cena"
         ],
         "bn:03599114n": [
             "ultima_cena",
             "ultima_cena",
-            "cenacolo_vinciano"
+            "cenacolo_vinciano",
+            "il_cenacolo",
+            "l'ultima_cena",
+            "l'ultima_cena",
+            "cenacolo_vinciano",
+            "cenacolo_vinciano",
+            "l'ultima_cena",
+            "l'ultima_cena",
+            "ultima_cena",
+            "ultima_cena"
         ],
         "bn:14085947n": [
             "ultima_cena",
             "ultima_cena",
-            "cenacolo"
+            "cenacolo",
+            "l'ultima_cena"
         ]
     },
     "mappa": {
@@ -3050,12 +6139,50 @@
         "bn:00036821n": [
             "funzione",
             "funzione",
-            "funzione_matematica"
+            "funzione_matematica",
+            "funzione",
+            "mappa",
+            "funzione",
+            "mappa",
+            "funzione",
+            "funzione_matematica",
+            "applicazione",
+            "funzione_matematica",
+            "mappa",
+            "f",
+            "applicazione",
+            "corrispondenza_univoca",
+            "dominio",
+            "funzione_di_leibniz",
+            "funzione_di_pi\u00f9_variabili",
+            "funzione_in_pi\u00f9_variabili",
+            "funzione_matematica",
+            "funzioni_di_pi\u00f9_variabili",
+            "trasformazione",
+            "funzione",
+            "funzione",
+            "funzione_matematica",
+            "funzione_matematica",
+            "mappa",
+            "mappatura",
+            "singola_funzione_a_valori",
+            "teoria_delle_funzioni"
         ],
         "bn:00053303n": [
             "map",
             "scale",
-            "projection"
+            "projection",
+            "topographic",
+            "cartography",
+            "mapping",
+            "cartographer",
+            "sheet",
+            "counter-mapping",
+            "ordnance survey",
+            "cartographic",
+            "map projection",
+            "usgs",
+            "atlas"
         ],
         "bn:03435545n": [
             "map",
@@ -3065,12 +6192,24 @@
         "bn:15185648n": [
             "mappa",
             "mappa",
-            "maruyama_animation_produce_project_association"
+            "maruyama_animation_produce_project_association",
+            "mappa"
         ],
         "bn:00045963n": [
             "illustration",
             "illustrator",
-            "book"
+            "book",
+            "illustrate",
+            "child",
+            "representation",
+            "mcbarron",
+            "art",
+            "frazee",
+            "magazine",
+            "work",
+            "literature",
+            "object",
+            "sign"
         ]
     },
     "piazza": {
@@ -3095,7 +6234,18 @@
         "bn:00062214n": [
             "plaza",
             "piazza",
-            "square"
+            "square",
+            "l'enfant",
+            "turin",
+            "building",
+            "corso",
+            "fountain",
+            "street",
+            "palazzo",
+            "city",
+            "degetau",
+            "site",
+            "statue"
         ],
         "bn:02587557n": [
             "piazza",
@@ -3104,7 +6254,8 @@
         "bn:00053459n": [
             "mercato",
             "mercato",
-            "piazza"
+            "piazza",
+            "mercato"
         ],
         "bn:08924174n": [
             "piazza",
@@ -3116,7 +6267,8 @@
         "bn:17251085n": [
             "convenzionale",
             "equilibrato",
-            "quadrato"
+            "quadrato",
+            "piazza"
         ],
         "bn:11379478n": [
             "piazza"
@@ -3136,12 +6288,27 @@
         "bn:00035975n": [
             "centro_fortificato",
             "cittadella",
-            "forte"
+            "forte",
+            "fortezza",
+            "piazza",
+            "rocca",
+            "rocca_forte",
+            "roccaforte",
+            "roccaforte",
+            "fortezza",
+            "rocca",
+            "fortezza",
+            "fortezza"
         ],
         "bn:00065099n": [
             "piazza",
             "piazza",
-            "piazza"
+            "piazza",
+            "piazza",
+            "piazzale",
+            "piazze",
+            "piazza",
+            "piazza_della_citt\u00e0"
         ],
         "bn:11364394n": [
             "piazza"
