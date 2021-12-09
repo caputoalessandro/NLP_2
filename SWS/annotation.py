@@ -1,21 +1,17 @@
 import csv
 import os
-
 from scipy.stats import pearsonr, spearmanr
-
 from evaluation import nasari_correlations
 from utils import get_rows
-
-fp_1 = "resources/coppie_caputo.tsv"
-fp_2 = "resources/coppie_gentiletti.tsv"
-fp_mean = "output/annotated_pairs.tsv"
 
 
 def means_from_pairs(l1, l2):
     return [(v1 + v2)/2 for v1, v2 in zip(l1, l2)]
 
 
-def get_pairs_values(fp_1, fp_2):
+def get_pairs_values():
+    fp_1 = "resources/coppie_caputo.tsv"
+    fp_2 = "resources/coppie_gentiletti.tsv"
     rows_1 = get_rows(fp_1)
     rows_2 = get_rows(fp_2)
     pairs = [(row[0], row[1]) for row in rows_1]
@@ -25,7 +21,7 @@ def get_pairs_values(fp_1, fp_2):
 
 
 def get_data_to_write():
-    pairs, v1, v2 = get_pairs_values(fp_1, fp_2)
+    pairs, v1, v2 = get_pairs_values()
     means = means_from_pairs(v1, v2)
     p_annotated, s_annotated = annotated_correlations(v1,v2)
     p_nasari, s_nasari = nasari_correlations(pairs,means)
@@ -53,7 +49,7 @@ def make_correlations_file():
     to_write = make_array_to_write()
     name = os.path.join("output", f"annotated_pairs.tsv")
     os.makedirs(os.path.dirname(name), exist_ok=True)
-
+    
     with open(name, "w") as f:
         writer = csv.writer(f, delimiter='\t')
         writer.writerows(to_write)

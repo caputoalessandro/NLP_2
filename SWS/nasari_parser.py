@@ -13,12 +13,13 @@ def get_synset_map():
     lines = get_lines()
     result = defaultdict(set)
     s_list = []
+    key = None
 
     for line in lines:
         if "#" in line:
-            if s_list:
-              result[key] = s_list
-              s_list = []
+            if key and s_list:
+                result[key] = s_list
+                s_list = []
             key = line[1:-1]
         else:
             s_list.append(line[:-1])

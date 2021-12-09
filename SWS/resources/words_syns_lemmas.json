@@ -1,0 +1,3153 @@
+{
+    "cricket": {
+        "bn:00023797n": [
+            "batsman",
+            "ball",
+            "bowler"
+        ],
+        "bn:00023796n": [
+            "grillo",
+            "grillo",
+            "grillo"
+        ],
+        "bn:00462932n": [
+            "cricket",
+            "cricket"
+        ]
+    },
+    "sostenitore": {
+        "bn:00070154n": [
+            "sostenitore"
+        ],
+        "bn:00001362n": [
+            "adepto",
+            "adepto",
+            "aderente"
+        ],
+        "bn:00052866n": [
+            "manutentore",
+            "sostenitore"
+        ],
+        "bn:00001456n": [
+            "fedele",
+            "sostenitore"
+        ],
+        "bn:01317296n": [
+            "coat",
+            "arm",
+            "arms"
+        ],
+        "bn:00004065n": [
+            "sovvenzionatore",
+            "sostenitore"
+        ],
+        "bn:00001603n": [
+            "avvocato",
+            "fautore",
+            "parteggiante"
+        ]
+    },
+    "scultura": {
+        "bn:17175797n": [
+            "scultura",
+            "intaglio"
+        ],
+        "bn:00016360n": [
+            "art",
+            "sculpture",
+            "pottery"
+        ],
+        "bn:00069924n": [
+            "sculpture",
+            "jpg",
+            "file"
+        ],
+        "bn:01205641n": [
+            "scultura"
+        ]
+    },
+    "statua": {
+        "bn:01321197n": [
+            "statua"
+        ],
+        "bn:03541382n": [
+            "mitologia_di_lost",
+            "mitologia_di_lost",
+            "4_8_15_16_23_42"
+        ],
+        "bn:00074064n": [
+            "statue",
+            "sculpture",
+            "jpg"
+        ]
+    },
+    "browser": {
+        "bn:00013447n": [
+            "browser",
+            "browser",
+            "browser"
+        ]
+    },
+    "Mozilla Firefox": {
+        "bn:01387235n": [
+            "mozilla_firefox",
+            "mozilla_firefox",
+            "firefox"
+        ]
+    },
+    "Fox Terrier": {
+        "bn:03237376n": [
+            "fox_terrier",
+            "fox_terrier",
+            "fox_terrier"
+        ],
+        "bn:00036142n": [
+            "fox-terrier",
+            "fox-terrier",
+            "fox_terrier"
+        ]
+    },
+    "Canon": {
+        "bn:03476756n": [
+            "canon",
+            "canon"
+        ],
+        "bn:00015322n": [
+            "canyon",
+            "gorge",
+            "creek"
+        ],
+        "bn:16199914n": [
+            "canon",
+            "canon",
+            "canon_inc."
+        ],
+        "bn:00636233n": [
+            "canone_di_star_trek",
+            "canone_di_star_trek",
+            "canon"
+        ],
+        "bn:00221813n": [
+            "canon",
+            "canon"
+        ]
+    },
+    "HSBC": {
+        "bn:02580408n": [
+            "hsbc",
+            "hsbc",
+            "hsbc_holdings"
+        ]
+    },
+    "Gran Bretagna": {
+        "bn:00013173n": [
+            "gb",
+            "gran_bretagna",
+            "gran_bretagna"
+        ],
+        "bn:00037565n": [
+            "gran-bretagna",
+            "gran_bretagna",
+            "gran_bretagna"
+        ],
+        "bn:00030861n": [
+            "england",
+            "inghilterra",
+            "inghilterra"
+        ]
+    },
+    "Bibbia": {
+        "bn:16905020n": [
+            "la_bibbia",
+            "la_bibbia",
+            "bibbia"
+        ],
+        "bn:15453096n": [
+            "la_bibbia",
+            "a.d._-_la_bibbia_continua",
+            "la_bibbia"
+        ],
+        "bn:00010217n": [
+            "bibbia",
+            "bibbia",
+            "sacra_scrittura"
+        ],
+        "bn:00010218n": [
+            "bibbia"
+        ],
+        "bn:08841386n": [
+            "bibbia",
+            "bibbia",
+            "bibbia_diodati"
+        ],
+        "bn:02252316n": [
+            "bibbia"
+        ]
+    },
+    "Vangelo": {
+        "bn:00031976n": [
+            "jesus",
+            "gospel",
+            "luke"
+        ],
+        "bn:00957035n": [
+            "vangelo",
+            "vangelo",
+            "vangelista"
+        ]
+    },
+    "vestito": {
+        "bn:00059775n": [
+            "vestito"
+        ],
+        "bn:00028682n": [
+            "wear",
+            "dress",
+            "skirt"
+        ],
+        "bn:00075103n": [
+            "abito",
+            "completo",
+            "vestito"
+        ],
+        "bn:00006125n": [
+            "clothing",
+            "wear",
+            "garment"
+        ],
+        "bn:00037352n": [
+            "abito",
+            "capo_di_vestiario",
+            "capo_di_vestiario"
+        ],
+        "bn:09072565n": [
+            "attributi_araldici_di_modifica",
+            "attributi_araldici_di_modifica",
+            "accampanato"
+        ],
+        "bn:01573378n": [
+            "il_vestito",
+            "il_vestito",
+            "vestito"
+        ]
+    },
+    "danza": {
+        "bn:00025142n": [
+            "ballo",
+            "danza",
+            "danza"
+        ],
+        "bn:08874284n": [
+            "danza",
+            "danza"
+        ],
+        "bn:00025144n": [
+            "dance",
+            "dancer",
+            "dancing"
+        ],
+        "bn:01126934n": [
+            "danza"
+        ]
+    },
+    "array": {
+        "bn:02756908n": [
+            "vector",
+            "vector",
+            "array"
+        ],
+        "bn:00005869n": [
+            "array",
+            "vettore"
+        ]
+    },
+    "lista": {
+        "bn:17162478n": [
+            "lista",
+            "lista"
+        ],
+        "bn:02857401n": [
+            "lista"
+        ],
+        "bn:00051510n": [
+            "elenco",
+            "l'elaborazione_della_lista"
+        ],
+        "bn:00072174n": [
+            "banda",
+            "banda",
+            "fascia"
+        ],
+        "bn:02117586n": [
+            "comprensione_di_lista",
+            "comprensione_di_lista",
+            "list_comprehension"
+        ],
+        "bn:16373979n": [
+            "lista"
+        ],
+        "bn:00072069n": [
+            "lista",
+            "lista_dei_candidati",
+            "lista_di_candidati"
+        ],
+        "bn:00051508n": [
+            "distinta",
+            "elencazione",
+            "elenco"
+        ],
+        "bn:00068132n": [
+            "elenco",
+            "matricola",
+            "ruolo"
+        ],
+        "bn:11368876n": [
+            "lista"
+        ],
+        "bn:00732826n": [
+            "lista"
+        ],
+        "bn:00008282n": [
+            "banda",
+            "banda",
+            "fascia"
+        ],
+        "bn:00023140n": [
+            "calcolo",
+            "computo",
+            "conta"
+        ]
+    },
+    "cella": {
+        "bn:11385809n": [
+            "cella",
+            "cella"
+        ],
+        "bn:08966369n": [
+            "cella",
+            "cella"
+        ],
+        "bn:00017030n": [
+            "cella",
+            "cella"
+        ],
+        "bn:00750146n": [
+            "cella",
+            "cella"
+        ],
+        "bn:00017031n": [
+            "cella",
+            "cella",
+            "carcere_cella"
+        ],
+        "bn:11354491n": [
+            "cella"
+        ],
+        "bn:03730384n": [
+            "cella",
+            "cella",
+            "cella_templare"
+        ],
+        "bn:11364240n": [
+            "cella"
+        ],
+        "bn:03521678n": [
+            "cella_dati",
+            "cella_dati",
+            "cella_con_campagna"
+        ],
+        "bn:00714590n": [
+            "faccia",
+            "faccia",
+            "pila"
+        ],
+        "bn:00017026n": [
+            "cella"
+        ],
+        "bn:09074054n": [
+            "cella",
+            "cella",
+            "cella_di_ovaro"
+        ]
+    },
+    "gattabuia": {
+        "bn:00064468n": [
+            "prison",
+            "prisoner",
+            "inmate"
+        ],
+        "bn:00044718n": [
+            "gattabuia",
+            "hoosgow"
+        ],
+        "bn:00019832n": [
+            "carcere",
+            "ergastolo",
+            "gabbia"
+        ]
+    },
+    "saggio": {
+        "bn:00027670n": [
+            "dimostrazione",
+            "manifestazione",
+            "mostra"
+        ],
+        "bn:00021410n": [
+            "componimento",
+            "elaborato",
+            "relazione"
+        ],
+        "bn:00054392n": [
+            "mentore",
+            "saggio",
+            "saggio"
+        ],
+        "bn:09062048n": [
+            "metodo_analitico",
+            "saggio",
+            "tecnica_analitica"
+        ],
+        "bn:15722984n": [
+            "saggio",
+            "saggio_stoico",
+            "saggio_secondo_lo_stoicismo"
+        ],
+        "bn:00047693n": [
+            "inchiesta",
+            "pubblicazione",
+            "saggio"
+        ],
+        "bn:00031622n": [
+            "essay",
+            "orwell",
+            "book"
+        ],
+        "bn:00006521n": [
+            "discente",
+            "saggio",
+            "sapiente"
+        ],
+        "bn:00006476n": [
+            "assay",
+            "cell",
+            "antibody"
+        ]
+    },
+    "compito a casa": {
+        "bn:00069626n": [
+            "homework",
+            "preppy",
+            "student"
+        ]
+    },
+    "computer": {
+        "bn:00021464n": [
+            "computer",
+            "instruction",
+            "machine"
+        ],
+        "bn:00054739n": [
+            "pc",
+            "personal_computer",
+            "microcomputer"
+        ]
+    },
+    "macchina": {
+        "bn:00052571n": [
+            "apparato",
+            "macchinario",
+            "macchinario"
+        ],
+        "bn:00007309n": [
+            "car",
+            "vehicle",
+            "ford"
+        ],
+        "bn:00052560n": [
+            "macchina",
+            "macchina",
+            "macchina_politica"
+        ],
+        "bn:00054050n": [
+            "machine",
+            "pump",
+            "escapement"
+        ],
+        "bn:01507022n": [
+            "macchina"
+        ],
+        "bn:00028783n": [
+            "viaggio",
+            "giro"
+        ],
+        "bn:02730666n": [
+            "macchina"
+        ],
+        "bn:00052557n": [
+            "macchina"
+        ],
+        "bn:00052556n": [
+            "macchina",
+            "macchina"
+        ],
+        "bn:00030852n": [
+            "locomotive",
+            "steam locomotive",
+            "steam"
+        ],
+        "bn:00026716n": [
+            "machine",
+            "shredder",
+            "heat exchanger"
+        ]
+    },
+    "panda": {
+        "bn:13846629n": [
+            "panda"
+        ],
+        "bn:03445588n": [
+            "panda",
+            "panda"
+        ],
+        "bn:00002177n": [
+            "ailurus_fulgens",
+            "panda",
+            "panda_minore"
+        ],
+        "bn:17685929n": [
+            "panda",
+            "panda"
+        ],
+        "bn:00002174n": [
+            "ailuropoda_melanoleuca",
+            "panda",
+            "panda"
+        ],
+        "bn:08919261n": [
+            "i_panda",
+            "i_panda",
+            "panda"
+        ],
+        "bn:08842687n": [
+            "panda"
+        ],
+        "bn:08979574n": [
+            "a_panda_piace",
+            "a_panda_piace",
+            "panda"
+        ],
+        "bn:02414200n": [
+            "panda"
+        ],
+        "bn:01794969n": [
+            "panda",
+            "panda_oleosa"
+        ]
+    },
+    "orso polare": {
+        "bn:00045719n": [
+            "orso_bianco",
+            "orso_polare",
+            "ursus_maritimus"
+        ]
+    },
+    "nevrosi": {
+        "bn:00057430n": [
+            "personality",
+            "neuroticism",
+            "trait"
+        ],
+        "bn:13603602n": [
+            "fissazione_nevrotica",
+            "nevrosi",
+            "ossessione_nevrotica"
+        ]
+    },
+    "mente": {
+        "bn:05518425n": [
+            "mente"
+        ],
+        "bn:00023658n": [
+            "cervello",
+            "ingegno",
+            "mente"
+        ],
+        "bn:14795566n": [
+            "rav_maskil",
+            "rav_maskil",
+            "maskil"
+        ],
+        "bn:00012682n": [
+            "genius",
+            "galton",
+            "creativity"
+        ],
+        "bn:00047022n": [
+            "intellettuale",
+            "mente",
+            "intellettuale"
+        ],
+        "bn:00012681n": [
+            "aristotle",
+            "mind",
+            "soul"
+        ],
+        "bn:00045801n": [
+            "idea",
+            "mente",
+            "mezza_idea"
+        ],
+        "bn:00055105n": [
+            "animo",
+            "memoria",
+            "mente"
+        ],
+        "bn:00047020n": [
+            "cervello",
+            "intelligenza",
+            "levatura"
+        ],
+        "bn:00047021n": [
+            "aristotle",
+            "kant",
+            "reason"
+        ]
+    },
+    "campagna": {
+        "bn:00023237n": [
+            "campagna",
+            "campagna",
+            "campagna"
+        ],
+        "bn:11389493n": [
+            "campagna"
+        ],
+        "bn:00015057n": [
+            "campagna_elettorale",
+            "campagna",
+            "candidatura"
+        ],
+        "bn:11359467n": [
+            "campagna"
+        ],
+        "bn:11400695n": [
+            "campagna"
+        ],
+        "bn:03520751n": [
+            "torre_d'isola",
+            "torre_d'isola",
+            "torredisolani"
+        ],
+        "bn:00015051n": [
+            "campagna",
+            "campagna",
+            "causa"
+        ],
+        "bn:00001019n": [
+            "campagna",
+            "fondo",
+            "latifondo"
+        ],
+        "bn:01267575n": [
+            "campagna",
+            "campagna",
+            "campagna"
+        ],
+        "bn:11381169n": [
+            "campagna"
+        ],
+        "bn:11383193n": [
+            "campagna"
+        ],
+        "bn:00008144n": [
+            "diamante",
+            "diamante",
+            "diamante"
+        ],
+        "bn:01527020n": [
+            "campagna",
+            "campagna",
+            "campagna"
+        ],
+        "bn:11393400n": [
+            "campagna"
+        ],
+        "bn:00034265n": [
+            "campagna",
+            "campo",
+            "campo"
+        ],
+        "bn:11361968n": [
+            "campagna"
+        ],
+        "bn:00008916n": [
+            "voce_di_basso",
+            "basso",
+            "basso"
+        ],
+        "bn:00023248n": [
+            "campagna",
+            "campagna",
+            "campagna"
+        ],
+        "bn:11375688n": [
+            "campagna"
+        ],
+        "bn:00015052n": [
+            "campagna",
+            "campagna_militare",
+            "campagna"
+        ],
+        "bn:11377338n": [
+            "campagna"
+        ],
+        "bn:00015050n": [
+            "campagna",
+            "campagna_elettorale",
+            "campagna_elettorale"
+        ],
+        "bn:03293217n": [
+            "maniago",
+            "maniago",
+            "comune_di_maniago"
+        ],
+        "bn:04089251n": [
+            "campagna",
+            "campagna",
+            "punto_dello_scudo"
+        ],
+        "bn:11380514n": [
+            "campagna"
+        ],
+        "bn:03422419n": [
+            "anno_di_stagione",
+            "campagna"
+        ],
+        "bn:00054954n": [
+            "effettivo",
+            "forza",
+            "capacit\u00e0_militari"
+        ],
+        "bn:11365149n": [
+            "campagna"
+        ]
+    },
+    "scimmia": {
+        "bn:00004847n": [
+            "ape",
+            "primate",
+            "chimpanzee"
+        ],
+        "bn:00071669n": [
+            "genus",
+            "lr\\/lc",
+            "lc"
+        ],
+        "bn:00055685n": [
+            "monkey",
+            "primate",
+            "ape"
+        ],
+        "bn:11401766n": [
+            "scimmia"
+        ],
+        "bn:00028916n": [
+            "ciucca",
+            "cotta",
+            "ebbrezza"
+        ],
+        "bn:02131227n": [
+            "scimmia",
+            "scimmia"
+        ]
+    },
+    "costante di Faraday": {
+        "bn:00033657n": [
+            "faraday",
+            "m.-faraday",
+            "michael_faraday"
+        ]
+    },
+    "zaino": {
+        "bn:00069639n": [
+            "cartella",
+            "zainetto",
+            "zaino"
+        ],
+        "bn:00007752n": [
+            "backpack",
+            "bag",
+            "pack"
+        ]
+    },
+    "palazzo": {
+        "bn:11389296n": [
+            "palazzo"
+        ],
+        "bn:11379609n": [
+            "palazzo"
+        ],
+        "bn:11362749n": [
+            "palazzo"
+        ],
+        "bn:11381792n": [
+            "palazzo"
+        ],
+        "bn:11390785n": [
+            "palazzo"
+        ],
+        "bn:11401523n": [
+            "palazzo"
+        ],
+        "bn:00016569n": [
+            "palazzo",
+            "palazzo",
+            "palazzo"
+        ],
+        "bn:11379415n": [
+            "palazzo"
+        ],
+        "bn:11376181n": [
+            "palazzo"
+        ],
+        "bn:11364436n": [
+            "palazzo"
+        ],
+        "bn:00042667n": [
+            "mansion",
+            "house",
+            "manor house"
+        ],
+        "bn:11383141n": [
+            "palazzo"
+        ],
+        "bn:11366234n": [
+            "palazzo"
+        ],
+        "bn:17321955n": [
+            "palazzo_italiano",
+            "palagi",
+            "palagio"
+        ],
+        "bn:01761707n": [
+            "palazzo",
+            "palazzo"
+        ],
+        "bn:00060223n": [
+            "salone"
+        ],
+        "bn:00060224n": [
+            "palace",
+            "residence",
+            "royal"
+        ],
+        "bn:11355616n": [
+            "palazzo"
+        ],
+        "bn:11358093n": [
+            "palazzo"
+        ],
+        "bn:11382841n": [
+            "palazzo"
+        ],
+        "bn:00013722n": [
+            "building",
+            "skyscraper",
+            "house"
+        ],
+        "bn:11358483n": [
+            "palazzo"
+        ]
+    },
+    "grattacielo": {
+        "bn:00044044n": [
+            "casa_a_torre",
+            "casa_a_torre",
+            "condominio"
+        ],
+        "bn:00072030n": [
+            "skyscraper",
+            "building",
+            "tall"
+        ]
+    },
+    "elicottero": {
+        "bn:00018734n": [
+            "helicopter",
+            "aircraft",
+            "rotor"
+        ]
+    },
+    "aereo": {
+        "bn:16750414n": [
+            "aereo",
+            "aeroplano",
+            "aeromobili_ad_ala_fissa"
+        ],
+        "bn:00002275n": [
+            "aircraft",
+            "flight",
+            "wing"
+        ],
+        "bn:00001661n": [
+            "aereo",
+            "antenna",
+            "antenna"
+        ],
+        "bn:00001697n": [
+            "aircraft",
+            "flight",
+            "wing"
+        ],
+        "bn:00002259n": [
+            "airspace",
+            "aircraft",
+            "flight"
+        ]
+    },
+    "Universit\u00e0 di Cambridge": {
+        "bn:00014988n": [
+            "universit\u00e0_di_cambridge",
+            "universit\u00e0_di_cambridge",
+            "cambridge_university"
+        ]
+    },
+    "Universit\u00e0 di Oxford": {
+        "bn:00059980n": [
+            "universit\u00e0_di_oxford",
+            "universit\u00e0_di_oxford",
+            "oxford_university"
+        ]
+    },
+    "bandiera": {
+        "bn:14625286n": [
+            "flag",
+            "flag",
+            "bandiera"
+        ],
+        "bn:14407671n": [
+            "bandiera"
+        ],
+        "bn:03112170n": [
+            "bandiera"
+        ],
+        "bn:00020776n": [
+            "bandiera"
+        ],
+        "bn:03036803n": [
+            "bandiera",
+            "flag"
+        ],
+        "bn:21169671n": [],
+        "bn:00008426n": [
+            "insegna",
+            "labaro",
+            "pennone"
+        ],
+        "bn:00030969n": [
+            "bandiera"
+        ],
+        "bn:00030968n": [
+            "flag",
+            "ensign",
+            "national flag"
+        ],
+        "bn:00034963n": [
+            "bandiera",
+            "segnale_di_flag"
+        ],
+        "bn:03830282n": [
+            "bandiera"
+        ],
+        "bn:14274701n": [
+            "bandiera",
+            "bandiera"
+        ],
+        "bn:00034960n": [
+            "flag",
+            "national flag",
+            "ensign"
+        ]
+    },
+    "asta": {
+        "bn:12752763n": [
+            "\u00e5sta"
+        ],
+        "bn:00007085n": [
+            "auction",
+            "bid",
+            "bidder"
+        ],
+        "bn:00049823n": [
+            "cavalry",
+            "weapon",
+            "spear"
+        ],
+        "bn:03717456n": [
+            "asta"
+        ],
+        "bn:00012518n": [
+            "sail",
+            "bowsprit",
+            "mast"
+        ],
+        "bn:00027315n": [
+            "dipstick",
+            "creatinine",
+            "urine"
+        ],
+        "bn:00063293n": [
+            "asta",
+            "asta",
+            "palo"
+        ],
+        "bn:00063298n": [
+            "asta"
+        ],
+        "bn:00024779n": [
+            "cilindro",
+            "cilindro",
+            "cilindro"
+        ],
+        "bn:00073116n": [
+            "antenna",
+            "asta",
+            "longherone"
+        ],
+        "bn:16902821n": [
+            "asta"
+        ],
+        "bn:00128624n": [
+            "asta"
+        ],
+        "bn:15015168n": [
+            "asta"
+        ],
+        "bn:00073802n": [
+            "bastone",
+            "stadia",
+            "bastone"
+        ],
+        "bn:00034964n": [
+            "asta",
+            "asta_della_bandiera"
+        ],
+        "bn:00054278n": [
+            "penis",
+            "male",
+            "clitoris"
+        ],
+        "bn:00061508n": [
+            "pertica",
+            "pertica_inglese",
+            "pertica"
+        ],
+        "bn:16611094n": [
+            "\u00e1sta"
+        ],
+        "bn:02348645n": [
+            "gambo",
+            "stelo",
+            "stelo_nota"
+        ]
+    },
+    "finestra": {
+        "bn:00081285n": [
+            "window",
+            "glass",
+            "pane"
+        ],
+        "bn:00081287n": [
+            "finestra"
+        ],
+        "bn:00081292n": [
+            "finestra",
+            "finestra",
+            "finestra"
+        ],
+        "bn:03338860n": [
+            "finestra_tettonica",
+            "finestra_tettonica",
+            "finestra"
+        ],
+        "bn:00081289n": [
+            "finestra_temporale",
+            "intervallo"
+        ]
+    },
+    "tetto": {
+        "bn:00068221n": [
+            "tetto"
+        ],
+        "bn:00068231n": [
+            "sul_tetto",
+            "tetto"
+        ],
+        "bn:00068220n": [
+            "dome",
+            "roof",
+            "vault"
+        ],
+        "bn:00015404n": [
+            "massimale",
+            "tetto",
+            "tetto"
+        ],
+        "bn:00077607n": [
+            "alto",
+            "capo",
+            "cima"
+        ]
+    },
+    "gioco di carte": {
+        "bn:00015923n": [
+            "gioco_di_carte",
+            "gioco_di_carte",
+            "gioco_di_carte"
+        ]
+    },
+    "frisbee": {
+        "bn:02797089n": [
+            "switchover_media",
+            "frisbee",
+            "frisbee"
+        ],
+        "bn:00036583n": [
+            "frisbee",
+            "frisbee",
+            "frisbee"
+        ],
+        "bn:02502206n": [
+            "wham-o",
+            "frisbee"
+        ]
+    },
+    "malware": {
+        "bn:03064400n": [
+            "malware"
+        ],
+        "bn:01363738n": [
+            "malware",
+            "software",
+            "user"
+        ]
+    },
+    "worm": {
+        "bn:15751306n": [
+            "worm"
+        ],
+        "bn:01292433n": [
+            "write_once_read_many",
+            "write_once_read_many",
+            "memorie_scrivibili_una_sola_volta"
+        ],
+        "bn:00081636n": [
+            "worm",
+            "worm",
+            "worm"
+        ]
+    },
+    "pianeta": {
+        "bn:00069344n": [
+            "saturno",
+            "saturno",
+            "giove"
+        ],
+        "bn:11400277n": [
+            "pianeta"
+        ],
+        "bn:00052888n": [
+            "planet",
+            "orbit",
+            "jupiter"
+        ],
+        "bn:00063119n": [
+            "plutone",
+            "plutone",
+            "plutone"
+        ],
+        "bn:00017936n": [
+            "wear",
+            "vestment",
+            "bishop"
+        ],
+        "bn:05500051n": [
+            "pianeta",
+            "pianeta",
+            "pianete"
+        ]
+    },
+    "stella": {
+        "bn:01010003n": [
+            "stella",
+            "stella"
+        ],
+        "bn:08916819n": [
+            "stella",
+            "stella",
+            "stella"
+        ],
+        "bn:02636585n": [
+            "stella",
+            "estela",
+            "stella"
+        ],
+        "bn:01254662n": [
+            "stella",
+            "stella"
+        ],
+        "bn:01202713n": [
+            "grafo_stella",
+            "grafo_a_stella",
+            "grafico_stella"
+        ],
+        "bn:00455724n": [
+            "stella",
+            "stella"
+        ],
+        "bn:03665454n": [
+            "stella",
+            "stella",
+            "quartiere_stella"
+        ],
+        "bn:04053737n": [
+            "stella",
+            "stella"
+        ],
+        "bn:03156771n": [
+            "stella",
+            "stella",
+            "stella"
+        ],
+        "bn:11400828n": [
+            "stella"
+        ],
+        "bn:18299837n": [
+            "stella"
+        ],
+        "bn:14001804n": [
+            "stella"
+        ],
+        "bn:00073964n": [
+            "star",
+            "mass",
+            "white dwarf"
+        ],
+        "bn:00073966n": [
+            "stella"
+        ],
+        "bn:00016990n": [
+            "celebrity",
+            "fame",
+            "show"
+        ],
+        "bn:02485403n": [
+            "poligono_stellato",
+            "poligono_stellato",
+            "stella"
+        ],
+        "bn:16533580n": [
+            "stella",
+            "stella"
+        ],
+        "bn:16187453n": [
+            "stella",
+            "stella"
+        ],
+        "bn:03123168n": [
+            "triangolo_di_regresso",
+            "triangolo_di_regresso",
+            "incrocio_triangolare"
+        ],
+        "bn:11389339n": [
+            "stella"
+        ],
+        "bn:03504631n": [
+            "stella",
+            "stella",
+            "comune_di_stella"
+        ],
+        "bn:03087731n": [
+            "stella",
+            "stella"
+        ],
+        "bn:11367595n": [
+            "stella"
+        ],
+        "bn:16046732n": [
+            "stella",
+            "stella",
+            "stella_a_cinque_punte"
+        ],
+        "bn:11379931n": [
+            "stella"
+        ],
+        "bn:00399902n": [
+            "stella",
+            "stella"
+        ],
+        "bn:05528609n": [
+            "stella"
+        ],
+        "bn:01243592n": [
+            "stella"
+        ],
+        "bn:14478784n": [
+            "stella",
+            "stella",
+            "fiume_stella"
+        ],
+        "bn:00073965n": [
+            "stella"
+        ],
+        "bn:00396464n": [
+            "stella"
+        ],
+        "bn:03761726n": [
+            "stella",
+            "stella"
+        ],
+        "bn:00050346n": [
+            "astro",
+            "celebrit\u00e0",
+            "divo"
+        ],
+        "bn:00036253n": [
+            "frank_stella",
+            "frank_stella",
+            "frank_stella"
+        ],
+        "bn:09041831n": [
+            "stella",
+            "stella",
+            "famiglia_stella"
+        ],
+        "bn:00380297n": [
+            "stella",
+            "stella"
+        ],
+        "bn:08977582n": [
+            "stella",
+            "stella",
+            "torrente_stella"
+        ],
+        "bn:03571720n": [
+            "stella",
+            "stella"
+        ],
+        "bn:03709168n": [
+            "stella",
+            "stella",
+            "stella"
+        ],
+        "bn:09030424n": [
+            "stella",
+            "stella",
+            "piroscafo_stella"
+        ],
+        "bn:00870917n": [
+            "stella",
+            "stella"
+        ]
+    },
+    "corridore": {
+        "bn:00068570n": [
+            "corridore",
+            "persona_che_corre"
+        ],
+        "bn:00068552n": [
+            "run",
+            "runner",
+            "running"
+        ],
+        "bn:00008803n": [
+            "corridore",
+            "corridore",
+            "corritrice"
+        ],
+        "bn:00068572n": [
+            "corridore",
+            "corridore"
+        ],
+        "bn:15542218n": [
+            "ciclista",
+            "corridore"
+        ],
+        "bn:03864018n": [
+            "corridore",
+            "corridore",
+            "base_runner"
+        ]
+    },
+    "atleta": {
+        "bn:00006747n": [
+            "atleta",
+            "atleta",
+            "sportivo"
+        ],
+        "bn:15877363n": [
+            "atleta",
+            "atleta",
+            "atleta"
+        ],
+        "bn:00006759n": [
+            "sport",
+            "sport",
+            "sport"
+        ],
+        "bn:00058408n": [
+            "boat",
+            "galley",
+            "oar"
+        ]
+    },
+    "calibro": {
+        "bn:00037515n": [
+            "misura",
+            "standard_di_misurazione"
+        ],
+        "bn:00079813n": [
+            "calibro",
+            "nonio_micrometro",
+            "pinze"
+        ],
+        "bn:00014782n": [
+            "calibro",
+            "calibro",
+            "calibro"
+        ],
+        "bn:00341233n": [
+            "calibro",
+            "calibro",
+            "calibro"
+        ],
+        "bn:00037015n": [
+            "calibro",
+            "indicatore",
+            "misuratore"
+        ],
+        "bn:00010310n": [
+            "big",
+            "calibro",
+            "pezzo_grosso"
+        ],
+        "bn:00054021n": [
+            "misura"
+        ],
+        "bn:00014731n": [
+            "bont\u00e0",
+            "calibro",
+            "calibro"
+        ],
+        "bn:00012226n": [
+            "alesaggio",
+            "calibro",
+            "calibro"
+        ],
+        "bn:01971664n": [
+            "calibro"
+        ]
+    },
+    "ombrello": {
+        "bn:00013287n": [
+            "ombrello",
+            "gamp",
+            "ombrello"
+        ],
+        "bn:00078921n": [
+            "ombrello"
+        ],
+        "bn:00078920n": [
+            "umbrella",
+            "penguin",
+            "oil-paper"
+        ]
+    },
+    "WiFi": {
+        "bn:00081176n": [
+            "wireless",
+            "wi-fi",
+            "network"
+        ]
+    },
+    "WikiLeaks": {
+        "bn:03777357n": [
+            "wikileaks",
+            "wikileaks",
+            "cablegate"
+        ]
+    },
+    "siccit\u00e0": {
+        "bn:00005634n": [
+            "gobabeb",
+            "arid",
+            "climate"
+        ],
+        "bn:00749459n": [
+            "siccit\u00e0"
+        ],
+        "bn:00028863n": [
+            "water",
+            "drought",
+            "famine"
+        ],
+        "bn:00028967n": [
+            "aridit\u00e0",
+            "asciuttezza",
+            "secca"
+        ]
+    },
+    "acqua": {
+        "bn:08894579n": [
+            "acqua",
+            "acqua"
+        ],
+        "bn:17779605n": [
+            "acqua",
+            "acqua"
+        ],
+        "bn:00061253n": [
+            "urine",
+            "kidney",
+            "urea"
+        ],
+        "bn:14976572n": [
+            "propriet\u00e0_dell'acqua",
+            "acqua",
+            "acqua"
+        ],
+        "bn:00044951n": [
+            "acqua",
+            "acqua_termale",
+            "sorgente_termale"
+        ],
+        "bn:00005200n": [
+            "acqua_marina",
+            "acquamarina",
+            "azzurro_pavone"
+        ],
+        "bn:00042379n": [
+            "water",
+            "groundwater",
+            "ice"
+        ],
+        "bn:00011766n": [
+            "acqua",
+            "acqua",
+            "massa_d'acqua"
+        ],
+        "bn:16978359n": [
+            "acqua",
+            "acqua_tv",
+            "acqua_tv"
+        ],
+        "bn:05898597n": [
+            "acqua"
+        ],
+        "bn:00066032n": [
+            "precipitation",
+            "rainfall",
+            "rain"
+        ],
+        "bn:00080561n": [
+            "acqua",
+            "acqua",
+            "acqua"
+        ],
+        "bn:00080563n": [
+            "acqua",
+            "acqua",
+            "h2o"
+        ],
+        "bn:01408152n": [
+            "acqua"
+        ],
+        "bn:16354832n": [
+            "acqua"
+        ],
+        "bn:03199506n": [
+            "acqua"
+        ]
+    },
+    "aeroporto": {
+        "bn:09032877n": [
+            "aeroporto",
+            "aeroporto"
+        ],
+        "bn:00002286n": [
+            "campo_d'aviazione",
+            "aerodromo",
+            "aeroporto"
+        ],
+        "bn:11374511n": [
+            "aeroporto"
+        ],
+        "bn:16308148n": [],
+        "bn:03252503n": [
+            "aeroporto"
+        ],
+        "bn:00001676n": [
+            "airport",
+            "terminal",
+            "runway"
+        ],
+        "bn:11367189n": [
+            "aeroporto"
+        ],
+        "bn:11369895n": [
+            "aeroporto"
+        ]
+    },
+    "pezzo": {
+        "bn:00062297n": [
+            "istmo",
+            "pezzo",
+            "parte"
+        ],
+        "bn:04316188n": [
+            "pezzo",
+            "pezzo"
+        ],
+        "bn:00053101n": [
+            "pedina",
+            "pedone",
+            "pezzo"
+        ],
+        "bn:00062298n": [
+            "pezzo"
+        ],
+        "bn:08875993n": [
+            "pezzo",
+            "pezzo"
+        ],
+        "bn:00021408n": [
+            "componimento",
+            "componimento_musicale",
+            "composizione"
+        ],
+        "bn:00018204n": [
+            "pezzo",
+            "scacco",
+            "scacco"
+        ],
+        "bn:00081612n": [
+            "pezzo"
+        ],
+        "bn:11401561n": [
+            "pezzo"
+        ],
+        "bn:00060765n": [
+            "brano",
+            "pezzo",
+            "porzione"
+        ],
+        "bn:00024604n": [
+            "taglio",
+            "taglio_di_carne",
+            "taglio"
+        ],
+        "bn:00057551n": [
+            "articolo",
+            "pezzo",
+            "pezzo"
+        ],
+        "bn:00060967n": [
+            "appezzamento",
+            "lotto",
+            "orticello"
+        ],
+        "bn:00056465n": [
+            "brano",
+            "passaggio",
+            "passo"
+        ],
+        "bn:00052677n": [
+            "pezzo",
+            "rivista_articolo"
+        ],
+        "bn:00060882n": [
+            "luogo",
+            "pagina",
+            "passaggio"
+        ]
+    },
+    "orchestra": {
+        "bn:03960927n": [
+            "orchestra",
+            "orchestra"
+        ],
+        "bn:02683900n": [
+            "orchestra",
+            "orchestra"
+        ],
+        "bn:00059285n": [
+            "orchestra",
+            "conductor",
+            "symphony orchestra"
+        ],
+        "bn:00059286n": [
+            "orchestra",
+            "parterre",
+            "platea"
+        ],
+        "bn:00059287n": [
+            "fossa_dell'orchestra",
+            "orchestra",
+            "golfo_mistico"
+        ]
+    },
+    "banda": {
+        "bn:02725375n": [
+            "banda"
+        ],
+        "bn:16934211n": [
+            "banda"
+        ],
+        "bn:00037243n": [
+            "gang",
+            "member",
+            "criminal"
+        ],
+        "bn:00013254n": [
+            "banda",
+            "bordo"
+        ],
+        "bn:00018234n": [
+            "galloni",
+            "pipa",
+            "segno_diacritico_a_v"
+        ],
+        "bn:14057877n": [
+            "banda",
+            "banda",
+            "societ\u00e0_band"
+        ],
+        "bn:04552393n": [
+            "banda",
+            "banda"
+        ],
+        "bn:00009872n": [
+            "banda",
+            "banda",
+            "banda"
+        ],
+        "bn:11364789n": [
+            "banda"
+        ],
+        "bn:03671099n": [
+            "banda",
+            "banda"
+        ],
+        "bn:00008279n": [
+            "cerchia",
+            "circolo",
+            "giro"
+        ],
+        "bn:15139520n": [
+            "banda_musicale",
+            "banda_musicale",
+            "banda"
+        ],
+        "bn:11367292n": [
+            "banda"
+        ],
+        "bn:00036474n": [
+            "banda",
+            "banda",
+            "banda_di_frequenza"
+        ],
+        "bn:00065902n": [
+            "banda_radio",
+            "banda_radio",
+            "banda"
+        ],
+        "bn:03121076n": [
+            "larghezza_di_banda",
+            "larghezza_di_banda",
+            "ampiezza_di_banda"
+        ],
+        "bn:00640514n": [
+            "la_banda",
+            "la_banda",
+            "banda"
+        ],
+        "bn:00008283n": [
+            "banda",
+            "orchestra_da_ballo",
+            "orchestrina"
+        ],
+        "bn:00008285n": [
+            "banda",
+            "fascia"
+        ],
+        "bn:00785754n": [
+            "banda",
+            "banda",
+            "banda_della_rete"
+        ],
+        "bn:00072174n": [
+            "banda",
+            "banda",
+            "fascia"
+        ],
+        "bn:01514404n": [
+            "banda",
+            "banda",
+            "bande"
+        ],
+        "bn:00013874n": [
+            "crowd",
+            "empathy",
+            "crowdsourcing"
+        ],
+        "bn:00008280n": [
+            "banda",
+            "musica",
+            "complesso"
+        ],
+        "bn:00008282n": [
+            "banda",
+            "banda",
+            "fascia"
+        ],
+        "bn:00008284n": [
+            "banda"
+        ]
+    },
+    "mojito": {
+        "bn:01361585n": [
+            "mojito",
+            "mojito",
+            "mohito"
+        ]
+    },
+    "mohito": {
+        "bn:01361585n": [
+            "mojito",
+            "mojito",
+            "mohito"
+        ]
+    },
+    "programma": {
+        "bn:00021497n": [
+            "software",
+            "spyware",
+            "system"
+        ],
+        "bn:17792469n": [
+            "selva",
+            "selva",
+            "programma"
+        ],
+        "bn:03127028n": [
+            "programma"
+        ],
+        "bn:00064653n": [
+            "programma"
+        ],
+        "bn:00064647n": [
+            "calendario",
+            "cartellone",
+            "cartellone"
+        ],
+        "bn:00064646n": [
+            "programma",
+            "programma"
+        ],
+        "bn:00053217n": [
+            "manifesto",
+            "kaczynski",
+            "solanas"
+        ],
+        "bn:01245565n": [
+            "student",
+            "syllabus",
+            "curriculum"
+        ],
+        "bn:00062759n": [
+            "disegno",
+            "idea",
+            "ideazione"
+        ],
+        "bn:00062942n": [
+            "broadway",
+            "musical",
+            "production"
+        ],
+        "bn:00062899n": [
+            "piattaforma",
+            "programma",
+            "programma_politico"
+        ],
+        "bn:00023295n": [
+            "student",
+            "curriculum",
+            "education"
+        ],
+        "bn:00053172n": [
+            "eurosocialismo",
+            "tattica",
+            "tattica"
+        ],
+        "bn:00013235n": [
+            "programma",
+            "trasmissione",
+            "programma"
+        ],
+        "bn:00021492n": [
+            "programma",
+            "programma",
+            "programma_di_computer"
+        ],
+        "bn:15983060n": [
+            "programma",
+            "programma",
+            "programmi"
+        ],
+        "bn:00069568n": [
+            "scheduling",
+            "schedule",
+            "gantt"
+        ],
+        "bn:00069579n": [
+            "schema",
+            "strategia",
+            "strategia"
+        ]
+    },
+    "esame": {
+        "bn:00032093n": [
+            "controllo",
+            "esame_accurato",
+            "ispezione"
+        ],
+        "bn:04161503n": [
+            "esame"
+        ],
+        "bn:00032089n": [
+            "compito_in_classe",
+            "esame",
+            "esame"
+        ]
+    },
+    "teorema": {
+        "bn:09068293n": [
+            "teorema",
+            "teorema"
+        ],
+        "bn:01145346n": [
+            "teorema",
+            "teorema"
+        ],
+        "bn:00076831n": [
+            "theorem",
+            "proof",
+            "axiom"
+        ],
+        "bn:00076832n": [
+            "teorema"
+        ]
+    },
+    "teoria": {
+        "bn:02862916n": [
+            "teoria",
+            "teoria"
+        ],
+        "bn:00076834n": [
+            "teoria",
+            "teoria",
+            "teoria"
+        ],
+        "bn:00076835n": [
+            "teoria",
+            "teoria"
+        ],
+        "bn:00045632n": [
+            "hypothesis",
+            "theory",
+            "science"
+        ]
+    },
+    "yo-yo": {
+        "bn:01443127n": [
+            "yo-yo"
+        ],
+        "bn:00277802n": [
+            "effetto_yo-yo",
+            "effetto_yo-yo",
+            "ciclicit\u00e0_del_peso"
+        ],
+        "bn:02735458n": [
+            "yo-yo",
+            "yo-yo"
+        ],
+        "bn:00081921n": [
+            "yo-yo",
+            "toy",
+            "diabolo"
+        ]
+    },
+    "giocattolo": {
+        "bn:02755576n": [
+            "il_giocattolo",
+            "il_giocattolo",
+            "giocattolo"
+        ],
+        "bn:00062965n": [
+            "balocco",
+            "balocco",
+            "gingillo"
+        ]
+    },
+    "tormenta": {
+        "bn:14289607n": [],
+        "bn:01672678n": [
+            "la_tormenta",
+            "la_tormenta",
+            "tormenta"
+        ],
+        "bn:00074459n": [
+            "bufera",
+            "burrasca",
+            "tempesta"
+        ],
+        "bn:00011301n": [
+            "bufera_di_neve",
+            "tormenta",
+            "tormenta"
+        ],
+        "bn:16733740n": [
+            "tormenta",
+            "liliana_esther_maturano"
+        ],
+        "bn:00074458n": [
+            "storm",
+            "wind",
+            "cyclone"
+        ],
+        "bn:00489436n": [
+            "armi_d'assedio",
+            "armi_d'assedio",
+            "artiglieria"
+        ],
+        "bn:00035470n": [
+            "nevischio",
+            "spruzzata_di_neve",
+            "neve_raffica"
+        ],
+        "bn:01456385n": [
+            "tormenta"
+        ]
+    },
+    "pioggia": {
+        "bn:00066032n": [
+            "precipitation",
+            "rainfall",
+            "rain"
+        ],
+        "bn:00028809n": [
+            "precipitation",
+            "cloud",
+            "water"
+        ],
+        "bn:00066033n": [
+            "acqua_piovana",
+            "pioggia",
+            "acqua_piovana"
+        ],
+        "bn:00061303n": [
+            "pioggia",
+            "scrosciante",
+            "rain"
+        ],
+        "bn:13954349n": [
+            "pioggia",
+            "pioggia"
+        ],
+        "bn:00016390n": [
+            "pioggia"
+        ],
+        "bn:01785227n": [
+            "pioggia",
+            "pioggia"
+        ],
+        "bn:08981756n": [
+            "pioggia",
+            "pioggia"
+        ],
+        "bn:03418375n": [
+            "pioggia"
+        ],
+        "bn:03570017n": [
+            "pioggia",
+            "pioggia",
+            "miss_sadie_thompson"
+        ]
+    },
+    "storico": {
+        "bn:00044258n": [
+            "history",
+            "historian",
+            "bede"
+        ],
+        "bn:00681324n": [],
+        "bn:03390819n": [
+            "storico"
+        ],
+        "bn:00044266n": [
+            "storiografia",
+            "storiografia",
+            "storici"
+        ],
+        "bn:00044268n": [
+            "history",
+            "historian",
+            "historical"
+        ]
+    },
+    "storiografo": {
+        "bn:00044258n": [
+            "history",
+            "historian",
+            "bede"
+        ],
+        "bn:00044266n": [
+            "storiografia",
+            "storiografia",
+            "storici"
+        ]
+    },
+    "Siemens": {
+        "bn:15893420n": [
+            "siemens",
+            "siemens",
+            "famiglia_siemens"
+        ],
+        "bn:21706603n": [
+            "siemens",
+            "siemens",
+            "siemens_ag"
+        ],
+        "bn:00054702n": [
+            "siemens",
+            "siemens",
+            "w.-von-siemens"
+        ]
+    },
+    "treno elettrico": {},
+    "secolo": {
+        "bn:00031261n": [
+            "epoca",
+            "epoca",
+            "era"
+        ],
+        "bn:00001939n": [
+            "calendar",
+            "day",
+            "year"
+        ],
+        "bn:00910014n": [
+            "secolo"
+        ],
+        "bn:00017234n": [
+            "century",
+            "slave",
+            "slavery"
+        ]
+    },
+    "anno": {
+        "bn:00004401n": [
+            "calendar",
+            "day",
+            "year"
+        ],
+        "bn:00004379n": [
+            "calendar",
+            "day",
+            "year"
+        ],
+        "bn:15499130n": [
+            "anno",
+            "anno",
+            "anno"
+        ],
+        "bn:00001937n": [
+            "anno",
+            "anno",
+            "epoca"
+        ],
+        "bn:00001939n": [
+            "calendar",
+            "day",
+            "year"
+        ],
+        "bn:15148334n": [
+            "anno"
+        ],
+        "bn:14358905n": [
+            "anno"
+        ],
+        "bn:00025459n": [
+            "anno",
+            "giorno",
+            "giorno"
+        ],
+        "bn:00014712n": [
+            "anno",
+            "anno_civile",
+            "anno_di_calendario"
+        ],
+        "bn:00081856n": [
+            "annata",
+            "anno",
+            "anno"
+        ],
+        "bn:00081857n": [
+            "calendar",
+            "day",
+            "year"
+        ],
+        "bn:00000145n": [
+            "calendar",
+            "day",
+            "unit"
+        ],
+        "bn:00006662n": [
+            "anno_tropico",
+            "anno_tropico",
+            "anno"
+        ],
+        "bn:00078738n": [
+            "calendar",
+            "day",
+            "year"
+        ],
+        "bn:00019477n": [
+            "anno",
+            "classe",
+            "classe"
+        ]
+    },
+    "lega": {
+        "bn:00050409n": [
+            "associazione",
+            "federazione",
+            "lega"
+        ],
+        "bn:02919054n": [
+            "lega_nord",
+            "lega_nord",
+            "carroccio"
+        ],
+        "bn:00002936n": [
+            "alloy",
+            "metal",
+            "copper"
+        ],
+        "bn:14066644n": [
+            "prefetture_della_cina",
+            "prefettura_della_cina",
+            "d\u00ecq\u016b"
+        ],
+        "bn:14146654n": [
+            "associazione",
+            "club",
+            "lega"
+        ],
+        "bn:00020039n": [
+            "guild",
+            "club",
+            "fraternity"
+        ],
+        "bn:00050410n": [
+            "lega",
+            "lega",
+            "lega"
+        ],
+        "bn:00021722n": [
+            "campionato",
+            "federazione",
+            "lega"
+        ],
+        "bn:16625126n": [
+            "lega",
+            "lega",
+            "fiume_lega"
+        ],
+        "bn:00002740n": [
+            "alleanza",
+            "alleanza",
+            "coalizione"
+        ]
+    },
+    "acciaio": {
+        "bn:03192727n": [
+            "acciaio",
+            "acciaio"
+        ],
+        "bn:08862399n": [
+            "duel_e_altri_racconti",
+            "duel_e_altri_racconti",
+            "acciaio"
+        ],
+        "bn:09058328n": [
+            "ferro",
+            "ferro"
+        ],
+        "bn:00074123n": [
+            "steel",
+            "iron",
+            "alloy"
+        ],
+        "bn:15057933n": [
+            "acciaio",
+            "acciaio"
+        ],
+        "bn:02914670n": [
+            "acciaio",
+            "acciaio"
+        ],
+        "bn:14102354n": [
+            "acciaio",
+            "acciaio"
+        ],
+        "bn:00537675n": [
+            "acciaio"
+        ],
+        "bn:03604891n": [
+            "acciaio",
+            "acciaio",
+            "designazione_acciaio"
+        ],
+        "bn:08961164n": [
+            "acciaio",
+            "acciaio"
+        ]
+    },
+    "magistrato": {
+        "bn:00532496n": [
+            "il_magistrato",
+            "il_magistrato",
+            "magistrato"
+        ],
+        "bn:00048489n": [
+            "avvocato_giudice",
+            "magistrato"
+        ],
+        "bn:00052701n": [
+            "court",
+            "magistrate",
+            "judge"
+        ],
+        "bn:08897401n": [
+            "magistrato",
+            "magistrato_veneziano"
+        ],
+        "bn:00048488n": [
+            "judge",
+            "court",
+            "magistrate"
+        ],
+        "bn:03810077n": [
+            "magistratura",
+            "magistrato_romano",
+            "magistratura_romana"
+        ],
+        "bn:00036837n": [
+            "notary",
+            "bailiff",
+            "notary public"
+        ],
+        "bn:02616220n": [
+            "magistrato"
+        ]
+    },
+    "giudice": {
+        "bn:00048503n": [
+            "court",
+            "supreme court",
+            "judge"
+        ],
+        "bn:00035711n": [
+            "referee",
+            "umpire",
+            "official"
+        ],
+        "bn:00207779n": [
+            "giudice"
+        ],
+        "bn:00001401n": [
+            "giudice"
+        ],
+        "bn:00058701n": [
+            "arbitro",
+            "giudice",
+            "arbitro"
+        ],
+        "bn:00048488n": [
+            "judge",
+            "court",
+            "magistrate"
+        ],
+        "bn:14681577n": [
+            "judge",
+            "osbourne",
+            "adjudicator"
+        ],
+        "bn:00078929n": [
+            "referee",
+            "umpire",
+            "official"
+        ],
+        "bn:00031974n": [
+            "giudice",
+            "valutatore"
+        ],
+        "bn:08952717n": [
+            "giudice",
+            "giudice",
+            "giudicessa"
+        ]
+    },
+    "caos": {
+        "bn:02536746n": [
+            "tohu_e_tikun",
+            "tohu_e_tikun",
+            "beirurim"
+        ],
+        "bn:02989155n": [
+            "shadow_galactica",
+            "shadow_galactica",
+            "galaxia_e_le_veneranti"
+        ],
+        "bn:16984754n": [
+            "caos",
+            "chaos",
+            "caos"
+        ],
+        "bn:04319721n": [
+            "caos",
+            "chaos",
+            "disordine"
+        ],
+        "bn:03158965n": [
+            "caos",
+            "caos",
+            "Chaos"
+        ],
+        "bn:08889053n": [],
+        "bn:00009503n": [
+            "babele",
+            "babele",
+            "babilonia"
+        ],
+        "bn:02018393n": [
+            "caos",
+            "caos",
+            "caos_demoni"
+        ],
+        "bn:00017707n": [
+            "chaos",
+            "caos",
+            "chaoskampf"
+        ],
+        "bn:00017706n": [
+            "caos"
+        ],
+        "bn:00053953n": [
+            "sevizia",
+            "caos"
+        ],
+        "bn:00003840n": [
+            "anarchist",
+            "anarchism",
+            "individualist"
+        ]
+    },
+    "classe": {
+        "bn:21706240n": [
+            "classe",
+            "classe",
+            "classe_scolastica"
+        ],
+        "bn:00012633n": [
+            "classe"
+        ],
+        "bn:03367941n": [
+            "classe",
+            "classe"
+        ],
+        "bn:01124629n": [
+            "classe_navale",
+            "classe_navale",
+            "classe"
+        ],
+        "bn:00006539n": [
+            "associazione",
+            "associazione",
+            "categoria"
+        ],
+        "bn:17528560n": [
+            "classe"
+        ],
+        "bn:00016733n": [
+            "categoria",
+            "classe",
+            "famiglia"
+        ],
+        "bn:00064607n": [
+            "profession",
+            "professional",
+            "apprenticeship"
+        ],
+        "bn:03608262n": [
+            "classe",
+            "classe",
+            "classe"
+        ],
+        "bn:00070697n": [
+            "aggregato",
+            "classe",
+            "insieme"
+        ],
+        "bn:00019482n": [
+            "classe",
+            "conifere",
+            "classe"
+        ],
+        "bn:00019483n": [
+            "classe",
+            "classe"
+        ],
+        "bn:02928599n": [
+            "classe",
+            "classe"
+        ],
+        "bn:00019478n": [
+            "ceto",
+            "ceto",
+            "classe"
+        ],
+        "bn:00019479n": [
+            "corso",
+            "corso",
+            "scuola"
+        ],
+        "bn:08949400n": [
+            "classe",
+            "classe"
+        ],
+        "bn:01341184n": [
+            "classe",
+            "classe",
+            "ceto"
+        ],
+        "bn:03082397n": [
+            "glossario_dei_giochi_di_ruolo",
+            "glossario_dei_giochi_di_ruolo",
+            "classe"
+        ],
+        "bn:03969113n": [
+            "classe",
+            "classe",
+            "porto_di_classe"
+        ],
+        "bn:00035907n": [
+            "carattere",
+            "fatta",
+            "fatta"
+        ],
+        "bn:00032896n": [
+            "classe",
+            "famiglia",
+            "famiglia"
+        ],
+        "bn:00019586n": [
+            "student",
+            "teacher",
+            "classroom"
+        ],
+        "bn:00019477n": [
+            "anno",
+            "classe",
+            "classe"
+        ]
+    },
+    "formazione a distanza": {
+        "bn:00022863n": [
+            "corso_per_corrispondenza",
+            "formazione_a_distanza",
+            "corrispondenza_corso"
+        ],
+        "bn:00022864n": [
+            "scuola_per_corrispondenza",
+            "corrispondenza_scuola",
+            "corsi_per_corrispondenza"
+        ]
+    },
+    "internet": {
+        "bn:00024712n": [
+            "internet",
+            "network",
+            "access"
+        ],
+        "bn:08917832n": [],
+        "bn:00722917n": [
+            "internetwork",
+            "internet",
+            "internet"
+        ]
+    },
+    "sabbia": {
+        "bn:15959456n": [
+            "sabbia",
+            "sabbia",
+            "sand"
+        ],
+        "bn:00069153n": [
+            "locomotive",
+            "toy",
+            "sand"
+        ],
+        "bn:01509496n": [
+            "sabbia",
+            "marrone_sabbia"
+        ],
+        "bn:03497975n": [
+            "sabbia",
+            "sabbia",
+            "sabbia"
+        ],
+        "bn:00069126n": [
+            "sand",
+            "soil",
+            "clay"
+        ]
+    },
+    "piede": {
+        "bn:00035686n": [
+            "piede",
+            "piede",
+            "piede"
+        ],
+        "bn:00035679n": [
+            "piede",
+            "piede",
+            "piede"
+        ],
+        "bn:00035680n": [
+            "piede",
+            "piede",
+            "piede"
+        ],
+        "bn:00004230n": [
+            "piede",
+            "zampa",
+            "animale_piedi"
+        ],
+        "bn:00008787n": [
+            "base",
+            "piede",
+            "piedestallo"
+        ],
+        "bn:16054298n": [
+            "piede",
+            "pi\u00e8de"
+        ],
+        "bn:16148806n": [
+            "piede_monetario",
+            "piede_monetario",
+            "piede"
+        ],
+        "bn:00008782n": [
+            "base",
+            "piedestallo",
+            "piedistallo"
+        ],
+        "bn:00035681n": [
+            "basso",
+            "piede",
+            "piedi"
+        ],
+        "bn:00035682n": [
+            "piede",
+            "invertebrati_piedi"
+        ],
+        "bn:01780538n": [
+            "pous",
+            "pous",
+            "piede"
+        ]
+    },
+    "IMF": {},
+    "Deutsche Bank": {
+        "bn:03315023n": [
+            "deutsche_bank",
+            "deutsche_bank"
+        ]
+    },
+    "Guardian": {
+        "bn:03790865n": [
+            "guardiano",
+            "guardian",
+            "guardiano"
+        ],
+        "bn:00896958n": [
+            "guardian",
+            "guardian"
+        ],
+        "bn:00890370n": [
+            "guardian"
+        ],
+        "bn:17778348n": [
+            "guardian",
+            "guardian"
+        ],
+        "bn:02914682n": [
+            "guardian",
+            "guardian"
+        ],
+        "bn:02505554n": [
+            "guardian",
+            "guardian"
+        ]
+    },
+    "Times": {
+        "bn:00056300n": [
+            "multiplication",
+            "integer",
+            "number"
+        ],
+        "bn:03113174n": [
+            "the_times",
+            "the_times",
+            "times"
+        ]
+    },
+    "baco da seta": {
+        "bn:00011961n": [
+            "baco_da_seta",
+            "bombyx_mori",
+            "bombyx_mori"
+        ],
+        "bn:00071605n": [
+            "baco_da_seta",
+            "baco_da_seta",
+            "bigatto"
+        ],
+        "bn:00040408n": [
+            "baco",
+            "baco_da_seta",
+            "baco_da_seta"
+        ]
+    },
+    "Via della Seta": {
+        "bn:00071602n": [
+            "via_della_seta",
+            "via_della_seta",
+            "via_della_seta"
+        ]
+    },
+    "libert\u00e0": {
+        "bn:00050955n": [
+            "libert\u00e0"
+        ],
+        "bn:00050954n": [
+            "liberty",
+            "right",
+            "freedom"
+        ],
+        "bn:02123809n": [
+            "libert\u00e0"
+        ],
+        "bn:16684276n": [
+            "libert\u00e0",
+            "libert\u00e0",
+            "libert\u00e0"
+        ],
+        "bn:00007389n": [
+            "autonomy",
+            "autonomous",
+            "self-determination"
+        ],
+        "bn:04020100n": [
+            "libert\u00e0",
+            "libert\u00e0"
+        ],
+        "bn:08851178n": [
+            "libert\u00e0",
+            "libert\u00e0",
+            "la_libert\u00e0"
+        ],
+        "bn:16819248n": [
+            "libert\u00e0",
+            "libert\u00e0"
+        ],
+        "bn:08915723n": [
+            "libert\u00e0",
+            "libert\u00e0",
+            "libert\u00e0"
+        ],
+        "bn:03365403n": [
+            "libert\u00e0",
+            "libert\u00e0"
+        ],
+        "bn:00036376n": [
+            "libert\u00e0",
+            "libert\u00e0",
+            "libert\u00e0"
+        ],
+        "bn:03737094n": [
+            "Libertas"
+        ],
+        "bn:00019365n": [
+            "libert\u00e0",
+            "libert\u00e0",
+            "libert\u00e0_politica"
+        ]
+    },
+    "oasi": {
+        "bn:01267294n": [
+            "oasi",
+            "oasi"
+        ],
+        "bn:09062912n": [
+            "oasi",
+            "oasi"
+        ],
+        "bn:15276470n": [
+            "oasi",
+            "oasi",
+            "oasi_di_protezione"
+        ],
+        "bn:00043169n": [
+            "oasi"
+        ],
+        "bn:08922988n": [
+            "oasi",
+            "oasi"
+        ],
+        "bn:00258576n": [
+            "area_naturale_protetta",
+            "area_naturale_protetta",
+            "area_naturale"
+        ],
+        "bn:02670707n": [
+            "oasi"
+        ],
+        "bn:02340908n": [
+            "oasi_antartica",
+            "oasi_antartica",
+            "oasi"
+        ],
+        "bn:00058412n": [
+            "oasis",
+            "water",
+            "desert"
+        ]
+    },
+    "citoplasma": {
+        "bn:00024915n": [
+            "citoplasto",
+            "citoplasma"
+        ],
+        "bn:00024905n": [
+            "cell",
+            "protein",
+            "cytoplasm"
+        ]
+    },
+    "dito": {
+        "bn:00077465n": [
+            "toe",
+            "foot",
+            "bone"
+        ],
+        "bn:00027079n": [
+            "dito",
+            "dito",
+            "finger"
+        ],
+        "bn:00034565n": [
+            "finger",
+            "thumb",
+            "hand"
+        ],
+        "bn:07161340n": [
+            "dito_romano",
+            "digitus",
+            "dito"
+        ],
+        "bn:01951400n": [
+            "eduardo_jos\u00e9_gomes_camessele_mendes",
+            "eduardo_jos\u00e9_gomes_camessele_mendes",
+            "dito"
+        ],
+        "bn:14167012n": [
+            "gesto_del_dito_medio",
+            "gesto_del_dito_medio_alzato",
+            "gesto_del_dito_medio"
+        ],
+        "bn:00024979n": [
+            "digito",
+            "dito",
+            "dito"
+        ]
+    },
+    "protestante": {
+        "bn:00064866n": [
+            "protestante",
+            "chiesa_protestante",
+            "chiesa_protestante"
+        ],
+        "bn:00064865n": [
+            "protestante",
+            "protestante",
+            "riformato"
+        ],
+        "bn:00027716n": [
+            "protest",
+            "protester",
+            "occupy"
+        ],
+        "bn:00064869n": [
+            "protestantesimo",
+            "protestantesimo",
+            "protestantesimo"
+        ]
+    },
+    "cristiano": {
+        "bn:00037764n": [
+            "gentile",
+            "cristiano"
+        ],
+        "bn:00018818n": [
+            "christian",
+            "melkite",
+            "apostle"
+        ],
+        "bn:15729447n": [
+            "Cristiano"
+        ],
+        "bn:00018828n": [
+            "cristianesimo",
+            "cristianesimo",
+            "cristianesimo"
+        ],
+        "bn:17389868n": [
+            "cristiano",
+            "cristiano",
+            "christian"
+        ],
+        "bn:17433077n": [
+            "cristiano"
+        ]
+    },
+    "Leonardo da Vinci": {
+        "bn:05222153n": [
+            "leonardo_da_vinci"
+        ],
+        "bn:11399897n": [
+            "leonardo_da_vinci"
+        ],
+        "bn:06693099n": [
+            "leonardo_da_vinci"
+        ],
+        "bn:01772160n": [
+            "leonardo_da_vinci",
+            "leonardo_da_vinci",
+            "leonardo_da_vinci"
+        ],
+        "bn:01680147n": [
+            "leonardo_da_vinci",
+            "leonardo_da_vinci",
+            "leonardo_da_vinci"
+        ],
+        "bn:01282101n": [
+            "uss_dace",
+            "leonardo_da_vinci",
+            "uss_dace"
+        ],
+        "bn:00790790n": [
+            "leonardo_da_vinci",
+            "leonardo_da_vinci",
+            "transatlantico_leonardo_da_vinci"
+        ],
+        "bn:08882643n": [
+            "leonardo_da_vinci",
+            "leonardo_da_vinci"
+        ],
+        "bn:08882645n": [
+            "leonardo_da_vinci",
+            "leonardo_da_vinci"
+        ],
+        "bn:11395418n": [
+            "leonardo_da_vinci"
+        ],
+        "bn:15440281n": [
+            "aeroporto_di_roma-fiumicino",
+            "aeroporto_di_roma-fiumicino",
+            "aeroporto_di_fiumicino"
+        ],
+        "bn:04586621n": [
+            "leonardo_da_vinci",
+            "leonardo_da_vinci",
+            "leonardo_da_vinci"
+        ],
+        "bn:00024948n": [
+            "leonardo",
+            "leonardo",
+            "leonardo_da_vinci"
+        ],
+        "bn:01579294n": [
+            "leonardo_da_vinci",
+            "leonardo_da_vinci",
+            "leonardo_da_vinci"
+        ],
+        "bn:08882650n": [
+            "leonardo_da_vinci",
+            "leonardo_da_vinci",
+            "leonardo_da_vinci"
+        ]
+    },
+    "L'Ultima Cena": {
+        "bn:08880141n": [
+            "l'ultima_cena",
+            "l'ultima_cena",
+            "ultima_cena"
+        ],
+        "bn:00545985n": [
+            "ultima_cena",
+            "ultima_cena",
+            "l'ultima_cena"
+        ],
+        "bn:01564191n": [
+            "ultima_cena",
+            "ultima_cena",
+            "l'ultima_cena"
+        ],
+        "bn:00050105n": [
+            "cenacolo",
+            "ultima_cena",
+            "ultima_cena"
+        ],
+        "bn:03599114n": [
+            "ultima_cena",
+            "ultima_cena",
+            "cenacolo_vinciano"
+        ],
+        "bn:14085947n": [
+            "ultima_cena",
+            "ultima_cena",
+            "cenacolo"
+        ]
+    },
+    "mappa": {
+        "bn:09081280n": [
+            "mappa",
+            "mappa"
+        ],
+        "bn:00036821n": [
+            "funzione",
+            "funzione",
+            "funzione_matematica"
+        ],
+        "bn:00053303n": [
+            "map",
+            "scale",
+            "projection"
+        ],
+        "bn:03435545n": [
+            "map",
+            "map",
+            "mappa"
+        ],
+        "bn:15185648n": [
+            "mappa",
+            "mappa",
+            "maruyama_animation_produce_project_association"
+        ],
+        "bn:00045963n": [
+            "illustration",
+            "illustrator",
+            "book"
+        ]
+    },
+    "piazza": {
+        "bn:11362873n": [
+            "piazza"
+        ],
+        "bn:11392574n": [
+            "piazza"
+        ],
+        "bn:09021806n": [
+            "piazza",
+            "piazza"
+        ],
+        "bn:08987438n": [
+            "piazza",
+            "piazza"
+        ],
+        "bn:11389332n": [
+            "la_piazza",
+            "piazza"
+        ],
+        "bn:00062214n": [
+            "plaza",
+            "piazza",
+            "square"
+        ],
+        "bn:02587557n": [
+            "piazza",
+            "piazza"
+        ],
+        "bn:00053459n": [
+            "mercato",
+            "mercato",
+            "piazza"
+        ],
+        "bn:08924174n": [
+            "piazza",
+            "piazza"
+        ],
+        "bn:11400292n": [
+            "piazza"
+        ],
+        "bn:17251085n": [
+            "convenzionale",
+            "equilibrato",
+            "quadrato"
+        ],
+        "bn:11379478n": [
+            "piazza"
+        ],
+        "bn:11380339n": [
+            "piazza"
+        ],
+        "bn:11379583n": [
+            "piazza"
+        ],
+        "bn:11392808n": [
+            "piazza"
+        ],
+        "bn:11401565n": [
+            "piazza"
+        ],
+        "bn:00035975n": [
+            "centro_fortificato",
+            "cittadella",
+            "forte"
+        ],
+        "bn:00065099n": [
+            "piazza",
+            "piazza",
+            "piazza"
+        ],
+        "bn:11364394n": [
+            "piazza"
+        ],
+        "bn:11358149n": [
+            "piazza"
+        ]
+    }
+}

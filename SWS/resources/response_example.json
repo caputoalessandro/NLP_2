@@ -1,0 +1,1137 @@
+{
+    "senses": [
+        {
+            "type": "BabelSense",
+            "properties": {
+                "fullLemma": "Apple-designed_processors",
+                "simpleLemma": "apple-designed_processors",
+                "lemma": {
+                    "lemma": "Apple-designed_processors",
+                    "type": "HIGH_QUALITY"
+                },
+                "source": "WIKI",
+                "senseKey": "32327247",
+                "frequency": 0,
+                "language": "EN",
+                "pos": "NOUN",
+                "synsetID": {
+                    "id": "bn:14792761n",
+                    "pos": "NOUN",
+                    "source": "BABELNET"
+                },
+                "translationInfo": "",
+                "pronunciations": {
+                    "audios": [],
+                    "transcriptions": []
+                },
+                "bKeySense": false,
+                "idSense": 123090446,
+                "tags": {}
+            }
+        },
+        {
+            "type": "BabelSense",
+            "properties": {
+                "fullLemma": "Apple_Ax",
+                "simpleLemma": "apple_ax",
+                "lemma": {
+                    "lemma": "Apple_Ax",
+                    "type": "HIGH_QUALITY"
+                },
+                "source": "WIKIDATA",
+                "senseKey": "Q97362379",
+                "frequency": 0,
+                "language": "EN",
+                "pos": "NOUN",
+                "synsetID": {
+                    "id": "bn:14792761n",
+                    "pos": "NOUN",
+                    "source": "BABELNET"
+                },
+                "translationInfo": "",
+                "pronunciations": {
+                    "audios": [],
+                    "transcriptions": []
+                },
+                "bKeySense": false,
+                "idSense": 388832871,
+                "tags": {}
+            }
+        },
+        {
+            "type": "BabelSense",
+            "properties": {
+                "fullLemma": "Apple_Silicon",
+                "simpleLemma": "apple_silicon",
+                "lemma": {
+                    "lemma": "Apple_Silicon",
+                    "type": "HIGH_QUALITY"
+                },
+                "source": "WIKIDATA",
+                "senseKey": "Q406283",
+                "frequency": 0,
+                "language": "EN",
+                "pos": "NOUN",
+                "synsetID": {
+                    "id": "bn:14792761n",
+                    "pos": "NOUN",
+                    "source": "BABELNET"
+                },
+                "translationInfo": "",
+                "pronunciations": {
+                    "audios": [],
+                    "transcriptions": []
+                },
+                "bKeySense": false,
+                "idSense": 368613751,
+                "tags": {}
+            }
+        },
+        {
+            "type": "BabelSense",
+            "properties": {
+                "fullLemma": "Apple-designed_processors",
+                "simpleLemma": "apple-designed_processors",
+                "lemma": {
+                    "lemma": "Apple-designed_processors",
+                    "type": "POTENTIAL_NEAR_SYNONYM_OR_WORSE"
+                },
+                "source": "WIKIDATA_ALIAS",
+                "senseKey": "Q406283",
+                "frequency": 0,
+                "language": "EN",
+                "pos": "NOUN",
+                "synsetID": {
+                    "id": "bn:14792761n",
+                    "pos": "NOUN",
+                    "source": "BABELNET"
+                },
+                "translationInfo": "",
+                "pronunciations": {
+                    "audios": [],
+                    "transcriptions": []
+                },
+                "bKeySense": false,
+                "idSense": 368613745,
+                "tags": {}
+            }
+        },
+        {
+            "type": "BabelSense",
+            "properties": {
+                "fullLemma": "Apple_Ax_series,_A_series",
+                "simpleLemma": "apple_ax_series,_a_series",
+                "lemma": {
+                    "lemma": "Apple_Ax_series,_A_series",
+                    "type": "POTENTIAL_NEAR_SYNONYM_OR_WORSE"
+                },
+                "source": "WIKIDATA_ALIAS",
+                "senseKey": "Q97362379",
+                "frequency": 0,
+                "language": "EN",
+                "pos": "NOUN",
+                "synsetID": {
+                    "id": "bn:14792761n",
+                    "pos": "NOUN",
+                    "source": "BABELNET"
+                },
+                "translationInfo": "",
+                "pronunciations": {
+                    "audios": [],
+                    "transcriptions": []
+                },
+                "bKeySense": false,
+                "idSense": 388832861,
+                "tags": {}
+            }
+        },
+        {
+            "type": "BabelSense",
+            "properties": {
+                "fullLemma": "Apple_System_on_Chips",
+                "simpleLemma": "apple_system_on_chips",
+                "lemma": {
+                    "lemma": "Apple_System_on_Chips",
+                    "type": "POTENTIAL_NEAR_SYNONYM_OR_WORSE"
+                },
+                "source": "WIKIDATA_ALIAS",
+                "senseKey": "Q406283",
+                "frequency": 0,
+                "language": "EN",
+                "pos": "NOUN",
+                "synsetID": {
+                    "id": "bn:14792761n",
+                    "pos": "NOUN",
+                    "source": "BABELNET"
+                },
+                "translationInfo": "",
+                "pronunciations": {
+                    "audios": [],
+                    "transcriptions": []
+                },
+                "bKeySense": false,
+                "idSense": 368613746,
+                "tags": {}
+            }
+        },
+        {
+            "type": "BabelSense",
+            "properties": {
+                "fullLemma": "Apple_(system_on_chip)",
+                "simpleLemma": "apple",
+                "lemma": {
+                    "lemma": "Apple",
+                    "type": "POTENTIAL_NEAR_SYNONYM_OR_WORSE"
+                },
+                "source": "WIKIRED",
+                "senseKey": "41339485",
+                "frequency": 0,
+                "language": "EN",
+                "pos": "NOUN",
+                "synsetID": {
+                    "id": "bn:14792761n",
+                    "pos": "NOUN",
+                    "source": "BABELNET"
+                },
+                "translationInfo": "",
+                "pronunciations": {
+                    "audios": [],
+                    "transcriptions": [
+                        "/ˈæ.pəl/"
+                    ]
+                },
+                "bKeySense": false,
+                "idSense": 124297211,
+                "tags": {}
+            }
+        },
+        {
+            "type": "BabelSense",
+            "properties": {
+                "fullLemma": "Apple_a",
+                "simpleLemma": "apple_a",
+                "lemma": {
+                    "lemma": "Apple_a",
+                    "type": "POTENTIAL_NEAR_SYNONYM_OR_WORSE"
+                },
+                "source": "WIKIRED",
+                "senseKey": "37097202",
+                "frequency": 0,
+                "language": "EN",
+                "pos": "NOUN",
+                "synsetID": {
+                    "id": "bn:14792761n",
+                    "pos": "NOUN",
+                    "source": "BABELNET"
+                },
+                "translationInfo": "",
+                "pronunciations": {
+                    "audios": [],
+                    "transcriptions": []
+                },
+                "bKeySense": false,
+                "idSense": 124401249,
+                "tags": {}
+            }
+        },
+        {
+            "type": "BabelSense",
+            "properties": {
+                "fullLemma": "Apple_A_series",
+                "simpleLemma": "apple_a_series",
+                "lemma": {
+                    "lemma": "Apple_A_series",
+                    "type": "POTENTIAL_NEAR_SYNONYM_OR_WORSE"
+                },
+                "source": "WIKIRED",
+                "senseKey": "56592099",
+                "frequency": 0,
+                "language": "EN",
+                "pos": "NOUN",
+                "synsetID": {
+                    "id": "bn:14792761n",
+                    "pos": "NOUN",
+                    "source": "BABELNET"
+                },
+                "translationInfo": "",
+                "pronunciations": {
+                    "audios": [],
+                    "transcriptions": []
+                },
+                "bKeySense": false,
+                "idSense": 279423564,
+                "tags": {}
+            }
+        },
+        {
+            "type": "BabelSense",
+            "properties": {
+                "fullLemma": "Apple_Ax",
+                "simpleLemma": "apple_ax",
+                "lemma": {
+                    "lemma": "Apple_Ax",
+                    "type": "POTENTIAL_NEAR_SYNONYM_OR_WORSE"
+                },
+                "source": "WIKIRED",
+                "senseKey": "37195889",
+                "frequency": 0,
+                "language": "EN",
+                "pos": "NOUN",
+                "synsetID": {
+                    "id": "bn:14792761n",
+                    "pos": "NOUN",
+                    "source": "BABELNET"
+                },
+                "translationInfo": "",
+                "pronunciations": {
+                    "audios": [],
+                    "transcriptions": []
+                },
+                "bKeySense": false,
+                "idSense": 122309949,
+                "tags": {}
+            }
+        },
+        {
+            "type": "BabelSense",
+            "properties": {
+                "fullLemma": "Apple_Ax_(System_on_Chip)",
+                "simpleLemma": "apple_ax",
+                "lemma": {
+                    "lemma": "Apple_Ax",
+                    "type": "POTENTIAL_NEAR_SYNONYM_OR_WORSE"
+                },
+                "source": "WIKIRED",
+                "senseKey": "33306895",
+                "frequency": 0,
+                "language": "EN",
+                "pos": "NOUN",
+                "synsetID": {
+                    "id": "bn:14792761n",
+                    "pos": "NOUN",
+                    "source": "BABELNET"
+                },
+                "translationInfo": "",
+                "pronunciations": {
+                    "audios": [],
+                    "transcriptions": []
+                },
+                "bKeySense": false,
+                "idSense": 123780870,
+                "tags": {}
+            }
+        },
+        {
+            "type": "BabelSense",
+            "properties": {
+                "fullLemma": "Apple_designed_processors",
+                "simpleLemma": "apple_designed_processors",
+                "lemma": {
+                    "lemma": "Apple_designed_processors",
+                    "type": "POTENTIAL_NEAR_SYNONYM_OR_WORSE"
+                },
+                "source": "WIKIRED",
+                "senseKey": "64393009",
+                "frequency": 0,
+                "language": "EN",
+                "pos": "NOUN",
+                "synsetID": {
+                    "id": "bn:14792761n",
+                    "pos": "NOUN",
+                    "source": "BABELNET"
+                },
+                "translationInfo": "",
+                "pronunciations": {
+                    "audios": [],
+                    "transcriptions": []
+                },
+                "bKeySense": false,
+                "idSense": 348349116,
+                "tags": {}
+            }
+        },
+        {
+            "type": "BabelSense",
+            "properties": {
+                "fullLemma": "Apple_Firestorm",
+                "simpleLemma": "apple_firestorm",
+                "lemma": {
+                    "lemma": "Apple_Firestorm",
+                    "type": "POTENTIAL_NEAR_SYNONYM_OR_WORSE"
+                },
+                "source": "WIKIRED",
+                "senseKey": "65889127",
+                "frequency": 0,
+                "language": "EN",
+                "pos": "NOUN",
+                "synsetID": {
+                    "id": "bn:14792761n",
+                    "pos": "NOUN",
+                    "source": "BABELNET"
+                },
+                "translationInfo": "",
+                "pronunciations": {
+                    "audios": [],
+                    "transcriptions": []
+                },
+                "bKeySense": false,
+                "idSense": 531017185,
+                "tags": {}
+            }
+        },
+        {
+            "type": "BabelSense",
+            "properties": {
+                "fullLemma": "Apple_H1",
+                "simpleLemma": "apple_h1",
+                "lemma": {
+                    "lemma": "Apple_H1",
+                    "type": "POTENTIAL_NEAR_SYNONYM_OR_WORSE"
+                },
+                "source": "WIKIRED",
+                "senseKey": "60282221",
+                "frequency": 0,
+                "language": "EN",
+                "pos": "NOUN",
+                "synsetID": {
+                    "id": "bn:14792761n",
+                    "pos": "NOUN",
+                    "source": "BABELNET"
+                },
+                "translationInfo": "",
+                "pronunciations": {
+                    "audios": [],
+                    "transcriptions": []
+                },
+                "bKeySense": false,
+                "idSense": 298135437,
+                "tags": {}
+            }
+        },
+        {
+            "type": "BabelSense",
+            "properties": {
+                "fullLemma": "Apple_H_series",
+                "simpleLemma": "apple_h_series",
+                "lemma": {
+                    "lemma": "Apple_H_series",
+                    "type": "POTENTIAL_NEAR_SYNONYM_OR_WORSE"
+                },
+                "source": "WIKIRED",
+                "senseKey": "60289099",
+                "frequency": 0,
+                "language": "EN",
+                "pos": "NOUN",
+                "synsetID": {
+                    "id": "bn:14792761n",
+                    "pos": "NOUN",
+                    "source": "BABELNET"
+                },
+                "translationInfo": "",
+                "pronunciations": {
+                    "audios": [],
+                    "transcriptions": []
+                },
+                "bKeySense": false,
+                "idSense": 298135438,
+                "tags": {}
+            }
+        },
+        {
+            "type": "BabelSense",
+            "properties": {
+                "fullLemma": "Apple_Icestorm",
+                "simpleLemma": "apple_icestorm",
+                "lemma": {
+                    "lemma": "Apple_Icestorm",
+                    "type": "POTENTIAL_NEAR_SYNONYM_OR_WORSE"
+                },
+                "source": "WIKIRED",
+                "senseKey": "65889128",
+                "frequency": 0,
+                "language": "EN",
+                "pos": "NOUN",
+                "synsetID": {
+                    "id": "bn:14792761n",
+                    "pos": "NOUN",
+                    "source": "BABELNET"
+                },
+                "translationInfo": "",
+                "pronunciations": {
+                    "audios": [],
+                    "transcriptions": []
+                },
+                "bKeySense": false,
+                "idSense": 531017184,
+                "tags": {}
+            }
+        },
+        {
+            "type": "BabelSense",
+            "properties": {
+                "fullLemma": "Apple_M_series",
+                "simpleLemma": "apple_m_series",
+                "lemma": {
+                    "lemma": "Apple_M_series",
+                    "type": "POTENTIAL_NEAR_SYNONYM_OR_WORSE"
+                },
+                "source": "WIKIRED",
+                "senseKey": "65815956",
+                "frequency": 0,
+                "language": "EN",
+                "pos": "NOUN",
+                "synsetID": {
+                    "id": "bn:14792761n",
+                    "pos": "NOUN",
+                    "source": "BABELNET"
+                },
+                "translationInfo": "",
+                "pronunciations": {
+                    "audios": [],
+                    "transcriptions": []
+                },
+                "bKeySense": false,
+                "idSense": 530409300,
+                "tags": {}
+            }
+        },
+        {
+            "type": "BabelSense",
+            "properties": {
+                "fullLemma": "Apple_mobile_application_processors",
+                "simpleLemma": "apple_mobile_application_processors",
+                "lemma": {
+                    "lemma": "Apple_mobile_application_processors",
+                    "type": "POTENTIAL_NEAR_SYNONYM_OR_WORSE"
+                },
+                "source": "WIKIRED",
+                "senseKey": "56163196",
+                "frequency": 0,
+                "language": "EN",
+                "pos": "NOUN",
+                "synsetID": {
+                    "id": "bn:14792761n",
+                    "pos": "NOUN",
+                    "source": "BABELNET"
+                },
+                "translationInfo": "",
+                "pronunciations": {
+                    "audios": [],
+                    "transcriptions": []
+                },
+                "bKeySense": false,
+                "idSense": 270769675,
+                "tags": {}
+            }
+        },
+        {
+            "type": "BabelSense",
+            "properties": {
+                "fullLemma": "Apple_S5",
+                "simpleLemma": "apple_s5",
+                "lemma": {
+                    "lemma": "Apple_S5",
+                    "type": "POTENTIAL_NEAR_SYNONYM_OR_WORSE"
+                },
+                "source": "WIKIRED",
+                "senseKey": "62183919",
+                "frequency": 0,
+                "language": "EN",
+                "pos": "NOUN",
+                "synsetID": {
+                    "id": "bn:14792761n",
+                    "pos": "NOUN",
+                    "source": "BABELNET"
+                },
+                "translationInfo": "",
+                "pronunciations": {
+                    "audios": [],
+                    "transcriptions": []
+                },
+                "bKeySense": false,
+                "idSense": 320544139,
+                "tags": {}
+            }
+        },
+        {
+            "type": "BabelSense",
+            "properties": {
+                "fullLemma": "Apple_S6",
+                "simpleLemma": "apple_s6",
+                "lemma": {
+                    "lemma": "Apple_S6",
+                    "type": "POTENTIAL_NEAR_SYNONYM_OR_WORSE"
+                },
+                "source": "WIKIRED",
+                "senseKey": "65355815",
+                "frequency": 0,
+                "language": "EN",
+                "pos": "NOUN",
+                "synsetID": {
+                    "id": "bn:14792761n",
+                    "pos": "NOUN",
+                    "source": "BABELNET"
+                },
+                "translationInfo": "",
+                "pronunciations": {
+                    "audios": [],
+                    "transcriptions": []
+                },
+                "bKeySense": false,
+                "idSense": 359802429,
+                "tags": {}
+            }
+        },
+        {
+            "type": "BabelSense",
+            "properties": {
+                "fullLemma": "Apple_S_series",
+                "simpleLemma": "apple_s_series",
+                "lemma": {
+                    "lemma": "Apple_S_series",
+                    "type": "POTENTIAL_NEAR_SYNONYM_OR_WORSE"
+                },
+                "source": "WIKIRED",
+                "senseKey": "56592101",
+                "frequency": 0,
+                "language": "EN",
+                "pos": "NOUN",
+                "synsetID": {
+                    "id": "bn:14792761n",
+                    "pos": "NOUN",
+                    "source": "BABELNET"
+                },
+                "translationInfo": "",
+                "pronunciations": {
+                    "audios": [],
+                    "transcriptions": []
+                },
+                "bKeySense": false,
+                "idSense": 279423563,
+                "tags": {}
+            }
+        },
+        {
+            "type": "BabelSense",
+            "properties": {
+                "fullLemma": "Apple_Silicon",
+                "simpleLemma": "apple_silicon",
+                "lemma": {
+                    "lemma": "Apple_Silicon",
+                    "type": "POTENTIAL_NEAR_SYNONYM_OR_WORSE"
+                },
+                "source": "WIKIRED",
+                "senseKey": "64664430",
+                "frequency": 0,
+                "language": "EN",
+                "pos": "NOUN",
+                "synsetID": {
+                    "id": "bn:14792761n",
+                    "pos": "NOUN",
+                    "source": "BABELNET"
+                },
+                "translationInfo": "",
+                "pronunciations": {
+                    "audios": [],
+                    "transcriptions": []
+                },
+                "bKeySense": false,
+                "idSense": 353322792,
+                "tags": {}
+            }
+        },
+        {
+            "type": "BabelSense",
+            "properties": {
+                "fullLemma": "Apple_silicon",
+                "simpleLemma": "apple_silicon",
+                "lemma": {
+                    "lemma": "Apple_silicon",
+                    "type": "POTENTIAL_NEAR_SYNONYM_OR_WORSE"
+                },
+                "source": "WIKIRED",
+                "senseKey": "64351102",
+                "frequency": 0,
+                "language": "EN",
+                "pos": "NOUN",
+                "synsetID": {
+                    "id": "bn:14792761n",
+                    "pos": "NOUN",
+                    "source": "BABELNET"
+                },
+                "translationInfo": "",
+                "pronunciations": {
+                    "audios": [],
+                    "transcriptions": []
+                },
+                "bKeySense": false,
+                "idSense": 348270602,
+                "tags": {}
+            }
+        },
+        {
+            "type": "BabelSense",
+            "properties": {
+                "fullLemma": "Apple_System_on_a_Chip",
+                "simpleLemma": "apple_system_on_a_chip",
+                "lemma": {
+                    "lemma": "Apple_System_on_a_Chip",
+                    "type": "POTENTIAL_NEAR_SYNONYM_OR_WORSE"
+                },
+                "source": "WIKIRED",
+                "senseKey": "38095173",
+                "frequency": 0,
+                "language": "EN",
+                "pos": "NOUN",
+                "synsetID": {
+                    "id": "bn:14792761n",
+                    "pos": "NOUN",
+                    "source": "BABELNET"
+                },
+                "translationInfo": "",
+                "pronunciations": {
+                    "audios": [],
+                    "transcriptions": []
+                },
+                "bKeySense": false,
+                "idSense": 123529285,
+                "tags": {}
+            }
+        },
+        {
+            "type": "BabelSense",
+            "properties": {
+                "fullLemma": "Apple_system_on_a_chip",
+                "simpleLemma": "apple_system_on_a_chip",
+                "lemma": {
+                    "lemma": "Apple_system_on_a_chip",
+                    "type": "POTENTIAL_NEAR_SYNONYM_OR_WORSE"
+                },
+                "source": "WIKIRED",
+                "senseKey": "48160976",
+                "frequency": 0,
+                "language": "EN",
+                "pos": "NOUN",
+                "synsetID": {
+                    "id": "bn:14792761n",
+                    "pos": "NOUN",
+                    "source": "BABELNET"
+                },
+                "translationInfo": "",
+                "pronunciations": {
+                    "audios": [],
+                    "transcriptions": []
+                },
+                "bKeySense": false,
+                "idSense": 124294075,
+                "tags": {}
+            }
+        },
+        {
+            "type": "BabelSense",
+            "properties": {
+                "fullLemma": "Apple_System_on_Chips",
+                "simpleLemma": "apple_system_on_chips",
+                "lemma": {
+                    "lemma": "Apple_System_on_Chips",
+                    "type": "POTENTIAL_NEAR_SYNONYM_OR_WORSE"
+                },
+                "source": "WIKIRED",
+                "senseKey": "39827565",
+                "frequency": 0,
+                "language": "EN",
+                "pos": "NOUN",
+                "synsetID": {
+                    "id": "bn:14792761n",
+                    "pos": "NOUN",
+                    "source": "BABELNET"
+                },
+                "translationInfo": "",
+                "pronunciations": {
+                    "audios": [],
+                    "transcriptions": []
+                },
+                "bKeySense": false,
+                "idSense": 123626836,
+                "tags": {}
+            }
+        },
+        {
+            "type": "BabelSense",
+            "properties": {
+                "fullLemma": "Apple_system_on_chips",
+                "simpleLemma": "apple_system_on_chips",
+                "lemma": {
+                    "lemma": "Apple_system_on_chips",
+                    "type": "POTENTIAL_NEAR_SYNONYM_OR_WORSE"
+                },
+                "source": "WIKIRED",
+                "senseKey": "37827287",
+                "frequency": 0,
+                "language": "EN",
+                "pos": "NOUN",
+                "synsetID": {
+                    "id": "bn:14792761n",
+                    "pos": "NOUN",
+                    "source": "BABELNET"
+                },
+                "translationInfo": "",
+                "pronunciations": {
+                    "audios": [],
+                    "transcriptions": []
+                },
+                "bKeySense": false,
+                "idSense": 124126688,
+                "tags": {}
+            }
+        },
+        {
+            "type": "BabelSense",
+            "properties": {
+                "fullLemma": "Apple_T2",
+                "simpleLemma": "apple_t2",
+                "lemma": {
+                    "lemma": "Apple_T2",
+                    "type": "POTENTIAL_NEAR_SYNONYM_OR_WORSE"
+                },
+                "source": "WIKIRED",
+                "senseKey": "56049249",
+                "frequency": 0,
+                "language": "EN",
+                "pos": "NOUN",
+                "synsetID": {
+                    "id": "bn:14792761n",
+                    "pos": "NOUN",
+                    "source": "BABELNET"
+                },
+                "translationInfo": "",
+                "pronunciations": {
+                    "audios": [],
+                    "transcriptions": []
+                },
+                "bKeySense": false,
+                "idSense": 270335107,
+                "tags": {}
+            }
+        },
+        {
+            "type": "BabelSense",
+            "properties": {
+                "fullLemma": "Apple_T_series",
+                "simpleLemma": "apple_t_series",
+                "lemma": {
+                    "lemma": "Apple_T_series",
+                    "type": "POTENTIAL_NEAR_SYNONYM_OR_WORSE"
+                },
+                "source": "WIKIRED",
+                "senseKey": "56592102",
+                "frequency": 0,
+                "language": "EN",
+                "pos": "NOUN",
+                "synsetID": {
+                    "id": "bn:14792761n",
+                    "pos": "NOUN",
+                    "source": "BABELNET"
+                },
+                "translationInfo": "",
+                "pronunciations": {
+                    "audios": [],
+                    "transcriptions": []
+                },
+                "bKeySense": false,
+                "idSense": 279423562,
+                "tags": {}
+            }
+        },
+        {
+            "type": "BabelSense",
+            "properties": {
+                "fullLemma": "Apple_U1",
+                "simpleLemma": "apple_u1",
+                "lemma": {
+                    "lemma": "Apple_U1",
+                    "type": "POTENTIAL_NEAR_SYNONYM_OR_WORSE"
+                },
+                "source": "WIKIRED",
+                "senseKey": "62183908",
+                "frequency": 0,
+                "language": "EN",
+                "pos": "NOUN",
+                "synsetID": {
+                    "id": "bn:14792761n",
+                    "pos": "NOUN",
+                    "source": "BABELNET"
+                },
+                "translationInfo": "",
+                "pronunciations": {
+                    "audios": [],
+                    "transcriptions": []
+                },
+                "bKeySense": false,
+                "idSense": 320544138,
+                "tags": {}
+            }
+        },
+        {
+            "type": "BabelSense",
+            "properties": {
+                "fullLemma": "Apple_U_series",
+                "simpleLemma": "apple_u_series",
+                "lemma": {
+                    "lemma": "Apple_U_series",
+                    "type": "POTENTIAL_NEAR_SYNONYM_OR_WORSE"
+                },
+                "source": "WIKIRED",
+                "senseKey": "64350870",
+                "frequency": 0,
+                "language": "EN",
+                "pos": "NOUN",
+                "synsetID": {
+                    "id": "bn:14792761n",
+                    "pos": "NOUN",
+                    "source": "BABELNET"
+                },
+                "translationInfo": "",
+                "pronunciations": {
+                    "audios": [],
+                    "transcriptions": []
+                },
+                "bKeySense": false,
+                "idSense": 348270603,
+                "tags": {}
+            }
+        },
+        {
+            "type": "BabelSense",
+            "properties": {
+                "fullLemma": "Apple_W3",
+                "simpleLemma": "apple_w3",
+                "lemma": {
+                    "lemma": "Apple_W3",
+                    "type": "POTENTIAL_NEAR_SYNONYM_OR_WORSE"
+                },
+                "source": "WIKIRED",
+                "senseKey": "58586013",
+                "frequency": 0,
+                "language": "EN",
+                "pos": "NOUN",
+                "synsetID": {
+                    "id": "bn:14792761n",
+                    "pos": "NOUN",
+                    "source": "BABELNET"
+                },
+                "translationInfo": "",
+                "pronunciations": {
+                    "audios": [],
+                    "transcriptions": []
+                },
+                "bKeySense": false,
+                "idSense": 295255888,
+                "tags": {}
+            }
+        },
+        {
+            "type": "BabelSense",
+            "properties": {
+                "fullLemma": "Apple_W_series",
+                "simpleLemma": "apple_w_series",
+                "lemma": {
+                    "lemma": "Apple_W_series",
+                    "type": "POTENTIAL_NEAR_SYNONYM_OR_WORSE"
+                },
+                "source": "WIKIRED",
+                "senseKey": "56592100",
+                "frequency": 0,
+                "language": "EN",
+                "pos": "NOUN",
+                "synsetID": {
+                    "id": "bn:14792761n",
+                    "pos": "NOUN",
+                    "source": "BABELNET"
+                },
+                "translationInfo": "",
+                "pronunciations": {
+                    "audios": [],
+                    "transcriptions": []
+                },
+                "bKeySense": false,
+                "idSense": 279423565,
+                "tags": {}
+            }
+        },
+        {
+            "type": "BabelSense",
+            "properties": {
+                "fullLemma": "BridgeOS_1",
+                "simpleLemma": "bridgeos_1",
+                "lemma": {
+                    "lemma": "BridgeOS_1",
+                    "type": "POTENTIAL_NEAR_SYNONYM_OR_WORSE"
+                },
+                "source": "WIKIRED",
+                "senseKey": "59249156",
+                "frequency": 0,
+                "language": "EN",
+                "pos": "NOUN",
+                "synsetID": {
+                    "id": "bn:14792761n",
+                    "pos": "NOUN",
+                    "source": "BABELNET"
+                },
+                "translationInfo": "",
+                "pronunciations": {
+                    "audios": [],
+                    "transcriptions": []
+                },
+                "bKeySense": false,
+                "idSense": 296556820,
+                "tags": {}
+            }
+        },
+        {
+            "type": "BabelSense",
+            "properties": {
+                "fullLemma": "BridgeOS_2",
+                "simpleLemma": "bridgeos_2",
+                "lemma": {
+                    "lemma": "BridgeOS_2",
+                    "type": "POTENTIAL_NEAR_SYNONYM_OR_WORSE"
+                },
+                "source": "WIKIRED",
+                "senseKey": "58586151",
+                "frequency": 0,
+                "language": "EN",
+                "pos": "NOUN",
+                "synsetID": {
+                    "id": "bn:14792761n",
+                    "pos": "NOUN",
+                    "source": "BABELNET"
+                },
+                "translationInfo": "",
+                "pronunciations": {
+                    "audios": [],
+                    "transcriptions": []
+                },
+                "bKeySense": false,
+                "idSense": 295255893,
+                "tags": {}
+            }
+        },
+        {
+            "type": "BabelSense",
+            "properties": {
+                "fullLemma": "BridgeOS_2.0",
+                "simpleLemma": "bridgeos_2.0",
+                "lemma": {
+                    "lemma": "BridgeOS_2.0",
+                    "type": "POTENTIAL_NEAR_SYNONYM_OR_WORSE"
+                },
+                "source": "WIKIRED",
+                "senseKey": "58586148",
+                "frequency": 0,
+                "language": "EN",
+                "pos": "NOUN",
+                "synsetID": {
+                    "id": "bn:14792761n",
+                    "pos": "NOUN",
+                    "source": "BABELNET"
+                },
+                "translationInfo": "",
+                "pronunciations": {
+                    "audios": [],
+                    "transcriptions": []
+                },
+                "bKeySense": false,
+                "idSense": 295255890,
+                "tags": {}
+            }
+        },
+        {
+            "type": "BabelSense",
+            "properties": {
+                "fullLemma": "EOS_1",
+                "simpleLemma": "eos_1",
+                "lemma": {
+                    "lemma": "EOS_1",
+                    "type": "POTENTIAL_NEAR_SYNONYM_OR_WORSE"
+                },
+                "source": "WIKIRED",
+                "senseKey": "58586141",
+                "frequency": 0,
+                "language": "EN",
+                "pos": "NOUN",
+                "synsetID": {
+                    "id": "bn:14792761n",
+                    "pos": "NOUN",
+                    "source": "BABELNET"
+                },
+                "translationInfo": "",
+                "pronunciations": {
+                    "audios": [],
+                    "transcriptions": []
+                },
+                "bKeySense": false,
+                "idSense": 295255889,
+                "tags": {}
+            }
+        },
+        {
+            "type": "BabelSense",
+            "properties": {
+                "fullLemma": "List_of_Apple_system_on_a_chips",
+                "simpleLemma": "list_of_apple_system_on_a_chips",
+                "lemma": {
+                    "lemma": "List_of_Apple_system_on_a_chips",
+                    "type": "POTENTIAL_NEAR_SYNONYM_OR_WORSE"
+                },
+                "source": "WIKIRED",
+                "senseKey": "37287006",
+                "frequency": 0,
+                "language": "EN",
+                "pos": "NOUN",
+                "synsetID": {
+                    "id": "bn:14792761n",
+                    "pos": "NOUN",
+                    "source": "BABELNET"
+                },
+                "translationInfo": "",
+                "pronunciations": {
+                    "audios": [],
+                    "transcriptions": []
+                },
+                "bKeySense": false,
+                "idSense": 123592689,
+                "tags": {}
+            }
+        },
+        {
+            "type": "BabelSense",
+            "properties": {
+                "fullLemma": "List_of_Apple_system_on_chips",
+                "simpleLemma": "list_of_apple_system_on_chips",
+                "lemma": {
+                    "lemma": "List_of_Apple_system_on_chips",
+                    "type": "POTENTIAL_NEAR_SYNONYM_OR_WORSE"
+                },
+                "source": "WIKIRED",
+                "senseKey": "37441728",
+                "frequency": 0,
+                "language": "EN",
+                "pos": "NOUN",
+                "synsetID": {
+                    "id": "bn:14792761n",
+                    "pos": "NOUN",
+                    "source": "BABELNET"
+                },
+                "translationInfo": "",
+                "pronunciations": {
+                    "audios": [],
+                    "transcriptions": []
+                },
+                "bKeySense": false,
+                "idSense": 122356978,
+                "tags": {}
+            }
+        }
+    ]
+}
