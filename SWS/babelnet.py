@@ -49,7 +49,7 @@ def get_dict_from_json(file_path="resources/missing.json"):
 
 def get_lemmas_from_sense(senses: Dict):
     if "message" not in senses.keys():
-        return [sense["properties"]['simpleLemma'] for sense in senses["senses"]]
+        lemmas = [sense["properties"]['simpleLemma'] for sense in senses["senses"]]
 
 
 def retrieve_lemmas_from_babel_missing():

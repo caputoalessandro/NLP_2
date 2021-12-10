@@ -1,10 +1,13 @@
 from annotation import make_correlations_file
 from sense_identification import get_words_syns_lemmas_from_wordlist
+from sense_identification import make
 
 
 def semantic_similarity():
     # make_correlations_file()
-    words_lemmas = get_words_syns_lemmas_from_wordlist()
+    # words_lemmas = get_words_syns_lemmas_from_wordlist()
+    make()
+
     return 0
 
 

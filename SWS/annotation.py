@@ -54,5 +54,4 @@ def make_correlations_file():
         writer = csv.writer(f, delimiter='\t')
         writer.writerows(to_write)
 
-    return 0
 
