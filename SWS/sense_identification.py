@@ -5,6 +5,7 @@ from babelnet import get_dict_from_json
 import itertools
 from utils import save_dict,get_rows
 import os, csv
+from caputo_babel_ids import get_babel_id_caputo
 
 
 def get_synsets_from_word(word, syn_map):
@@ -58,17 +59,28 @@ def get_three_lemmas(lemmas):
     return result
 
 
-def get_data_to_write():
-    result = []
-    pairs, v1, v2 = get_pairs_values()
-    # pairs_ids = list(zip([s for s in sense_ids_caputo[::2]], [s for s in sense_ids_caputo[1::2]]))
-    rows = get_rows("resources/coppie_gentiletti_babelid.tsv")
-    pairs_ids = [(p[2], p[3]) for p in rows]
+def get_data_to_write(surname):
+    pairs_ids = []
     wsl = get_words_syns_lemmas_from_wordlist()
+    pairs, v1, v2 = get_pairs_values()
+    if surname == "caputo":
+        pairs_ids = get_babel_id_caputo()
+    elif surname == "gentiletti":
+        pairs_ids = get_babel_ids_gentiletti()
+    return pairs, pairs_ids, wsl
+
+
+def get_babel_ids_gentiletti():
+    rows = get_rows("resources/coppie_gentiletti_babelid.tsv")
+    return [(p[2], p[3]) for p in rows]
+
+
+def make_array_to_write(surname):
+    result = []
+    pairs, pairs_ids, wsl = get_data_to_write(surname)
     for p, s in zip(pairs, pairs_ids):
         lemmas_1 = []
         lemmas_2 = []
-        print(s)
         if s[0] is not None and s[0] != 'None' and s[0] in wsl[p[0]].keys():
             lemmas_1 = get_three_lemmas(wsl[p[0]][s[0]])
         if s[1] is not None and s[1] != 'None' and s[1] in wsl[p[1]].keys():
@@ -77,11 +89,10 @@ def get_data_to_write():
     return result
 
 
-def make():
-    to_write = get_data_to_write()
+def make(surname):
+    to_write = make_array_to_write(surname)
     name = os.path.join("output", f"coppie_gentiletti_babelid.tsv")
     os.makedirs(os.path.dirname(name), exist_ok=True)
-
     with open(name, "w") as f:
         writer = csv.writer(f, delimiter='\t')
         writer.writerows(to_write)

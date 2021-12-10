@@ -6,7 +6,8 @@ from sense_identification import make
 def semantic_similarity():
     # make_correlations_file()
     # words_lemmas = get_words_syns_lemmas_from_wordlist()
-    make()
+    make('caputo')
+    make('gentiletti')
 
     return 0
 
