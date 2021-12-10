@@ -2,29 +2,18 @@ import csv
 import os
 from scipy.stats import pearsonr, spearmanr
 from evaluation import nasari_correlations
-from utils import get_rows
+from utils import get_rows,get_pairs_values
 
 
 def means_from_pairs(l1, l2):
     return [(v1 + v2)/2 for v1, v2 in zip(l1, l2)]
 
 
-def get_pairs_values():
-    fp_1 = "resources/coppie_caputo.tsv"
-    fp_2 = "resources/coppie_gentiletti.tsv"
-    rows_1 = get_rows(fp_1)
-    rows_2 = get_rows(fp_2)
-    pairs = [(row[0], row[1]) for row in rows_1]
-    v1 = [int(r[2]) for r in rows_1]
-    v2 = [int(r[2]) for r in rows_2]
-    return pairs, v1, v2
-
-
 def get_data_to_write():
     pairs, v1, v2 = get_pairs_values()
     means = means_from_pairs(v1, v2)
     p_annotated, s_annotated = annotated_correlations(v1,v2)
-    p_nasari, s_nasari = nasari_correlations(pairs,means)
+    p_nasari, s_nasari = nasari_correlations(pairs, means)
     return pairs, means, p_annotated, s_annotated, p_nasari, s_nasari
 
 
