@@ -1,7 +1,5 @@
 import nltk
 from nltk.corpus import framenet as fn
-from nltk.stem import WordNetLemmatizer
-from nltk.corpus import stopwords
 
 
 def get_frame_from_id_list(ids):
@@ -28,6 +26,8 @@ def get_adp_noun(tagged):
             continue
         if adp and t == "NOUN":
             return w
+    # as_of_yet
+    return tagged[-1][0]
 
 
 def get_regent(multiword):
@@ -35,14 +35,16 @@ def get_regent(multiword):
         multiword = multiword.split("_")
 
     tagged = nltk.pos_tag(multiword, "universal")
-    tags = [t[1] for t in tagged]
+    tags = {t[1] for t in tagged}
 
     if "ADP" in tags:
         return get_adp_noun(tagged)
     elif "VERB" in tags and "NOUN" in tags:
         return get_verb(tagged)
-    else:
+    elif "NOUN" in tags:
         return get_noun(tagged)
+    else:
+        raise ValueError(f'Regent not found for {multiword}')
 
 
 def is_multiword(word):
@@ -52,9 +54,3 @@ def is_multiword(word):
         splitted = word.split()
 
     return len(splitted) > 1
-
-
-def preprocessing(sentence):
-    lemmatizer = WordNetLemmatizer()
-    stopWords = set(stopwords.words('english'))
-    return [lemmatizer.lemmatize(word) for word in sentence.split() if word.isalnum() and word not in stopWords]

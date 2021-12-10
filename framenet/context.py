@@ -1,38 +1,20 @@
-from utils import preprocessing
-
-from wsd.lesk import synset_to_bag_of_words
-
-
-def hyper_context(sense):
-    context = set()
-    for hyper in sense.hypernyms():
-        context |= synset_to_bag_of_words(hyper)
-    return context
-
-
-def hypo_context(sense):
-    context = set()
-    for hypo in sense.hyponyms():
-        context |= synset_to_bag_of_words(hypo)
-    return context
+from nltk.tokenize import word_tokenize
+from wsd.lesk import synset_to_bag_of_words, sentence_to_bag_of_words
 
 
 def sense_context(sense):
-    return (
-        synset_to_bag_of_words(sense)
-        .union(hyper_context(sense))
-        .union(hypo_context(sense))
-    )
+    context = set()
 
+    for sense in (sense, *sense.hypernyms(), *sense.hyponyms()):
+        context |= synset_to_bag_of_words(sense)
 
-def frame_elements_defs(frame):
-    context = []
-    for fe in frame.FE.values():
-        context = context + preprocessing(fe.definition)
     return context
 
 
 def frame_context(frame):
-    frame_def = preprocessing(frame.definition)
-    fes_def = frame_elements_defs(frame)
-    return frame_def + fes_def
+    context = set()
+
+    for sentence in (frame.definition, *frame.FE.keys()):
+        context |= sentence_to_bag_of_words(word_tokenize(sentence))
+
+    return context
