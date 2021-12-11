@@ -17,3 +17,6 @@ sense_ids_caputo = [
     "bn:05222153n", "bn:03599114n", "bn:09081280n", "bn:00065099n"
 ]
 
+
+def get_babel_id_caputo():
+    return list(zip([s for s in sense_ids_caputo[::2]], [s for s in sense_ids_caputo[1::2]]))
