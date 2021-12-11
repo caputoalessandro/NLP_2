@@ -54,3 +54,7 @@ def is_multiword(word):
         splitted = word.split()
 
     return len(splitted) > 1
+
+
+def mapkeys(fun, d):
+    return {fun(k): v for k, v in d.items()}

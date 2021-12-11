@@ -22,6 +22,9 @@ class FrameMapping:
     frame_elements: dict[str, Synset]
     lexical_units: dict[str, Synset]
 
+    def mappings(self):
+        return self.name, self.frame_elements, self.lexical_units
+
     def __str__(self):
         return f"""
 ------------------------------------------------------------

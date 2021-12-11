@@ -14,7 +14,7 @@ def sense_context(sense):
 def frame_context(frame):
     context = set()
 
-    for sentence in (frame.definition, *frame.FE.keys()):
+    for sentence in (frame.definition, *frame.FE.keys(), *map(lambda fe: fe.definition, frame.FE.values())):
         context |= sentence_to_bag_of_words(word_tokenize(sentence))
 
     return context

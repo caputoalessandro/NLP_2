@@ -11,6 +11,7 @@ from framenet.bow_mapping import (
     choose_word_to_map, normalized_lu_name,
 )
 from framenet.frame_mapping import FrameMapping, yaml
+from framenet.utils import mapkeys
 
 
 def wrap(text):
@@ -73,27 +74,6 @@ def input_prompt(synsets):
             continue
 
 
-# def json_encode_hook(obj):
-#     if isinstance(obj, Synset):
-#         return obj.name()
-#     elif isinstance(obj, AttrDict):
-#         return obj.ID
-#
-#
-# def json_decode_hook(obj):
-#     def decode_pair(p):
-#         return p[0], wn.synset(p[1])
-#
-#     if all(field in obj for field in fields(FrameMapping)):
-#         return FrameMapping(
-#             framenet.frame(obj['frame']),
-#             dict(map(decode_pair, obj['name'])),
-#             dict(map(decode_pair, obj['frame_elements'])),
-#             dict(map(decode_pair, obj['lexical_units'])),
-#         )
-#
-
-
 def ask_annotation_for_terms(frame, terms: dict[str, dict]):
     term_map = {}
     for term, term_attrs in terms.items():
@@ -107,10 +87,6 @@ def ask_annotation_for_terms(frame, terms: dict[str, dict]):
             print(frame_info_table(frame))
             term_map[term] = input_prompt(synsets)
     return term_map
-
-
-def mapkeys(fn, d):
-    return {fn(k): v for k, v in d.items()}
 
 
 def main():

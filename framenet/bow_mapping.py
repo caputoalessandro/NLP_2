@@ -45,7 +45,7 @@ def map_word(word, frame_ctx):
 
 
 def map_words(words, frame_ctx):
-    return {choose_word_to_map(word): map_word(word, frame_ctx) for word in words}
+    return {word: map_word(word, frame_ctx) for word in words}
 
 
 def normalized_lu_name(word):
