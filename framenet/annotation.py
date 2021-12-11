@@ -1,14 +1,20 @@
 import os
 
-from nltk.corpus import wordnet as wn
+from nltk.corpus import wordnet as wn, framenet
 from tabulate import tabulate
 import textwrap
 
-from framenet.bow_mapping import bow_mapping, choose_word_to_map, frame_context
+from framenet.bow_mapping import (
+    frame_context,
+    ids_gentiletti,
+    ids_caputo,
+    choose_word_to_map, normalized_lu_name,
+)
+from framenet.frame_mapping import FrameMapping, yaml
 
 
 def wrap(text):
-    return '\n'.join(textwrap.wrap(text, width=50))
+    return "\n".join(textwrap.wrap(text, width=50))
 
 
 def wrap_row(t):
@@ -16,56 +22,111 @@ def wrap_row(t):
 
 
 def lemmas_description(synset):
-    return ', '.join(map(lambda l: l.name(), synset.lemmas()))
+    return ", ".join(map(lambda l: l.name(), synset.lemmas()))
 
 
-def synset_info_table(word):
-    synsets = wn.synsets(word)
-    os.system('clear')
-
-    headers = ['Synset', 'Definizione', 'Lemmi']
+def synset_info_table(synsets):
+    headers = ["Synset", "Definizione", "Lemmi"]
 
     rows = [
-        wrap_row((synset.name(), synset.definition(), lemmas_description(synset)))
+        wrap_row(
+            (synset.name(), synset.definition(), lemmas_description(synset))
+        )
         for synset in synsets
     ]
 
-    return tabulate(rows, headers, showindex=True, tablefmt='fancy_grid')
+    return tabulate(rows, headers, showindex=True, tablefmt="fancy_grid")
 
 
 def frame_info_table(frame):
-    headers = ['Frame', 'Definizione', 'Contesto']
-    frame_ctx_description = ', '.join(sorted(frame_context(frame)))
-    return tabulate([wrap_row((frame.name, frame.definition, frame_ctx_description))], headers, tablefmt='fancy_grid')
+    headers = ["Frame", "Definizione", "Contesto"]
+    frame_ctx_description = ", ".join(sorted(frame_context(frame)))
+    return tabulate(
+        [wrap_row((frame.name, frame.definition, frame_ctx_description))],
+        headers,
+        tablefmt="fancy_grid",
+    )
 
 
-BACK = object()
+def term_info_table(term, term_attrs):
+    headers = ["Termine", "Normalizzato", "Definizione"]
+    return tabulate(
+        [
+            wrap_row(
+                (term, choose_word_to_map(term), term_attrs.get("definition", ''))
+            )
+        ],
+        headers,
+        tablefmt="fancy_grid",
+    )
 
 
-def input_prompt(synsets_len):
+def input_prompt(synsets):
     while True:
         try:
-            answer = input("Inserisci indice del synset o 'z' per tornare alla parola precedente: ")
-
-            if answer == 'z':
-                return BACK
-
+            answer = input("Inserisci indice del synset: ")
             answer = int(answer)
 
-            if 0 <= answer < synsets_len:
-                return answer
-
+            if 0 <= answer < len(synsets):
+                return synsets[answer]
         except ValueError:
             continue
 
 
+# def json_encode_hook(obj):
+#     if isinstance(obj, Synset):
+#         return obj.name()
+#     elif isinstance(obj, AttrDict):
+#         return obj.ID
+#
+#
+# def json_decode_hook(obj):
+#     def decode_pair(p):
+#         return p[0], wn.synset(p[1])
+#
+#     if all(field in obj for field in fields(FrameMapping)):
+#         return FrameMapping(
+#             framenet.frame(obj['frame']),
+#             dict(map(decode_pair, obj['name'])),
+#             dict(map(decode_pair, obj['frame_elements'])),
+#             dict(map(decode_pair, obj['lexical_units'])),
+#         )
+#
+
+
+def ask_annotation_for_terms(frame, terms: dict[str, dict]):
+    term_map = {}
+    for term, term_attrs in terms.items():
+        synsets = wn.synsets(choose_word_to_map(term))
+        if len(synsets) == 1:
+            term_map[term] = synsets[0]
+        else:
+            os.system("clear")
+            print(synset_info_table(synsets))
+            print(term_info_table(term, term_attrs))
+            print(frame_info_table(frame))
+            term_map[term] = input_prompt(synsets)
+    return term_map
+
+
+def mapkeys(fn, d):
+    return {fn(k): v for k, v in d.items()}
+
+
 def main():
-    for f_map in bow_mapping():
-        for term in (f_map.name[0], *f_map.frame_elements.keys(), *f_map.lexical_units.keys()):
-            print(synset_info_table(term))
-            print(frame_info_table(f_map.frame))
+    frames = [framenet.frame(i) for i in ids_caputo + ids_gentiletti]
+    annotated_f_maps = []
+
+    for frame in frames:
+        frame_mappings = []
+        for terms in {frame.name: {}}, frame.FE, mapkeys(normalized_lu_name, frame.lexUnit):
+            frame_mappings.append(ask_annotation_for_terms(frame, terms))
+
+        annotated_f_maps.append(FrameMapping(frame, *frame_mappings))
+
+    with open("resources/annotations.yaml", "w") as output:
+        yaml.dump(annotated_f_maps, output)
 
 
-
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
