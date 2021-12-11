@@ -1,0 +1,229 @@
+- !FrameMapping
+  frame: !fn 1594
+  name:
+    Continued_state_of_affairs: !wn state.n.02
+  frame_elements:
+    State_of_affairs: !wn situation.n.01
+    Reference_occasion: !wn occasion.n.04
+    Circumstances: !wn context.n.02
+  lexical_units:
+    so_far: !wn so_far.r.01
+    to_date: !wn up_to_now.r.02
+    up_to: !wn up_to.s.01
+    as_yet: !wn so_far.r.01
+    as_of_yet: !wn yet.r.01
+    still: !wn still.r.01
+- !FrameMapping
+  frame: !fn 422
+  name:
+    Import_export_scenario: !wn scenario.n.03
+  frame_elements:
+    Agent: !wn agent.n.04
+    Vehicle: !wn vehicle.n.01
+    Manner: !wn manner.n.01
+    Means: !wn means.n.01
+    Goods: !wn commodity.n.01
+    Purpose: !wn purpose.n.01
+    Explanation: !wn explanation.n.01
+    Time: !wn time.n.03
+    Depictive: !wn delineative.s.01
+    Importing_area: !wn importing.n.01
+    Path: !wn path.n.04
+    Exporting_area: !wn exporting.n.01
+    Descriptor: !wn descriptor.n.02
+  lexical_units:
+    transship: !wn transship.v.01
+    exporter: !wn exporter.n.01
+    importer: !wn importer.n.01
+    trans-shipping: !wn transship.v.01
+- !FrameMapping
+  frame: !fn 1812
+  name:
+    Coincidence: !wn coincidence.n.01
+  frame_elements:
+    State_of_affairs: !wn situation.n.01
+    Time: !wn time.n.03
+    Place: !wn place.n.03
+    Manner: !wn manner.n.01
+  lexical_units:
+    coincidence: !wn coincidence.n.01
+    happenstance: !wn coincidence.n.01
+    accident: !wn accident.n.02
+    happen: !wn happen.v.02
+    chance: !wn luck.n.02
+    random: !wn random.a.01
+    randomly: !wn randomly.r.01
+- !FrameMapping
+  frame: !fn 2140
+  name:
+    Event_instance: !wn case.n.01
+  frame_elements:
+    Instance: !wn case.n.01
+    Event: !wn event.n.02
+    Instance_prop: !wn prop.n.01
+    Iteration_count: !wn count.n.01
+  lexical_units:
+    time: !wn time.n.03
+    once: !wn once.r.01
+    twice: !wn twice.r.01
+    thrice: !wn thrice.r.01
+    repeated: !wn repeat.v.01
+    repeatedly: !wn repeatedly.r.01
+    occasion: !wn occasion.n.04
+- !FrameMapping
+  frame: !fn 118
+  name:
+    Possession: !wn possession.n.01
+  frame_elements:
+    Owner: !wn owner.n.02
+    Possession: !wn possession.n.02
+    Depictive: !wn delineative.s.01
+    Manner: !wn manner.n.01
+    Duration: !wn duration.n.01
+    Time: !wn time.n.03
+    Explanation: !wn explanation.n.01
+  lexical_units:
+    own: !wn own.v.01
+    have: !wn have.v.01
+    lack: !wn lack.n.01
+    possess: !wn own.v.01
+    possession: !wn possession.n.02
+    ownership: !wn ownership.n.03
+    owner: !wn owner.n.02
+    possessor: !wn owner.n.02
+    lacking: !wn deficient.s.01
+    wanting: !wn want.v.05
+    want: !wn want.v.04
+    belong: !wn belong.v.01
+    belongings: !wn property.n.01
+    assets: !wn assets.n.01
+    property: !wn property.n.01
+    possession_[definite_noun]: !wn possession.n.01
+    possession_[of_goods]: !wn possession.n.01
+    effects: !wn effects.n.01
+    have_got: !wn have.v.01
+    custody: !wn hands.n.01
+    got: !wn get.v.01
+- !FrameMapping
+  frame: !fn 308
+  name:
+    Reasoning: !wn argue.v.01
+  frame_elements:
+    Content: !wn message.n.02
+    Medium: !wn medium.n.01
+    Arguer: !wn debater.n.01
+    Addressee: !wn addressee.n.01
+    Support: !wn corroborate.v.03
+    Manner: !wn manner.n.02
+    Means: !wn means.n.02
+    Depictive: !wn delineative.s.01
+    Result: !wn consequence.n.01
+    Degree: !wn degree.n.01
+    Time: !wn time.n.03
+    Place: !wn place.n.02
+    Duration: !wn duration.n.01
+    Group: !wn group.n.01
+  lexical_units:
+    argue: !wn argue.v.01
+    prove: !wn prove.v.02
+    reason: !wn reason.v.03
+    demonstrate: !wn prove.v.02
+    show: !wn prove.v.02
+    disprove: !wn disprove.v.01
+    argument: !wn argument.n.01
+    polemic: !wn polemic.n.02
+    case: !wn case.n.09
+    demonstration: !wn presentation.n.02
+    reasoning: !wn argue.v.01
+- !FrameMapping
+  frame: !fn 1943
+  name:
+    Visiting_scenario_arrival: !wn visiting.n.01
+  frame_elements:
+    Agent: !wn agent.n.01
+    Normal_location: !wn location.n.01
+    Path: !wn path.n.04
+    Goal: !wn goal.n.01
+    Manner: !wn manner.n.01
+    Means: !wn means.n.01
+    Mode_of_transportation: !wn manner.n.01
+    Time: !wn time.n.03
+    Purpose: !wn purpose.n.01
+    Place: !wn place.n.02
+  lexical_units: {}
+- !FrameMapping
+  frame: !fn 2430
+  name:
+    Price_per_unit: !wn price.n.02
+  frame_elements:
+    Product: !wn merchandise.n.01
+    Price: !wn monetary_value.n.01
+    Seller: !wn seller.n.01
+    Buyer: !wn buyer.n.01
+    Descriptor: !wn form.n.01
+  lexical_units:
+    rate: !wn rate.n.02
+- !FrameMapping
+  frame: !fn 333
+  name:
+    Soaking: !wn soak.n.01
+  frame_elements:
+    Agent: !wn agent.n.01
+    Theme: !wn subject.n.01
+    Duration: !wn duration.n.01
+    Manner: !wn manner.n.01
+    Medium: !wn medium.n.07
+    Container: !wn container.n.01
+    Place: !wn place.n.02
+    Time: !wn time.n.03
+    Means: !wn means.n.01
+    Purpose: !wn purpose.n.01
+  lexical_units:
+    soak: !wn soak.n.01
+    marinate: !wn marinade.v.01
+    steep: !wn steep.v.02
+- !FrameMapping
+  frame: !fn 381
+  name:
+    Cause_to_start: !wn start.n.01
+  frame_elements:
+    Cause: !wn causal_agent.n.01
+    Effect: !wn consequence.n.01
+    Place: !wn place.n.02
+    Means: !wn means.n.01
+    Time: !wn time.n.03
+    Medium: !wn medium.n.02
+    Purpose: !wn purpose.n.01
+    Co-timed_event: !wn event.n.01
+    Manner: !wn manner.n.01
+    Communicative_force: !wn force.n.08
+    Explanation: !wn explanation.n.01
+    Circumstances: !wn context.n.02
+    Particular_iteration: !wn iteration.n.03
+    New_situation: !wn situation.n.01
+    Containing_event: !wn contain.v.05
+    Concessive: !wn concessive.a.01
+    Depictive: !wn delineative.s.01
+    Event_description: !wn description.n.01
+  lexical_units:
+    spark: !wn trip.v.04
+    generate: !wn generate.v.01
+    arouse: !wn arouse.v.01
+    bring_about: !wn produce.v.03
+    set_off: !wn trip.v.04
+    produce: !wn produce.v.03
+    create: !wn create.v.02
+    engender: !wn engender.v.01
+    call_forth: !wn provoke.v.02
+    elicit: !wn arouse.v.01
+    kindle: !wn arouse.v.01
+    incite: !wn incite.v.02
+    instigate: !wn prompt.v.02
+    motivate: !wn motivate.v.01
+    prompt: !wn prompt.v.02
+    stir_up: !wn incite.v.02
+    stimulate: !wn stimulate.v.03
+    provoke: !wn provoke.v.03
+    actuate: !wn trip.v.04
+    excite: !wn stimulate.v.03
+    trigger: !wn trigger.n.03
