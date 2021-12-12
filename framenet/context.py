@@ -1,4 +1,3 @@
-from nltk.tokenize import word_tokenize
 from wsd.lesk import synset_context, sentence_context
 
 

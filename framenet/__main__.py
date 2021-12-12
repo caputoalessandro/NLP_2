@@ -1,15 +1,19 @@
 from pathlib import Path
-from framenet.bow_mapping import bow_mapping
+
+from nltk.corpus import framenet
+
+import sys
+from framenet.bow_mapper import bow_mapper
 from framenet.frame_mapping import yaml
+from framenet.map_frame import map_frame
+from framenet.subgraph_mapper import subgraph_mapper
 
 ANNOTATED_PATH = Path(__file__).parent / 'resources' / 'annotations.yaml'
 
 
-def main():
+def mappings_accuracy(mappings):
     with ANNOTATED_PATH.open() as annotated_file:
         annotated = yaml.load(annotated_file)
-
-    mappings = bow_mapping()
 
     wrong = 0
     total = 0
@@ -22,7 +26,24 @@ def main():
             wrong += len(differences) / 2
             total += len(g)
 
-    print(f"Accuracy: {wrong/total:.2%}")
+    return 1 - wrong/total
+
+
+ids_caputo = [1594, 422, 1812, 2140, 118]
+ids_gentiletti = [308, 1943, 2430, 333, 381]
+
+
+def main():
+    frames = [framenet.frame(i) for i in ids_caputo + ids_gentiletti]
+
+    bow_frames = [map_frame(frame, bow_mapper) for frame in frames]
+    # subgraph_frames = [map_frame(frame, subgraph_mapper) for frame in frames]
+
+    for mapped_frame in bow_frames:
+        print(mapped_frame)
+
+    print(f"Accuracy (BOW):     {mappings_accuracy(bow_frames):.2%f}")
+    # print(f"Accuracy (subgraph):{mappings_accuracy(subgraph_frames):.2%f}")
 
 
 if __name__ == '__main__':

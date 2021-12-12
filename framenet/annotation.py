@@ -4,12 +4,9 @@ from nltk.corpus import wordnet as wn, framenet
 from tabulate import tabulate
 import textwrap
 
-from framenet.bow_mapping import (
-    frame_context,
-    ids_gentiletti,
-    ids_caputo,
-    choose_word_to_map, normalized_lu_name,
-)
+from framenet.context import (frame_context,)
+from framenet.map_frame import choose_word_to_map, normalized_lu_name
+from framenet.__main__ import ids_caputo, ids_gentiletti
 from framenet.frame_mapping import FrameMapping, yaml
 from framenet.utils import mapkeys
 
