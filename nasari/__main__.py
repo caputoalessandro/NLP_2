@@ -1,26 +1,34 @@
 from utils import get_context, get_dis_topic_from_text, get_words
 from nasari.nasari_small import nasari_small_lemma_to_vector
-from paragraph import get_salient_paragraphs
+from paragraph import ordered_paragraph_by_score, compress, write_ranked_paragraphs
 from evaluation import rouge, bleu
+from pathlib import Path
 
 
-def summarization(text_path, type, compression):
+def print_accuracies(type, compression, paragraphs, text):
+    print("---------------------------------------------")
+    print("ranked by ", type, str(compression) + "%")
+    print("recall: ", rouge(paragraphs, text))
+    print("precision: ", bleu(paragraphs, text))
+
+
+def summarization(text_path):
     nasari = nasari_small_lemma_to_vector()
     text = get_words(text_path)
     topic = get_dis_topic_from_text(text_path, nasari)
     context = get_context(topic, text, nasari)
-    summmary = get_salient_paragraphs(text_path, context, compression, type, nasari, type)
+    ordered = ordered_paragraph_by_score(text_path, context, nasari)
+
     print("---------------------------------------------")
-    print(type, str(compression) + "%")
-    print("recall: ", rouge(summmary, text))
-    print("precision: ", bleu(summmary, text))
-    return 0
+    print(">>>>>>>>>> ", text_path, " <<<<<<<<<<")
+    for compression in range(10, 31, 10):
+        compressed = compress(ordered, compression)
+        by_title, by_cohesion = write_ranked_paragraphs(compressed, text_path, compression)
+        print_accuracies("title", compression, by_title, text)
+        print_accuracies("cohesion", compression, by_cohesion, text)
 
 
 if __name__ == "__main__":
-    summarization("resources/Andy-Warhol.txt", "cohesion", 10)
-    summarization("resources/Andy-Warhol.txt", "cohesion", 20)
-    summarization("resources/Andy-Warhol.txt", "cohesion", 30)
-    summarization("resources/Andy-Warhol.txt", "title", 10)
-    summarization("resources/Andy-Warhol.txt", "title", 20)
-    summarization("resources/Andy-Warhol.txt", "title", 30)
+    p = Path('text')
+    for x in p.iterdir():
+        summarization(str(x))
