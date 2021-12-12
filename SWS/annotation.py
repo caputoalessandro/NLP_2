@@ -34,7 +34,7 @@ def make_array_to_write():
     return to_write
 
 
-def make_correlations_file():
+def make_scores_file():
     to_write = make_array_to_write()
     name = os.path.join("output", f"annotated_pairs.tsv")
     os.makedirs(os.path.dirname(name), exist_ok=True)
