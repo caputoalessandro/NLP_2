@@ -1,9 +1,13 @@
+from pathlib import Path
+
 from utils import get_rows
 from collections import defaultdict
 
+RESOURCES_PATH = Path(__file__).parent / 'resources'
+
 
 def get_lines():
-    fp = "resources/SemEval17_IT_senses2synsets.txt"
+    fp = RESOURCES_PATH / "SemEval17_IT_senses2synsets.txt"
     with open(fp) as f:
         lines = f.readlines()
     return lines
@@ -34,7 +38,7 @@ def get_id_weights(row):
 
 
 def get_nasari():
-    p = "resources/mini_NASARI.tsv"
+    p = RESOURCES_PATH / "mini_NASARI.tsv"
     result = defaultdict(set)
     rows = get_rows(p)
 

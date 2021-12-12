@@ -28,7 +28,9 @@ def summarization(text_path):
         print_accuracies("cohesion", compression, by_cohesion, text)
 
 
+TEXT_RESOURCES_PATH = Path(__file__).parent / 'text'
+
 if __name__ == "__main__":
-    p = Path('text')
-    for x in p.iterdir():
+
+    for x in TEXT_RESOURCES_PATH.iterdir():
         summarization(str(x))

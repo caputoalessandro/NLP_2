@@ -36,13 +36,15 @@ def main():
     frames = [framenet.frame(i) for i in ids_caputo + ids_gentiletti]
 
     bow_frames = [map_frame(frame, bow_mapper) for frame in frames]
-    subgraph_frames = [map_frame(frame, subgraph_mapper) for frame in frames]
 
     for mapped_frame in bow_frames:
         print(mapped_frame)
 
     print(f"Accuracy (BOW):      {mappings_accuracy(bow_frames):.2%}")
-    print(f"Accuracy (subgraph): {mappings_accuracy(subgraph_frames):.2%}")
+
+    # Funziona, ma è lento
+    # subgraph_frames = [map_frame(frame, subgraph_mapper) for frame in frames]
+    # print(f"Accuracy (subgraph): {mappings_accuracy(subgraph_frames):.2%}")
 
 
 if __name__ == '__main__':

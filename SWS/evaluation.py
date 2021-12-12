@@ -1,3 +1,5 @@
+from pathlib import Path
+
 import numpy as np
 from scipy.stats import spearmanr, pearsonr
 from nasari_parser import get_nasari, get_synset_map
@@ -42,11 +44,14 @@ def nasari_correlations(pairs, means):
     return pearson, spearman
 
 
+ANNOTATED_PATH = Path(__file__).parent / 'annotated_files'
+
+
 def get_gentiletti_caputo_babel_ids():
-    caputo_rows = get_rows("annotated_files/coppie_caputo_babelid.tsv")
+    caputo_rows = get_rows(ANNOTATED_PATH / 'coppie_caputo_babelid.tsv')
     caputo_list = list(itertools.chain(*[(p[2], p[3]) for p in caputo_rows]))
     caputo_pairs = [(p[2], p[3]) for p in caputo_rows]
-    gentiletti_rows = get_rows("annotated_files/coppie_gentiletti_babelid.tsv")
+    gentiletti_rows = get_rows(ANNOTATED_PATH / "coppie_gentiletti_babelid.tsv")
     gentiletti_list = list(itertools.chain(*[(p[2], p[3]) for p in gentiletti_rows]))
     gentiletti_pairs = [(p[2], p[3]) for p in gentiletti_rows]
     return caputo_list, caputo_pairs,gentiletti_list,gentiletti_pairs

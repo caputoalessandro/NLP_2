@@ -3,3 +3,4 @@ numpy
 pandas
 tabulate
 ruamel.yaml
+scikit-learn
