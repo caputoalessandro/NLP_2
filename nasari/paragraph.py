@@ -27,29 +27,39 @@ def rank_by_cohesion(paragraphs):
     return rank_paragraphs(p_freqs)
 
 
-def get_ranked_paragraphs(paragraphs, text_path, type):
-
-    if type == "title":
-        ranked_p = rank_by_title(paragraphs, text_path)
-    elif type == "cohesion":
-        ranked_p = rank_by_cohesion(paragraphs)
-    else:
-        print("specifica il tipo  di ranking")
-        return 0
-
-    res = [p + "\n" for p in ranked_p.index]
-    return "".join(res)
+def get_ranked_paragraphs(paragraphs, text_path):
+    ranked_by_title = rank_by_title(paragraphs, text_path)
+    ranked_by_cohesion = rank_by_cohesion(paragraphs)
+    p_list_title = [p + "\n" for p in ranked_by_title.index]
+    p_list_cohesion = [p + "\n" for p in ranked_by_cohesion.index]
+    return "".join(p_list_title), "".join(p_list_cohesion)
 
 
-def get_salient_paragraphs(text_path, context, compression, ranking_type, nasari, type):
+def ordered_paragraph_by_score(text_path, context, nasari):
     paragraphs = get_paragraphs(text_path)
     p_scores = paragraphs_scores(paragraphs, context, text_path, nasari)
     p_scores.sort(key=lambda tup: tup[1], reverse=True)
-    ordered_paraghraps = [p for p, v in p_scores]
-    to_keep = int(len(paragraphs) - ((len(paragraphs) / 100) * compression))
-    output = get_ranked_paragraphs(ordered_paraghraps[:to_keep], text_path, ranking_type)
-    write(os.path.basename(text_path), output, compression, type)
-    return output
+    return [p for p, v in p_scores]
+
+
+def compress(ordered_paragraphs, compression):
+    to_keep = int(len(ordered_paragraphs) - ((len(ordered_paragraphs) / 100) * compression))
+    return ordered_paragraphs[:to_keep]
+
+
+def write_ranked_paragraphs(paragraphs, text_path, compression):
+    by_title, by_cohesion = get_ranked_paragraphs(paragraphs, text_path)
+    write(os.path.basename(text_path), by_title, compression, "title")
+    write(os.path.basename(text_path), by_cohesion, compression, "cohesion")
+    return by_title, by_cohesion
+
+
+# def get_salient_paragraphs(text_path, context, compression, ranking_type, nasari, type):
+#     ordered_paraghraps = ordered_paragraph_by_score()
+#     to_keep = int(len(paragraphs) - ((len(paragraphs) / 100) * compression))
+#     output = get_ranked_paragraphs(ordered_paraghraps[:to_keep], text_path, ranking_type)
+#     write(os.path.basename(text_path), output, compression, type)
+#     return output
 
 
 def get_paragraphs(text_path):
