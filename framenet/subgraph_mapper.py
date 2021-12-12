@@ -1,4 +1,5 @@
 import itertools
+from collections import deque
 from functools import cache
 
 import numpy as np
@@ -10,33 +11,42 @@ VISITED_CACHE = {}
 
 
 def paths_upto_len(start: Synset, end: Synset, n):
-    stack = [[start]]
+    queue = deque([[start]])
     paths = []
 
-    while stack:
-        current_path = stack.pop()
+    while queue:
+        current_path = queue.pop()
         current_node = current_path[-1]
 
         if current_node == end:
             paths.append(current_path)
             continue
 
-        if (current_node, end) in VISITED_CACHE:
-            cached_paths, cached_depth = VISITED_CACHE[current_node, end]
+        depth = len(current_path)
 
-            threshold = n - len(current_path)
-            if cached_depth >= threshold:
-                paths.append([path for path in cached_paths if len(path) <= threshold])
+        if (current_node, end) in VISITED_CACHE:
+            cached_depth, cached_paths = VISITED_CACHE[current_node, end]
+
+            if cached_depth >= n - depth:
+                paths.extend(path for path in cached_paths if len(path) <= n - depth)
                 continue
 
-        if len(current_path) == n:
+        if depth == n:
             continue
 
         next_paths = [[*current_path, next_node] for next_node in
                       itertools.chain(current_node.hyponyms(), current_node.hypernyms())]
+        if depth > 1:
+            for last_node, cacheable_paths in itertools.groupby(next_paths, lambda p: p[-1]):
+                cached_depth, _ = VISITED_CACHE.get((start, last_node), (0, []))
+                if cached_depth < depth:
+                    VISITED_CACHE[start, last_node] = depth, list(cacheable_paths)
 
-        stack.extend(next_paths)
-        # VISITED_CACHE[]
+        queue.extendleft(next_paths)
+
+    cached_depth, _ = VISITED_CACHE.get((start, end), (0, []))
+    if cached_depth < n:
+        VISITED_CACHE[start, end] = n, paths
 
     return paths
 
