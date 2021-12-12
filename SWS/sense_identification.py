@@ -85,13 +85,13 @@ def make_array_to_write(surname):
             lemmas_1 = get_three_lemmas(wsl[p[0]][s[0]])
         if s[1] is not None and s[1] != 'None' and s[1] in wsl[p[1]].keys():
             lemmas_2 = get_three_lemmas(wsl[p[1]][s[1]])
-        result.append((p[0], p[1], s[0], s[1], lemmas_1, lemmas_2))
+        result.append((p[0], p[1], s[0], s[1], ",".join(lemmas_1), ",".join(lemmas_2)))
     return result
 
 
-def make(surname):
+def make_babel_id_file(surname):
     to_write = make_array_to_write(surname)
-    name = os.path.join("output", f"coppie_gentiletti_babelid.tsv")
+    name = os.path.join("output", f"coppie_{surname}_babelid.tsv")
     os.makedirs(os.path.dirname(name), exist_ok=True)
     with open(name, "w") as f:
         writer = csv.writer(f, delimiter='\t')
