@@ -1,11 +1,19 @@
 import csv
 from textwrap import dedent
 
-from scipy.stats import pearsonr, spearmanr
+import numpy as np
 
 from similarity.similarity_measures import wu_palmer, shortest_path, leakcock_chodorow
 
 from nltk.corpus import wordnet as wn
+
+
+def pearson(x, y):
+    return np.cov(x, y, bias=True)[0, 1] / (np.std(x) * np.std(y))
+
+
+def spearman(x, y):
+    return pearson(np.argsort(x).argsort(), np.argsort(y).argsort())
 
 
 def wordsim353():
@@ -33,8 +41,8 @@ def main():
         scores = [term_similarity(sense_similarity, term1, term2) for term1, term2 in term_pairs]
         print(dedent(f"""
         {sense_similarity.__name__}
-        Pearson:  {pearsonr(scores, golden)[0]:.2f}
-        Spearman: {spearmanr(scores, golden)[0]:.2f}
+        Pearson:  {pearson(scores, golden):.2f}
+        Spearman: {spearman(scores, golden):.2f}
         """))
 
 
