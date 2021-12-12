@@ -43,10 +43,10 @@ def nasari_correlations(pairs, means):
 
 
 def get_gentiletti_caputo_babel_ids():
-    caputo_rows = get_rows("output/coppie_caputo_babelid.tsv")
+    caputo_rows = get_rows("annotated_files/coppie_caputo_babelid.tsv")
     caputo_list = list(itertools.chain(*[(p[2], p[3]) for p in caputo_rows]))
     caputo_pairs = [(p[2], p[3]) for p in caputo_rows]
-    gentiletti_rows = get_rows("output/coppie_gentiletti_babelid.tsv")
+    gentiletti_rows = get_rows("annotated_files/coppie_gentiletti_babelid.tsv")
     gentiletti_list = list(itertools.chain(*[(p[2], p[3]) for p in gentiletti_rows]))
     gentiletti_pairs = [(p[2], p[3]) for p in gentiletti_rows]
     return caputo_list, caputo_pairs,gentiletti_list,gentiletti_pairs
@@ -69,6 +69,10 @@ def print_accuracies():
     nasari_pairs = [(t[0], t[1]) for t in args_sims]
     nasari_list = list(itertools.chain(*[(p[0], p[1]) for p in nasari_pairs]))
     caputo_list, caputo_pairs, gentiletti_list, gentiletti_pairs = get_gentiletti_caputo_babel_ids()
-    pairs_acc, acc = accuracy(nasari_pairs, nasari_list, caputo_pairs, caputo_list)
-    print("pairs accuracy: ", pairs_acc)
-    print("single word accuracy: ", acc)
+
+    for student, single, pairs in [("Caputo",caputo_list, caputo_pairs), ("Gentiletti",gentiletti_list, gentiletti_pairs)]:
+        pairs_acc, acc = accuracy(nasari_pairs, nasari_list, pairs, single)
+        print("--------------------------------------")
+        print(student)
+        print("pairs accuracy: ", pairs_acc)
+        print("single word accuracy: ", acc)

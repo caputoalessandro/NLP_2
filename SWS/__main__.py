@@ -4,10 +4,12 @@ from evaluation import cohen_evaluation, print_accuracies
 
 
 def main():
-    make_scores_file()
-    make_babel_id_file('caputo')
-    make_babel_id_file('gentiletti')
+    # make_scores_file()
+    # make_babel_id_file('caputo')
+    # make_babel_id_file('gentiletti')
+    print("--------------------------------------")
     print("cohen score: ", cohen_evaluation())
+    print("--------------------------------------")
     print_accuracies()
 
 
