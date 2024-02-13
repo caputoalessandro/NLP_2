@@ -1,16 +1,9 @@
-Per l'esecuzione, nella directory del progetto:
+# NLP 2 
 
-```
-pip install -r requirements.txt
-export PYTHONPATH=$(pwd)
-```
+These exercises are designed to learn different lexical semantic tasks.
 
-Per ogni rispettiva esercitazione:
-
-```
-python wsd
-python similarity
-python nasari
-python framenet
-python SWS
-```
+- "SWS" folder: Calculation of the similarity between 50 pairs of terms using the SemEval2017 corpus, evaluation of the annotations through babelnet and nasari
+- "framenet" folder: Association of wordnet synsets with framenet frames using two approaches, bag-of-words and graph paths.
+- "nasari" folder: Similarity calculation using NASARI and summarization using Cohesion-based methods
+- "similarity" folder: Implementation of 3 similarity measures using WordNet
+- "WSD" folder: Implementation of the Lesk algorithm to perform word sense disambiguation
